@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID ea06b949-513c-487c-a8b2-c55667ef9413;
 	- _myState = 8192;
 	- _name = "ReapprovisionementBBScenariosPkg";
-	- _modifiedTimeWeak = 4.3.2015::7:54:56;
+	- _modifiedTimeWeak = 4.2.2015::12:14:15;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
 		- value = 
@@ -257,7 +257,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- _name = "SC1";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.3.2015::7:54:56";
+			- _lastModifiedTime = "4.2.2015::12:19:0";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -405,7 +405,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1.32281 0 0 1 -131 -3 ;
+					- m_transform = 1.32281 0 0 1 -131.221 -3 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 264 332  264 441  549 441  549 332  ;
 					- m_nNameFormat = 0;
@@ -604,7 +604,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					}
 					- m_pParent = GUID 88617407-96f3-4322-a835-c024d0da2486;
 					- m_name = { CGIText 
-						- m_str = ":Consommateur";
+						- m_str = ":StockAval";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1426,7 +1426,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							- _filename = "ActorPkg.sbs";
 							- _subsystem = "ActorPkg";
 							- _class = "";
-							- _name = "Consommateur";
+							- _name = "StockAval";
 							- _id = GUID 82942cf9-a408-411b-a24b-a1d3b7c7b9f3;
 						}
 						- m_instance = { IHandle 
@@ -1472,7 +1472,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID d489d38a-f83e-481f-9e86-cabb8aedb317;
 						- _name = "reqSignalerDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "1.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1506,7 +1506,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID a37f8372-1903-408e-b83f-b8ffa3f04e0d;
 						- _name = "signalerDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "2.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1541,7 +1541,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- _id = GUID 83a80cb3-898f-4484-b302-075c4cd89219;
 						- _myState = 8192;
 						- _name = "informDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "3.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1575,7 +1575,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 49ef7ace-a149-4e1f-b18d-87a9c843c412;
 						- _name = "informerDeLOperation";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "4.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1609,7 +1609,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID cd4b41e0-9e58-4182-9f49-9d094e339539;
 						- _name = "informOperation";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "5.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1643,7 +1643,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 97dea9cf-d0e4-42a2-bba7-50c7f7cb70ee;
 						- _name = "sortirDesPiecesDuStockPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "6.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1677,7 +1677,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 95f58e9d-aa20-4e13-80af-dc38ec0ca0fc;
 						- _name = "chargerTransporteur";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "7.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1711,7 +1711,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 86d25f21-d6bf-49bd-8824-fd4958b6ec92;
 						- _name = "stockerDesPiecesSurTransporteur";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "8.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1745,7 +1745,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 02874389-7751-461e-915c-57e913a680db;
 						- _name = "dechargerTransporteur";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "10.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1779,7 +1779,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 1a5f14bb-46cf-4a2d-a52f-8b1adbdb57b0;
 						- _name = "entrerDesPiecesDansStockPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "11.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1813,7 +1813,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 915ab7f1-564d-4063-aa47-509532f25848;
 						- _name = "stockerPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "12.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1848,7 +1848,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- _id = GUID 71349238-244c-4241-b2d6-2c129a1ae322;
 						- _myState = 8192;
 						- _name = "reqUpdate";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "13.";
 						- m_szActualArgs = "Quantity";
 						- m_szReturnVal = "";
@@ -1882,7 +1882,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID b38923ff-b3a3-4e83-95c9-dca24a9da9f2;
 						- _name = "informerFinReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "14.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1916,7 +1916,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID c520db48-0c13-4a69-83f3-925a71a044af;
 						- _name = "informFinReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "15.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1950,7 +1950,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID c0e39060-7305-455d-a69b-47eab9025215;
 						- _name = "transporterDesPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "9.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1982,6 +1982,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						}
 					}
 				}
+				- InteractionOccurrences = { IRPYRawContainer 
+					- size = 0;
+				}
 				- CombinedFragments = { IRPYRawContainer 
 					- size = 1;
 					- value = 
@@ -1989,7 +1992,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- _id = GUID 52fd1f90-32c3-40dd-a2ee-b69394d79a23;
 						- _myState = 2048;
 						- _name = "interactionOperator_0";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- _interactionOperator = "parallel";
 						- InteractionOperands = { IRPYRawContainer 
 							- size = 2;
@@ -2166,7 +2169,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- _name = "SC2";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.3.2015::7:54:56";
+			- _lastModifiedTime = "4.2.2015::12:19:0";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -2363,7 +2366,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					}
 					- m_pParent = GUID 96f67f2a-70fb-4a98-9263-5d0cc7884158;
 					- m_name = { CGIText 
-						- m_str = ":Consommateur";
+						- m_str = ":StockAval";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -3025,7 +3028,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- m_pICollaboration = { ICollaboration 
 				- _id = GUID 46bf5308-6c95-4dfe-ba08-645132a2cad2;
-				- _modifiedTimeWeak = 1.2.1990::0:0:0;
+				- _modifiedTimeWeak = 1.1.1970::1:0:0;
 				- ClassifierRoles = { IRPYRawContainer 
 					- size = 3;
 					- value = 
@@ -3038,7 +3041,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							- _filename = "ActorPkg.sbs";
 							- _subsystem = "ActorPkg";
 							- _class = "";
-							- _name = "Consommateur";
+							- _name = "StockAval";
 							- _id = GUID 82942cf9-a408-411b-a24b-a1d3b7c7b9f3;
 						}
 						- m_instance = { IHandle 
@@ -3084,7 +3087,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 3980f3df-428b-4132-a891-00d511a19fb9;
 						- _name = "reqSignalerDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "1.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3118,7 +3121,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 02d94a9a-3ba1-4bcd-bd15-3797141175b9;
 						- _name = "signalerDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "2.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3152,7 +3155,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 058a90b0-b912-4c51-805e-6ed4b2eddb66;
 						- _name = "informDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "3.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3186,7 +3189,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 39f18c29-e0dd-40d0-96fd-c2ab6431526b;
 						- _name = "informerDeLOperation";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "4.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3220,7 +3223,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 600676e6-f3ac-4378-9364-e4b864de12e7;
 						- _name = "informOperation";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "5.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3254,7 +3257,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 97fc490d-62f6-4de1-b34b-8d73caf6cb75;
 						- _name = "sortirDesPiecesDuStockPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "6.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3288,7 +3291,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 4d95ca6c-f170-4fb6-964c-57ce13421ece;
 						- _name = "transporterDesPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "7.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3322,7 +3325,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 6afcb8db-e24a-4083-8ab8-05fa20642949;
 						- _name = "entrerDesPiecesDansStockPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "8.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3356,7 +3359,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID e910eaae-8c6d-4e5b-9631-ae57514bf319;
 						- _name = "stockerPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "9.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3390,7 +3393,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 213896eb-1ee0-463f-90d3-2d066be35256;
 						- _name = "reqUpdate";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "10.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3424,7 +3427,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 00815e79-8d32-4d2c-9fb5-5f3d7fc7412e;
 						- _name = "informerFinReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "11.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3458,7 +3461,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 53cf818c-7032-429b-9e38-3fc573f58c7c;
 						- _name = "informFinReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "12.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -3645,7 +3648,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- _name = "SC3";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.3.2015::7:54:56";
+			- _lastModifiedTime = "4.2.2015::12:19:0";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -3842,7 +3845,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					}
 					- m_pParent = GUID 687f312f-ba64-4737-9249-2d4550328599;
 					- m_name = { CGIText 
-						- m_str = ":Consommateur";
+						- m_str = ":StockAval";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -4455,7 +4458,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- m_pICollaboration = { ICollaboration 
 				- _id = GUID 158448d1-5867-4f4d-97c5-3d3caf1a0816;
-				- _modifiedTimeWeak = 1.2.1990::0:0:0;
+				- _modifiedTimeWeak = 1.1.1970::1:0:0;
 				- ClassifierRoles = { IRPYRawContainer 
 					- size = 3;
 					- value = 
@@ -4468,7 +4471,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							- _filename = "ActorPkg.sbs";
 							- _subsystem = "ActorPkg";
 							- _class = "";
-							- _name = "Consommateur";
+							- _name = "StockAval";
 							- _id = GUID 82942cf9-a408-411b-a24b-a1d3b7c7b9f3;
 						}
 						- m_instance = { IHandle 
@@ -4514,7 +4517,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID c33dc523-f2c4-40e8-a7e6-e74b10a5349b;
 						- _name = "reqSignalerDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "1.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -4548,7 +4551,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 183b4932-72a5-4b8f-ae7d-b8aaac1258af;
 						- _name = "signalerDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "2.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -4582,7 +4585,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 1b3ac981-b65c-408d-a9a1-f2a9735f3537;
 						- _name = "informDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "3.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -4616,7 +4619,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 60ec60eb-491e-4b10-9bff-f25551a39715;
 						- _name = "informerDeLOperation";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "4.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -4650,7 +4653,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 67d4087b-608b-4ccb-b8df-57c917f0d23b;
 						- _name = "informOperation";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "5.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -4684,7 +4687,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID df07aa59-2630-4a7a-880c-b259936ee5b6;
 						- _name = "sortirDesPiecesDuStockPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "6.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -4718,7 +4721,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 61e25173-9e6e-4f2c-9532-39d3095b182f;
 						- _name = "entrerDesPiecesEnStockPretATransporter";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "7.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -4752,7 +4755,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 4dec8f9c-544b-4554-bac9-665a0a12b4dc;
 						- _name = "stockerPiecesPretesATransporter";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "8.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -4786,7 +4789,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID ea56da9a-0302-4f56-a706-934c85945a44;
 						- _name = "informerFinReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "9.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -4820,7 +4823,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 08567e1d-f0cb-4c23-9f37-4e5546eb35e7;
 						- _name = "reqUpdate";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "10.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -4854,7 +4857,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 9b555048-076a-43f1-9e5c-0a0635bb5a3f;
 						- _name = "informFinReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "11.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -5041,7 +5044,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- _name = "SC4";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.3.2015::7:54:56";
+			- _lastModifiedTime = "4.2.2015::12:19:0";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
 				- m_usingActivationBar = 0;
@@ -5238,7 +5241,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					}
 					- m_pParent = GUID bbb2c7cf-2a38-4376-86c9-9caf8527ea5b;
 					- m_name = { CGIText 
-						- m_str = "StockAval:Consommateur";
+						- m_str = "StockAval:StockAval";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -6194,7 +6197,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- m_pICollaboration = { ICollaboration 
 				- _id = GUID a1c7e76a-69d9-40e1-87e1-0c103f26c4f7;
-				- _modifiedTimeWeak = 1.2.1990::0:0:0;
+				- _modifiedTimeWeak = 1.1.1970::1:0:0;
 				- ClassifierRoles = { IRPYRawContainer 
 					- size = 3;
 					- value = 
@@ -6224,7 +6227,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							- _filename = "ActorPkg.sbs";
 							- _subsystem = "ActorPkg";
 							- _class = "";
-							- _name = "Consommateur";
+							- _name = "StockAval";
 							- _id = GUID 82942cf9-a408-411b-a24b-a1d3b7c7b9f3;
 						}
 						- m_instance = { IHandle 
@@ -6255,7 +6258,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 93482b94-cda8-43f4-a32f-7943b39df3b3;
 						- _name = "reqSignalerDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "1.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6289,7 +6292,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 69268a54-5b1f-40b4-8bc8-b7e112bc606b;
 						- _name = "signalerDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "2.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6323,7 +6326,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 525c7eb8-02e8-44e2-82f3-e4af82616489;
 						- _name = "informDemandeReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "3.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6357,7 +6360,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID b5bb5db4-6839-46c3-a80d-74c6b7b3fc0c;
 						- _name = "informerDeLOperation";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "4.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6391,7 +6394,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 152d3b0c-1ab5-4724-8f63-f495006005be;
 						- _name = "informOperation";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "5.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6425,7 +6428,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 6fd8f829-d7f7-476b-a815-f5ec05446fdf;
 						- _name = "DeplacerTransporteur";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "6.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6459,7 +6462,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 546cc979-7187-47c6-94ff-11a507b00299;
 						- _name = "sortirDesPiecesDuStockPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "7.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6493,7 +6496,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID fd6f2d2b-e826-4850-9743-6b3c8b83bb9d;
 						- _name = "stockerDesPiecesSurTransporteur";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "8.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6527,7 +6530,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID f4c6b6e7-b37e-476a-abbb-4da384131f2d;
 						- _name = "transporterDesPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "9.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6561,7 +6564,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 33acfa46-7d1a-4f99-a398-654d23f638e5;
 						- _name = "sortirDesPiecesDuStockPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "10.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6595,7 +6598,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID f42a1cee-a173-441e-8a3d-016e3d27a399;
 						- _name = "stockerDesPiecesSurTransporteur";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "11.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6629,7 +6632,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID a1362e73-5e89-4a65-9ca0-ca8121c1875f;
 						- _name = "transporterDesPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "12.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6663,7 +6666,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID c3c19f22-9942-4415-8740-a2b40277e398;
 						- _name = "dechargerTransporteur";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "13.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6697,7 +6700,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 6313a265-7dab-426a-94d2-90f547399c64;
 						- _name = "entrerDesPiecesDansStockPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "14.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6731,7 +6734,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 4b7258b3-3879-42c8-b9aa-be49e0b307eb;
 						- _name = "stockerPieces";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "15.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6765,7 +6768,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 1d9a9c96-b60d-4353-b4b5-bf9c8dd667d3;
 						- _name = "reqUpdate";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "16.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6799,7 +6802,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 8c0b3046-e6b3-4aba-b825-804bab70b0e6;
 						- _name = "informerFinReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "17.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6833,7 +6836,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					{ IMessage 
 						- _id = GUID 413e3955-2360-4081-8645-e036f2a13a29;
 						- _name = "informFinReapprovisionnement";
-						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _modifiedTimeWeak = 1.1.1970::1:0:0;
 						- m_szSequence = "18.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -6868,7 +6871,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.3.2015::7:54:56;
+	- weakCGTime = 4.2.2015::12:14:15;
 	- strongCGTime = 3.25.2015::13:48:38;
 	- _defaultComposite = GUID ec536904-0f7b-4855-848d-59d5b6da2907;
 	- _eventsBaseID = -1;
@@ -6879,8 +6882,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID ec536904-0f7b-4855-848d-59d5b6da2907;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.2.2015::12:14:15;
-			- weakCGTime = 4.2.2015::12:14:15;
+			- _modifiedTimeWeak = 3.30.2015::15:2:19;
+			- weakCGTime = 3.30.2015::15:2:19;
 			- strongCGTime = 3.25.2015::13:48:38;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 5d1d6635-53f8-4e8d-bd4d-470f1c74d3e0;
 	- _myState = 8192;
 	- _name = "ArchitecturalDesignPkg";
-	- _modifiedTimeWeak = 4.3.2015::7:54:56;
+	- _modifiedTimeWeak = 4.2.2015::12:56:3;
 	- _lastID = 10;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
@@ -263,7 +263,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.3.2015::7:54:56";
+			- _lastModifiedTime = "4.2.2015::12:57:23";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID b886ccba-4713-41f9-b8b0-b8468596de08;
 				- m_type = 0;
@@ -448,7 +448,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 1.00378 0 0 0.101604 118 58 ;
+					- m_transform = 1.00378 0 0 0.101604 118.207 58 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -801,7 +801,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.189802 0 0 0.101604 43 315 ;
+					- m_transform = 0.189802 0 0 0.101604 42.6204 314.572 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -904,7 +904,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.127479 0 0 0.0944741 409 319 ;
+					- m_transform = 0.127479 0 0 0.0944741 408.745 318.918 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1326,7 +1326,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.114259 0 0 0.101604 554 314 ;
+					- m_transform = 0.114259 0 0 0.101604 553.771 313.572 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1823,7 +1823,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0868744 0 0 0.101604 812 310 ;
+					- m_transform = 0.0868744 0 0 0.101604 811.826 309.572 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2241,7 +2241,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0277008 0 0 0.0577933 2 37 ;
+					- m_transform = 0.0277008 0 0 0.0577933 2.12465 37.4361 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2440,12 +2440,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- _filename = "ActorPkg.sbs";
 						- _subsystem = "ActorPkg";
 						- _class = "";
-						- _name = "Consommateur";
+						- _name = "StockAval";
 						- _id = GUID 82942cf9-a408-411b-a24b-a1d3b7c7b9f3;
 					}
 					- m_pParent = GUID 9b8b8173-0d15-4bd5-a465-aea3c8ed508b;
 					- m_name = { CGIText 
-						- m_str = "Consommateur";
+						- m_str = "StockAval";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -2458,7 +2458,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0369344 0 0 0.0700525 1269 73 ;
+					- m_transform = 0.0369344 0 0 0.0700525 1268.5 73.3468 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2674,7 +2674,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0313943 0 0 0.061296 -3 158 ;
+					- m_transform = 0.0313943 0 0 0.061296 -2.52539 157.553 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2895,7 +2895,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0313943 0 0 0.0823117 1270 166 ;
+					- m_transform = 0.0313943 0 0 0.0823117 1270.47 166.257 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -3116,7 +3116,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.147309 0 0 0.101604 919 313 ;
+					- m_transform = 0.147309 0 0 0.101604 918.705 312.572 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -3363,7 +3363,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0868744 0 0 0.101604 1095 314 ;
+					- m_transform = 0.0868744 0 0 0.101604 1094.83 313.572 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -3734,7 +3734,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 38dfec39-1968-4f0a-87ef-c2fde9a5d5e1;
 				}
 			}
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _modifiedTimeWeak = 1.1.1970::1:0:0;
 			- _lastModifiedTime = "4.2.2015::12:56:3";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID e000d414-34a9-4cbe-8d6a-fd081ad277ce;
@@ -3800,28 +3800,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
 					- Compartments = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ CGICompartment 
-							- _id = GUID 6daf66d9-4c81-4f82-98e4-a796c123049f;
-							- m_name = "Attribute";
-							- m_displayOption = Explicit;
-							- m_bShowInherited = 0;
-							- m_bOrdered = 0;
-							- Items = { IRPYRawContainer 
-								- size = 0;
-							}
-						}
-						{ CGICompartment 
-							- _id = GUID 1a3662ab-8335-4867-99ff-35f57ca98c5c;
-							- m_name = "Operation";
-							- m_displayOption = Explicit;
-							- m_bShowInherited = 0;
-							- m_bOrdered = 0;
-							- Items = { IRPYRawContainer 
-								- size = 0;
-							}
-						}
+						- size = 0;
 					}
 					- Attrs = { IRPYRawContainer 
 						- size = 0;
@@ -3925,7 +3904,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4108;
-					- m_transform = 0.236072 0 0 0.0909091 186 177 ;
+					- m_transform = 0.236072 0 0 0.0909091 185.528 177.091 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -4026,7 +4005,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4108;
-					- m_transform = 0.235127 0 0 0.0891266 192 312 ;
+					- m_transform = 0.235127 0 0 0.0891266 191.53 311.677 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -4127,7 +4106,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4140;
-					- m_transform = 0.237016 0 0 0.101604 190 429 ;
+					- m_transform = 0.237016 0 0 0.101604 189.526 428.572 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -4200,7 +4179,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4140;
-					- m_transform = 0.129367 0 0 0.101604 238 30 ;
+					- m_transform = 0.129367 0 0 0.101604 237.741 29.5722 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -4273,7 +4252,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4140;
-					- m_transform = 0.151086 0 0 0.101604 511 103 ;
+					- m_transform = 0.151086 0 0 0.101604 510.698 102.572 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -4346,7 +4325,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4140;
-					- m_transform = 0.246459 0 0 0.106952 479 294 ;
+					- m_transform = 0.246459 0 0 0.106952 478.507 293.813 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -4419,7 +4398,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4140;
-					- m_transform = 0.369216 0 0 0.101604 471 440 ;
+					- m_transform = 0.369216 0 0 0.101604 471.262 439.572 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -4489,7 +4468,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.3.2015::7:54:56;
+	- weakCGTime = 4.2.2015::12:56:3;
 	- strongCGTime = 3.18.2015::16:14:52;
 	- _defaultComposite = GUID c335dd91-394a-44de-9997-9587e1240214;
 	- _eventsBaseID = -1;
@@ -4500,8 +4479,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID c335dd91-394a-44de-9997-9587e1240214;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.2.2015::12:56:3;
-			- weakCGTime = 4.2.2015::12:56:3;
+			- _modifiedTimeWeak = 3.30.2015::15:10:41;
+			- weakCGTime = 3.30.2015::15:10:41;
 			- strongCGTime = 3.18.2015::16:14:52;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4532,7 +4511,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 1898ab37-098d-465a-9878-7ea720b10773;
 					- _myState = 8192;
 					- _name = "DuplicateOperationsFound";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::12:16:51;
 					- _description = { IDescription 
 						- _text = "The Following Operational Contracts could not be copied because a duplicate already exists in the destination:
 
@@ -4563,7 +4542,7 @@ Unable to Copy cloturerAssemblage from Block Uc_Fabrication
 					- _id = GUID fc63065f-79c6-4bf7-98a2-1a329bd5c677;
 					- _myState = 8192;
 					- _name = "DuplicateAttributesFound";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::12:16:52;
 					- _description = { IDescription 
 						- _text = "The Following Attributes could not be copied because a duplicate already exists in the destination:
 
@@ -4574,13 +4553,13 @@ Unable to Copy OF from Block Uc_Fabrication
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 4.3.2015::7:54:56;
+			- _modifiedTimeWeak = 4.2.2015::12:57:23;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 9571a6d8-4dc3-4dca-84b3-b60b090c2fa8;
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.3.2015::7:54:56;
+			- weakCGTime = 4.2.2015::12:57:23;
 			- strongCGTime = 3.18.2015::16:15:30;
 			- Operations = { IRPYRawContainer 
 				- size = 33;
@@ -4619,7 +4598,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4700,7 +4679,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4755,7 +4734,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4810,7 +4789,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4865,7 +4844,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4920,7 +4899,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4975,7 +4954,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.1.2015::9:34:33;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5056,7 +5035,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5111,7 +5090,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5166,7 +5145,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5221,7 +5200,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5276,7 +5255,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5331,7 +5310,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5386,7 +5365,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5441,7 +5420,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5496,7 +5475,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5551,7 +5530,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5606,7 +5585,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5661,7 +5640,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5716,7 +5695,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5771,7 +5750,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5826,7 +5805,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5881,7 +5860,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5936,7 +5915,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5991,7 +5970,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6046,7 +6025,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6101,7 +6080,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6156,7 +6135,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6211,7 +6190,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6265,7 +6244,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::12:16:49;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -6313,7 +6292,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::12:17:13;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6367,7 +6346,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::12:16:50;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -6414,7 +6393,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::12:16:51;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -6466,7 +6445,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -6516,7 +6495,7 @@ Unable to Copy OF from Block Uc_Fabrication
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -6544,7 +6523,7 @@ Unable to Copy OF from Block Uc_Fabrication
 					- _id = GUID 80e29d37-bddf-4e94-b0fb-d52f963f30c7;
 					- _myState = 8192;
 					- _name = "itsPatrolbot";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::8:46:51;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -6562,7 +6541,7 @@ Unable to Copy OF from Block Uc_Fabrication
 					- _id = GUID dc4b785a-2582-49b6-8239-d68707bf6dbb;
 					- _myState = 8192;
 					- _name = "itsPosteMachineTBI540";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::11:19:27;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -6580,7 +6559,7 @@ Unable to Copy OF from Block Uc_Fabrication
 					- _id = GUID a7f52714-2c92-40d5-a947-b8e69edb9de1;
 					- _myState = 8192;
 					- _name = "itsPosteMachineDMU50";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::11:19:51;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -6598,7 +6577,7 @@ Unable to Copy OF from Block Uc_Fabrication
 					- _id = GUID 10b5b16b-cb3b-4cc2-9a64-312ea68f0672;
 					- _myState = 10240;
 					- _name = "itsPosteAssemblage";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::11:23:35;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -6616,7 +6595,7 @@ Unable to Copy OF from Block Uc_Fabrication
 					- _id = GUID 49cee189-a10b-4d2d-b1ed-5a17044d853b;
 					- _myState = 8192;
 					- _name = "itsRobotLRMate200iD";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::11:29:35;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -6634,7 +6613,7 @@ Unable to Copy OF from Block Uc_Fabrication
 					- _id = GUID fa692f76-e792-4366-a26a-4d91d8c85c97;
 					- _myState = 10240;
 					- _name = "itsHumain";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::11:31:15;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -6652,7 +6631,7 @@ Unable to Copy OF from Block Uc_Fabrication
 					- _id = GUID 08fb1efa-e97c-4b80-b426-9d690ef25175;
 					- _myState = 10240;
 					- _name = "itsProductionSystemController";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::11:38:35;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -6670,7 +6649,7 @@ Unable to Copy OF from Block Uc_Fabrication
 					- _id = GUID 85070c9a-3724-4b8c-819b-d6eb690ce9b3;
 					- _myState = 10240;
 					- _name = "itsPublic";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::11:40:48;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
@@ -6690,15 +6669,15 @@ Unable to Copy OF from Block Uc_Fabrication
 				{ IAssociationEnd 
 					- _id = GUID 3e02ad6d-3164-4ffb-b81e-893b9babe06d;
 					- _myState = 10240;
-					- _name = "itsConsommateur";
-					- _modifiedTimeWeak = 4.3.2015::7:54:56;
+					- _name = "itsStockAval";
+					- _modifiedTimeWeak = 4.2.2015::11:41:14;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "ActorPkg.sbs";
 						- _subsystem = "ActorPkg";
 						- _class = "";
-						- _name = "Consommateur";
+						- _name = "StockAval";
 						- _id = GUID 82942cf9-a408-411b-a24b-a1d3b7c7b9f3;
 					}
 					- _inverse = { IHandle 
@@ -6712,7 +6691,7 @@ Unable to Copy OF from Block Uc_Fabrication
 					- _id = GUID 6e23ef7b-e27a-4327-9858-4b2867f97a33;
 					- _myState = 10240;
 					- _name = "itsTabletteDemonstrateur";
-					- _modifiedTimeWeak = 4.2.2015::12:57:23;
+					- _modifiedTimeWeak = 4.2.2015::12:27:32;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";

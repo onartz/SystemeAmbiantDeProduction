@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 2b6b9dae-8e68-4a5e-b663-e85bbf5e0ffe;
 	- _myState = 8192;
 	- _name = "UseCaseDiagramsPkg";
-	- _modifiedTimeWeak = 4.3.2015::7:54:56;
+	- _modifiedTimeWeak = 4.1.2015::11:38:5;
 	- _lastID = 23;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
@@ -293,7 +293,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- _name = "UCD_SystemeAmbiantDeProduction";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.3.2015::7:54:56";
+			- _lastModifiedTime = "4.1.2015::11:38:9";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 1b35d41b-1095-457e-a364-fa59a210d133;
 				- m_type = 0;
@@ -542,12 +542,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- _filename = "ActorPkg.sbs";
 						- _subsystem = "ActorPkg";
 						- _class = "";
-						- _name = "Consommateur";
+						- _name = "StockAval";
 						- _id = GUID 82942cf9-a408-411b-a24b-a1d3b7c7b9f3;
 					}
 					- m_pParent = GUID 6d5fc8f6-f53c-4a7b-9e1c-0b79a926ea1f;
 					- m_name = { CGIText 
-						- m_str = "Consommateur";
+						- m_str = "StockAval";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -614,7 +614,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- _m2Class = "IAssociationEnd";
 						- _filename = "ActorPkg.sbs";
 						- _subsystem = "ActorPkg";
-						- _class = "Consommateur";
+						- _class = "StockAval";
 						- _name = "itsReapprovisionement";
 						- _id = GUID fd304ce0-ccac-4486-9407-b4648eae8512;
 					}
@@ -662,7 +662,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- _filename = "FunctionalAnalysisPkg.sbs";
 						- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
 						- _class = "Reapprovisionement";
-						- _name = "itsConsommateur";
+						- _name = "itsStockAval";
 						- _id = GUID 08d3d96b-c4bc-43b8-8d34-cc8dadd25f16;
 					}
 					- m_pInstance = { IObjectLinkHandle 
@@ -1687,7 +1687,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.3.2015::7:54:56;
+	- weakCGTime = 4.1.2015::11:38:5;
 	- strongCGTime = 10.14.2014::13:56:11;
 	- _defaultComposite = GUID 531180c0-e729-4025-add3-61031ee79520;
 	- _eventsBaseID = -1;
@@ -1698,8 +1698,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 531180c0-e729-4025-add3-61031ee79520;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.1.2015::11:38:5;
-			- weakCGTime = 4.1.2015::11:38:5;
+			- _modifiedTimeWeak = 4.1.2015::6:59:34;
+			- weakCGTime = 4.1.2015::6:59:34;
 			- strongCGTime = 10.14.2014::13:56:11;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1709,6 +1709,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 		}
 	}
 	- UseCases = { IRPYRawContainer 
+		- size = 0;
+	}
+	- Actors = { IRPYRawContainer 
 		- size = 0;
 	}
 	- _configurationRelatedTime = 1.2.1990::0:0:0;
