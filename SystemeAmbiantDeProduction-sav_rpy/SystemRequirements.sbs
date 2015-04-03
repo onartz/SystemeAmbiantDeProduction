@@ -1,0 +1,341 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "RequirementsAnalysisPkg.sbs";
+		- _subsystem = "RequirementsAnalysisPkg";
+		- _class = "";
+		- _name = "RequirementsPkg";
+		- _id = GUID 4d301512-ca0d-441a-b706-137ca89cd25b;
+	}
+	- _id = GUID 463473d7-482f-4dd3-becb-468df20569ab;
+	- _myState = 8192;
+	- _name = "SystemRequirements";
+	- Annotations = { IRPYRawContainer 
+		- size = 9;
+		- value = 
+		{ IRequirement 
+			- _id = GUID cb1abc5d-a397-45fe-a59c-b047f3b9af88;
+			- _myState = 8192;
+			- _name = "Interdiction de prendre dans le stock de bruts du robot pour les humains";
+			- _modifiedTimeWeak = 3.19.2015::13:23:43;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le syst\\'e8me interdit aux humains de prendre des bruts dans le stock du robot LRMate\\par
+}
+";
+		}
+		{ IRequirement 
+			- _id = GUID 5f415e74-fa8b-49b1-9ace-ab6a01e78239;
+			- _myState = 8192;
+			- _name = "Produire des pi\èces de facon ambiante";
+			- _displayName = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 MS Shell Dlg;}}
+\\viewkind4\\uc1\\pard\\f0\\fs17 Produire des flux de  pi\\'e8ces\\par
+}
+";
+			- Dependencies = { IRPYRawContainer 
+				- size = 0;
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID e28b8e8e-9f24-48da-8ad9-e0cdb222037b;
+				}
+			}
+			- Annotations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IRequirement 
+					- _id = GUID 2f1f5fa1-a3c5-43b6-9a36-ef86138b92de;
+					- _myState = 8192;
+					- _name = "Eviter toute rupture de stock pour le consommateur en aval";
+					- _displayName = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 MS Shell Dlg;}}
+\\viewkind4\\uc1\\pard\\f0\\fs17 Caracterisation du d\\'e9bit de sortie\\par
+}
+";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "RequirementsAnalysisPkg.sbs";
+							- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::StakeholdersRequirements";
+							- _class = "";
+							- _name = "Mission";
+							- _id = GUID 55df2254-96da-4052-944c-5748b544fb56;
+						}
+					}
+					- Annotations = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _modifiedTimeWeak = 3.19.2015::13:23:43;
+					- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le syst\\'e8me doit \\'e9viter toute rupture de stock pour le consommateur situ\\'e9 en aval.\\par
+}
+";
+				}
+			}
+			- _modifiedTimeWeak = 3.19.2015::13:23:53;
+			- _lastID = 6;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Tahoma;}}
+{\\colortbl ;\\red0\\green0\\blue0;}
+\\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 Le syst\\'e8me assure la production, le transport et le stockage de pi\\'e8ces manufactur\\'e9es de fa\\'e7on ambiante suivant des r\\'e8gles de production particuli\\'e8res en utilisant  les ressources de type MOCN, Robot industriel et mobile.\\par
+}
+";
+		}
+		{ IRequirement 
+			- _id = GUID 37ef26e3-6e4b-4f4b-bb5c-cba8b991f3a3;
+			- _myState = 8192;
+			- _name = "Architecture logicielle multi agents";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 776c6d16-c9f3-496c-8f08-1cbcab227ea2;
+				}
+			}
+			- _modifiedTimeWeak = 3.16.2015::14:20:8;
+			- _lastID = 2;
+			- _body = "L'architecture logicielle est de type Multi-agents.";
+		}
+		{ IRequirement 
+			- _id = GUID cd5bd17c-e165-4567-ba8c-c88ea0d9f182;
+			- _myState = 8192;
+			- _name = "Utilisation du robot LRMate200iD";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 776c6d16-c9f3-496c-8f08-1cbcab227ea2;
+				}
+			}
+			- _modifiedTimeWeak = 3.19.2015::13:23:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le syst\\'e8me doit utiliser le robot LRMate200iD en tant que ressource de manutention pour effectuer le chargement du robot mobile Patrolbot avec certains produits\\par
+}
+";
+		}
+		{ IRequirement 
+			- _id = GUID 30d0ed3e-cbdf-4943-95f3-0564e4577b7e;
+			- _myState = 8192;
+			- _name = "Utilisation de la plateforme Jade";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 776c6d16-c9f3-496c-8f08-1cbcab227ea2;
+				}
+			}
+			- _modifiedTimeWeak = 3.19.2015::13:23:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Jade est la plateforme suport du syst\\'e8me multi agents.\\par
+}
+";
+		}
+		{ IRequirement 
+			- _id = GUID b9845ea5-58ff-4943-ba9d-174f459c4904;
+			- _myState = 8192;
+			- _name = "Utilisation du robot Patrolbot";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 776c6d16-c9f3-496c-8f08-1cbcab227ea2;
+				}
+			}
+			- _modifiedTimeWeak = 3.19.2015::13:23:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le syst\\'e8me doit utiliser le robot Patrolbot en tant que ressource de transport.\\par
+}
+";
+		}
+		{ IRequirement 
+			- _id = GUID 2962d13a-f6c5-42f7-9156-91971eed81aa;
+			- _myState = 8192;
+			- _name = "Utilisation du TBI540";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 776c6d16-c9f3-496c-8f08-1cbcab227ea2;
+				}
+			}
+			- _modifiedTimeWeak = 3.19.2015::13:23:43;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le syst\\'e8me doit utiliser le tour TBI540 en tant que ressource d'usinage.\\par
+}
+";
+		}
+		{ IRequirement 
+			- _id = GUID 7636a3bb-6ddf-4185-8965-7562c41c4a15;
+			- _myState = 8192;
+			- _name = "Valider un sc\énario utilisant le TBI540";
+			- _displayName = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 MS Shell Dlg;}}
+\\viewkind4\\uc1\\pard\\f0\\fs17 Valider le syst\\'e8me avec le TBI540\\par
+}
+";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 07bb269e-5899-4577-9719-7793ac20deb1;
+				}
+			}
+			- _modifiedTimeWeak = 3.19.2015::13:23:43;
+			- _lastID = 3;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le syst\\'e8me sera valid\\'e9 sur une demonstration n\\'e9cessitant une fabrication de pi\\'e8ces sur le TBI-540 afin d'alimenter le stock de sortie.\\par
+}
+";
+		}
+		{ IRequirement 
+			- _id = GUID f8671bc3-4030-4c40-add9-dff68e8ffd1a;
+			- _myState = 8192;
+			- _name = "Valider un sc\énario utilisant le transport des pi\èces par le Patrolbot";
+			- _displayName = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 MS Shell Dlg;}}
+\\viewkind4\\uc1\\pard\\f0\\fs17 Valider le syst\\'e8me avec le TBI540\\par
+}
+";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 07bb269e-5899-4577-9719-7793ac20deb1;
+				}
+			}
+			- _modifiedTimeWeak = 3.19.2015::13:23:43;
+			- _lastID = 3;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le syst\\'e8me sera valid\\'e9 sur une demonstration n\\'e9cessitant un transport de pi\\'e8ces par le Patrolbot.\\par
+}
+";
+		}
+	}
+	- _modifiedTimeWeak = 3.19.2015::13:23:53;
+	- _lastID = 7;
+	- Declaratives = { IRPYRawContainer 
+		- size = 5;
+		- value = 
+		{ IStereotype 
+			- _id = GUID e28b8e8e-9f24-48da-8ad9-e0cdb222037b;
+			- _myState = 8192;
+			- _name = "Mission";
+			- _modifiedTimeWeak = 3.16.2015::13:45:6;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Requirement"; 
+			}
+		}
+		{ IStereotype 
+			- _id = GUID ce7e00bf-6914-46e9-a0dd-96d20d3d463b;
+			- _myState = 8192;
+			- _name = "ExSys";
+			- _modifiedTimeWeak = 3.16.2015::13:45:6;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Requirement"; 
+			}
+		}
+		{ IStereotype 
+			- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+			- _myState = 8192;
+			- _name = "Exigence";
+			- _modifiedTimeWeak = 3.16.2015::13:45:6;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Requirement"; 
+			}
+		}
+		{ IStereotype 
+			- _id = GUID 776c6d16-c9f3-496c-8f08-1cbcab227ea2;
+			- _myState = 8192;
+			- _name = "Contrainte";
+			- _modifiedTimeWeak = 3.16.2015::14:15:28;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Requirement"; 
+			}
+		}
+		{ IStereotype 
+			- _id = GUID 07bb269e-5899-4577-9719-7793ac20deb1;
+			- _myState = 8192;
+			- _name = "Validation";
+			- _modifiedTimeWeak = 3.16.2015::14:30:15;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Requirement"; 
+			}
+		}
+	}
+	- weakCGTime = 3.19.2015::13:23:53;
+	- strongCGTime = 3.16.2015::13:45:6;
+	- _defaultComposite = GUID 273e2d00-9480-4d76-bf78-42ba8525f91e;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 273e2d00-9480-4d76-bf78-42ba8525f91e;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 3.16.2015::13:45:6;
+			- weakCGTime = 3.16.2015::13:45:6;
+			- strongCGTime = 3.16.2015::13:45:6;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+
