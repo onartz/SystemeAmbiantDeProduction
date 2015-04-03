@@ -1,0 +1,89 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "DesignSynthesisPkg.sbs";
+		- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+		- _class = "";
+		- _name = "AmbientProductionSystemDecompositionPkg";
+		- _id = GUID beb79dac-750c-437a-9ff6-dd254d877262;
+	}
+	- _id = GUID 0e0066a3-ac3f-4c4d-91f9-6964d29bb316;
+	- _myState = 8192;
+	- _name = "TabletteDemonstrateurPkg";
+	- _modifiedTimeWeak = 4.2.2015::12:27:42;
+	- weakCGTime = 4.2.2015::12:27:42;
+	- strongCGTime = 4.2.2015::12:27:42;
+	- _defaultComposite = GUID 05d4f62e-fcd7-472a-8481-7dd2bc9052bf;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 05d4f62e-fcd7-472a-8481-7dd2bc9052bf;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- weakCGTime = 1.1.1970::1:0:0;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 80c0e848-a11e-4429-9b97-d2010a00653b;
+			- _myState = 8192;
+			- _name = "TabletteDemonstrateur";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.2.2015::12:27:42;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "DesignSynthesisPkg.sbs";
+				- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformerPublicTradeStudy";
+				- _class = "";
+				- _name = "BDD_InformerPublicArchitecture";
+				- _id = GUID c54c7294-7faf-43d1-bf27-b458d0ccd464;
+			}
+			- weakCGTime = 4.2.2015::12:27:42;
+			- strongCGTime = 4.2.2015::12:27:42;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 669c689a-0473-44df-bfb6-5319ff50604a;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "DesignSynthesisPkg.sbs";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformerPublicTradeStudy";
+						- _class = "";
+						- _name = "InformerPublic";
+						- _id = GUID 6d0008aa-92b8-463f-a148-74cbcd1346ce;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

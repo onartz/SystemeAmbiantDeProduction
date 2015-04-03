@@ -1,0 +1,150 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "FunctionalAnalysisPkg.sbs";
+		- _subsystem = "FunctionalAnalysisPkg";
+		- _class = "";
+		- _name = "RecompleterunstockPkg";
+		- _id = GUID b55e8125-e994-4845-bbf8-14d04d769fc1;
+	}
+	- _id = GUID fb6ec0e2-8fc6-4650-9baf-ccac168aaa7e;
+	- _myState = 8192;
+	- _name = "RecompleterunstockExecutionScopePkg";
+	- _modifiedTimeWeak = 10.21.2014::8:14:9;
+	- weakCGTime = 10.21.2014::8:15:26;
+	- strongCGTime = 10.21.2014::8:15:26;
+	- _defaultComposite = GUID 3745729f-9c56-4c67-b3be-7bf383fed875;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 3745729f-9c56-4c67-b3be-7bf383fed875;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 10.21.2014::8:15:26;
+			- weakCGTime = 10.21.2014::8:15:26;
+			- strongCGTime = 10.14.2014::14:28:32;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 6;
+				- value = 
+				{ IPart 
+					- _id = GUID 75aeedf5-1b41-4dde-85a5-7f3c5aa7ab58;
+					- _myState = 8192;
+					- _name = "itsUc_Recompleterunstock";
+					- _modifiedTimeWeak = 10.21.2014::8:14:10;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "FunctionalAnalysisPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::RecompleterunstockPkg";
+						- _class = "";
+						- _name = "Uc_Recompleterunstock";
+						- _id = GUID f6d6b123-93a2-41df-be48-abe48db65c94;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID ba309cb2-c31a-4169-b34d-97c3af028145;
+					- _myState = 8192;
+					- _name = "itsPresentateurDemo";
+					- _modifiedTimeWeak = 10.14.2014::14:28:32;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "PresentateurDemo";
+						- _id = GUID 37ce3ac0-2464-458f-8e1a-3d111c8222e3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 9afb2736-7fc8-44e5-a2a9-3fa968b748d7;
+					- _myState = 8192;
+					- _name = "itsOperateurFabrication";
+					- _modifiedTimeWeak = 10.14.2014::14:28:32;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "OperateurFabrication";
+						- _id = GUID 7e542cd1-5ac2-412b-a299-fc6d919bd74d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 005d5f68-9d8a-4b95-ad24-663e12c60f2b;
+					- _myState = 8192;
+					- _name = "itsAmbiflux";
+					- _modifiedTimeWeak = 10.14.2014::14:28:32;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Ambiflux";
+						- _id = GUID 4f16944e-ee74-4777-bf5f-5455c79fc47f;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID b1130872-ef72-4634-9089-fb98c6535c56;
+					- _myState = 8192;
+					- _name = "itsBDAIPL";
+					- _modifiedTimeWeak = 10.14.2014::14:28:32;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "BDAIPL";
+						- _id = GUID 3d09d350-b2c5-4e84-8963-20e87a1c7426;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 3c99482e-8636-4346-b037-e76daa72cfb9;
+					- _myState = 8192;
+					- _name = "itsPiece";
+					- _modifiedTimeWeak = 10.21.2014::8:15:26;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Piece";
+						- _id = GUID ea58f438-ee86-441b-b34b-3a556f045873;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 10.14.2014::14:28:32;
+}
+

@@ -1,0 +1,31 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ IWorkspace 
+	- m_SavedActiveProjectsName = "SystemeAmbiantDeProduction";
+	- _ownerHandle = { IHandle 
+		- _m2Class = "";
+	}
+	- _id = GUID e7f6195b-f7a4-4234-9bde-a2ac09f1e5c1;
+	- _myState = 8192;
+	- _name = "Projects";
+	- _modifiedTimeWeak = 1.1.1970::1:0:0;
+	- Declaratives = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IProject 
+			- fileName = "SystemeAmbiantDeProduction";
+			- _persistAs = "C:\\Rhapsody\\SystemeAmbiantDeProduction\\SystemeAmbiantDeProduction";
+			- _id = GUID 0c82b30f-ab54-40b6-9b37-3ee1b3ac5935;
+		}
+		{ IProject 
+			- fileName = "LRM-Exigences";
+			- _persistAs = "C:\\Rhapsody\\AmbifluxV2\\CelluleLRMate";
+			- _id = GUID 7b262181-490c-4d05-a0a0-1925a96d6c87;
+		}
+		{ IProject 
+			- fileName = "AmbifluxV2";
+			- _persistAs = "C:\\Rhapsody\\AmbifluxV2-Exigences-V6";
+			- _id = GUID 545fc41e-3d74-43fa-afbc-ebf9a84e5967;
+		}
+	}
+}
+

@@ -1,0 +1,673 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "RequirementsAnalysisPkg.sbs";
+		- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg";
+		- _class = "";
+		- _name = "SystemRequirements";
+		- _id = GUID ddfe60e3-85be-4ba6-b3ec-5adcd4a36e49;
+	}
+	- _id = GUID 4d385bd3-5c2a-4ecb-8f90-acda3f4813c6;
+	- _myState = 8192;
+	- _name = "TempReqs";
+	- Annotations = { IRPYRawContainer 
+		- size = 15;
+		- value = 
+		{ IRequirement 
+			- _id = GUID a6ec750a-4792-4d72-a4cf-86c02201a620;
+			- _myState = 8192;
+			- _name = "Aider l operateur de fabrication a usiner";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Fonctionnelle";
+					- _id = GUID 44b07957-d784-4e12-b27a-6f4eda0b8838;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:9:53;
+			- _lastID = 4;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le syst\\'e8me aide l'op\\'e9rateur de fabrication \\'e0 r\\'e9aliser les usinages dans les meilleures conditions.\\par
+}
+";
+			- reqID = "EXF.01.07";
+		}
+		{ IRequirement 
+			- _id = GUID 80e22536-713e-4f77-9d78-d8ea37176f5c;
+			- _myState = 8192;
+			- _name = "Assurer la production ambiante du TBI540";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 2ae6a84a-fddf-472a-bcb4-a54adc943895;
+					- _myState = 2048;
+					- _name = "Assurer la logistique des flux de l AIP";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Requirements";
+							- _class = "";
+							- _name = "satisfy";
+							- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+						}
+					}
+					- _modifiedTimeWeak = 10.9.2014::11:37:17;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "RequirementsAnalysisPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::StakeholdersRequirements";
+						- _class = "";
+						- _name = "Assurer la logistique des flux de l AIP";
+						- _id = GUID fd168c46-afa3-4359-9951-bdab301bba67;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Fonctionnelle";
+					- _id = GUID 44b07957-d784-4e12-b27a-6f4eda0b8838;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:9:53;
+			- _lastID = 6;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le syst\\'e8me assure la production de pi\\'e8ces sur le tour TBI540 de facon ambiante\\par
+}
+";
+			- reqID = "EXF.01";
+		}
+		{ IRequirement 
+			- _id = GUID 6d2c0163-d180-4701-87ac-3c4ca99043d1;
+			- _myState = 8192;
+			- _name = "Controler l approvisionnement du TBI540 en pieces a usiner sur demande";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Fonctionnelle";
+					- _id = GUID 44b07957-d784-4e12-b27a-6f4eda0b8838;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:9:53;
+			- _lastID = 3;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le systeme doit controler l approvisionnement du TBI540 en pieces \\'e0 usiner depuis un magasin de facon ambiante.\\par
+}
+";
+			- reqID = "EXF.01.01";
+		}
+		{ IRequirement 
+			- _id = GUID fb86b03b-9326-4ae9-9718-3bef332fd7c5;
+			- _myState = 8192;
+			- _name = "Communiquer une demande de fabrication a l operateur";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 9c2d2432-9f36-41d6-8065-04ca7f4c4fd5;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::14:52:15;
+			- _lastID = 1;
+			- _body = "Une demande de fabrication est envoyee a l operateur de fabrication
+";
+			- reqID = "EXI.10";
+		}
+		{ IRequirement 
+			- _id = GUID 9eaa89ad-4e87-49ae-bb9b-05eb808f4030;
+			- _myState = 8192;
+			- _name = "Echanger des pieces avec l inge AIP";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 9c2d2432-9f36-41d6-8065-04ca7f4c4fd5;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::14:52:20;
+			- _body = "Les pieces de remplacement les pieces usagees sont echangees lors de operations de maintenance
+";
+			- reqID = "EXI.11";
+		}
+		{ IRequirement 
+			- _id = GUID b98eba8e-d517-44ab-98a9-466f0b110cb2;
+			- _myState = 8192;
+			- _name = "Recevoir l OF modifie par l operateur de fabrication";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 9c2d2432-9f36-41d6-8065-04ca7f4c4fd5;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:9:53;
+			- _lastID = 1;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\f0\\fs22 Le syst\\'e8me doit \\'eatre capable de recevoir  l OF modifie par l operateur de fabrication\\par
+}
+";
+			- reqID = "EXI.06";
+		}
+		{ IRequirement 
+			- _id = GUID f73c1a0a-5cf6-4808-b258-055854374b91;
+			- _myState = 8192;
+			- _name = "Comporter le TBI540";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Conception";
+					- _id = GUID 54d3d15e-b969-4508-85d6-9709e643d510;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:28:8;
+			- _lastID = 3;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\f0\\fs22 Le syst\\'e8me doit utiliser le tBI540\\par
+}
+";
+			- reqID = "EXCon.01";
+		}
+		{ IRequirement 
+			- _id = GUID 2a9468fd-08c1-4a18-a70e-8d631aa8b7fc;
+			- _myState = 8192;
+			- _name = "Realiser une interaction operateur-TBI540";
+			- _displayName = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 MS Shell Dlg;}}
+\\viewkind4\\uc1\\pard\\f0\\fs17 D\\'e9montrer que PatrolBot est ambiant\\par
+}
+";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Fonctionnelle";
+					- _id = GUID 44b07957-d784-4e12-b27a-6f4eda0b8838;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:30:58;
+			- _lastID = 5;
+			- _body = "Le systeme doit realiser une interaction entre l operateur et le TBI540 dans le scenario prevu
+";
+			- reqID = "EXF.01.06";
+		}
+		{ IRequirement 
+			- _id = GUID b73eed98-4e2c-4da5-a9b9-623ff6768709;
+			- _myState = 8192;
+			- _name = "Emettre des demandes de transport";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 9c2d2432-9f36-41d6-8065-04ca7f4c4fd5;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:38:51;
+			- _lastID = 1;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\f0\\fs22 Le syst\\'e8me doit \\'eatre capable d\\rquote\\'e9mettre dans l\\rquote environnement des demandes de transport\\par
+\\f1\\fs20\\par
+}
+";
+			- reqID = "EXI.02";
+		}
+		{ IRequirement 
+			- _id = GUID 07540a92-7234-4a2d-b411-40348fe43d12;
+			- _myState = 8192;
+			- _name = "Controler l evacuation des dechets generes par le TBI540 sur demande";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 6b9ff7ef-3cd5-42a3-a00e-0cb6046f8eb4;
+					- _myState = 2048;
+					- _name = "Assurer la logistique des flux de l AIP";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Requirements";
+							- _class = "";
+							- _name = "satisfy";
+							- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+						}
+					}
+					- _modifiedTimeWeak = 10.9.2014::11:37:17;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "RequirementsAnalysisPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::StakeholdersRequirements";
+						- _class = "";
+						- _name = "Assurer la logistique des flux de l AIP";
+						- _id = GUID fd168c46-afa3-4359-9951-bdab301bba67;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Fonctionnelle";
+					- _id = GUID 44b07957-d784-4e12-b27a-6f4eda0b8838;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:43:59;
+			- _lastID = 2;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Le systeme doit controler l evacuation des dechets generes par le TBI540 \\'e0 la demande de l operateur.\\par
+}
+";
+			- reqID = "EXF.01.03";
+		}
+		{ IRequirement 
+			- _id = GUID e26f262e-5fda-4d6c-a8b8-262a9ab2463c;
+			- _myState = 8192;
+			- _name = "Controler l evacuation des pieces usinees sur le TBI540 sur demande";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 3dd80427-8c15-4d22-913f-25be8e9e7ec9;
+					- _myState = 2048;
+					- _name = "Assurer la logistique des flux de l AIP";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Requirements";
+							- _class = "";
+							- _name = "satisfy";
+							- _id = GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18;
+						}
+					}
+					- _modifiedTimeWeak = 10.9.2014::11:37:17;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "RequirementsAnalysisPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::StakeholdersRequirements";
+						- _class = "";
+						- _name = "Assurer la logistique des flux de l AIP";
+						- _id = GUID fd168c46-afa3-4359-9951-bdab301bba67;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Fonctionnelle";
+					- _id = GUID 44b07957-d784-4e12-b27a-6f4eda0b8838;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:43:59;
+			- _lastID = 2;
+			- _body = "Le systeme doit controler l evacuation des pieces usinees sur le TBI540 vers un emplacement de stockage lorsque l OF est terrmine.";
+			- reqID = "EXF.01.02";
+		}
+		{ IRequirement 
+			- _id = GUID ba5d875a-675d-45e9-84e4-5de356ce529f;
+			- _myState = 8192;
+			- _name = "Montrer le concept de robot mobile de service ambiant";
+			- _displayName = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 MS Shell Dlg;}}
+\\viewkind4\\uc1\\pard\\f0\\fs17 D\\'e9montrer que PatrolBot est ambiant\\par
+}
+";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 18f95119-9a4f-431c-88cc-f16cf123f492;
+					- _myState = 2048;
+					- _name = "Concepts cl\é M2M";
+					- _displayName = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 BC.16 Concepts cl\\'e9 de l usine du futur\\par
+}
+";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "derive";
+							- _id = GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a;
+						}
+					}
+					- _modifiedTimeWeak = 6.17.2014::12:46:44;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "RequirementsAnalysisPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements::AmbifluxRequirements";
+						- _class = "";
+						- _name = "Concepts cl\é M2M";
+						- _id = GUID 127e90bd-b085-4516-92ca-094006327bb6;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Fonctionnelle";
+					- _id = GUID 44b07957-d784-4e12-b27a-6f4eda0b8838;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:43:59;
+			- _lastID = 5;
+			- _body = "Le systeme doit montrer a des spectateurs le concept de robot mobile de service ambiant repondant a une demande d approvisionnement du TBI540.
+";
+			- reqID = "EXF.01.04";
+		}
+		{ IRequirement 
+			- _id = GUID b378e8a5-0d5d-4321-af91-063193170d06;
+			- _myState = 8192;
+			- _name = "Permettre l apprentissage de la robotique industrielle";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 29c1bcc9-994a-4a86-a6e6-bc7de79b285d;
+					- _myState = 2048;
+					- _name = "Permettre d enseigner la robotique";
+					- _displayName = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Finalit\\'e9\\par
+}
+";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "derive";
+							- _id = GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a;
+						}
+					}
+					- _modifiedTimeWeak = 4.17.2014::15:4:35;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IRequirement";
+						- _filename = "RequirementsAnalysisPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::StakeholdersRequirements";
+						- _class = "";
+						- _name = "Permettre d enseigner la robotique";
+						- _id = GUID ef8045d6-1dbb-4e9f-becf-56aa4a0e5346;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Fonctionnelle";
+					- _id = GUID 44b07957-d784-4e12-b27a-6f4eda0b8838;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:43:59;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Diff\\'e9rentes taches de robotiques peuvent \\'eatre r\\'e9alis\\'e9es par les \\'e9tudiants avec le LRMate200iD.\\par
+}
+";
+			- reqID = "EXF.02";
+		}
+		{ IRequirement 
+			- _id = GUID 7a6c7fac-67b9-43f7-a0c5-7b046872fa5a;
+			- _myState = 8192;
+			- _name = "Realiser une interaction machine-machine ambiante";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Fonctionnelle";
+					- _id = GUID 44b07957-d784-4e12-b27a-6f4eda0b8838;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::15:43:59;
+			- _lastID = 3;
+			- _body = "Le systeme doit realiser une interaction ambiante entre le robot mobile et le robot de chargement lors d une operation de chargement des bruts.";
+			- reqID = "EXF.01.05";
+		}
+		{ IRequirement 
+			- _id = GUID 360d3334-8b78-499e-9bc3-dd9e59d96ba6;
+			- _myState = 8192;
+			- _name = "Recevoir un nouvel OF du presentateur";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Exigence";
+					- _id = GUID d85800de-b64c-46e9-aedf-312b56c2f4b8;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "RequirementsAnalysisPkg.sbs";
+					- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 9c2d2432-9f36-41d6-8065-04ca7f4c4fd5;
+				}
+			}
+			- _modifiedTimeWeak = 10.13.2014::16:1:3;
+			- _lastID = 1;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\f0\\fs22 Le syst\\'e8me doit \\'eatre capable de recevoir  un nouvel OF du presentateur\\par
+}
+";
+			- reqID = "EXI.07";
+		}
+	}
+	- _modifiedTimeWeak = 10.13.2014::16:1:26;
+	- weakCGTime = 10.13.2014::16:1:26;
+	- strongCGTime = 10.13.2014::14:51:33;
+	- _defaultComposite = GUID 96bada7f-b2e9-4a64-9841-321691a84710;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 96bada7f-b2e9-4a64-9841-321691a84710;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- weakCGTime = 1.1.1970::1:0:0;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

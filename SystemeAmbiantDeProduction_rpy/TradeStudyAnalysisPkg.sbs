@@ -1,0 +1,71 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "DesignSynthesisPkg.sbs";
+		- _subsystem = "DesignSynthesisPkg";
+		- _class = "";
+		- _name = "ArchitecturalAnalysisPkg";
+		- _id = GUID 0b298702-59a5-4895-9031-30b1e66b3844;
+	}
+	- _id = GUID 66fba4b0-d3ff-4553-9850-27e6bbc0bbb3;
+	- _myState = 8192;
+	- _name = "TradeStudyAnalysisPkg";
+	- _modifiedTimeWeak = 4.2.2015::8:56:45;
+	- _lastID = 11;
+	- Declaratives = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ ISubsystem 
+			- fileName = "TransportTradeStudy";
+			- _id = GUID ca631c0d-d811-4420-959b-5131a2a0d8d8;
+		}
+		{ ISubsystem 
+			- fileName = "InformerPublicTradeStudy";
+			- _id = GUID 2304aaa0-c315-4bac-bfa6-ba727eb5217c;
+		}
+		{ ISubsystem 
+			- fileName = "ChargementDeMachineTradeStudy";
+			- _id = GUID f0b37221-809a-40fe-8d72-c22c45b9eed5;
+		}
+		{ ISubsystem 
+			- fileName = "DechargementDeMachineTradeStudy";
+			- _id = GUID 373b6aad-17b6-418f-86bc-164a3d472a16;
+		}
+		{ ISubsystem 
+			- fileName = "ChargementTransporteurTradeStudy";
+			- _id = GUID 1108e275-70d7-4994-b661-df8f3d44f461;
+		}
+		{ ISubsystem 
+			- fileName = "DechargementTransporteurTradeStudy";
+			- _id = GUID 705b625f-9ffd-41bf-9cbd-0ff5d0809574;
+		}
+		{ ISubsystem 
+			- fileName = "PreparationDeCommandeTradeStudy";
+			- _id = GUID 5b1cdeb4-06b0-4d81-acdf-bc3fc83a6cf9;
+		}
+	}
+	- weakCGTime = 4.2.2015::8:56:45;
+	- strongCGTime = 3.25.2015::14:59:43;
+	- _defaultComposite = GUID 32f5c565-8f58-468f-88bc-6eeba3ee2fc3;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 32f5c565-8f58-468f-88bc-6eeba3ee2fc3;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 3.30.2015::8:50:50;
+			- weakCGTime = 3.30.2015::8:50:50;
+			- strongCGTime = 3.25.2015::14:59:43;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 4.2.2015::7:56:59;
+}
+

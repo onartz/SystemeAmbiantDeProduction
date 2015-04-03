@@ -1,0 +1,75 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "DesignSynthesisPkg.sbs";
+		- _subsystem = "DesignSynthesisPkg";
+		- _class = "";
+		- _name = "ArchitecturalDesignPkg";
+		- _id = GUID 5d1d6635-53f8-4e8d-bd4d-470f1c74d3e0;
+	}
+	- _id = GUID beb79dac-750c-437a-9ff6-dd254d877262;
+	- _myState = 8192;
+	- _name = "AmbientProductionSystemDecompositionPkg";
+	- _modifiedTimeWeak = 4.2.2015::12:27:42;
+	- _lastID = 1;
+	- Declaratives = { IRPYRawContainer 
+		- size = 8;
+		- value = 
+		{ ISubsystem 
+			- fileName = "AmbientProductionSystemWB_AD";
+			- _id = GUID 405a5865-20d1-4c00-9cf6-f8eb0cadc032;
+		}
+		{ ISubsystem 
+			- fileName = "PatrolbotPkg";
+			- _id = GUID 523429a2-c157-49c7-b983-6b1af642475f;
+		}
+		{ ISubsystem 
+			- fileName = "PosteMachinePkg";
+			- _id = GUID 860ad95c-8817-49f2-bb45-a9a2d158df9e;
+		}
+		{ ISubsystem 
+			- fileName = "PosteAssemblagePkg";
+			- _id = GUID 81056e4c-1cb8-4c56-b8b8-bbed6708ad6b;
+		}
+		{ ISubsystem 
+			- fileName = "RobotPkg";
+			- _id = GUID 1981fd59-4fd3-448f-86f2-08fd1eb2f213;
+		}
+		{ ISubsystem 
+			- fileName = "HumainPkg";
+			- _id = GUID 7025dbd6-cd5c-4ab1-9bb9-a4a0b24ec780;
+		}
+		{ ISubsystem 
+			- fileName = "ProductionSystemControllerPkg";
+			- _id = GUID 802046ac-5555-4f4d-968e-b20bdf231629;
+		}
+		{ ISubsystem 
+			- fileName = "TabletteDemonstrateurPkg";
+			- _id = GUID 0e0066a3-ac3f-4c4d-91f9-6964d29bb316;
+		}
+	}
+	- weakCGTime = 4.2.2015::12:27:42;
+	- strongCGTime = 3.26.2015::14:35:50;
+	- _defaultComposite = GUID 7cd365ed-5e47-40f7-96ef-fae27125142b;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 7cd365ed-5e47-40f7-96ef-fae27125142b;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 3.26.2015::14:40:33;
+			- weakCGTime = 3.26.2015::14:40:33;
+			- strongCGTime = 3.26.2015::14:35:50;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 4.2.2015::8:46:15;
+}
+

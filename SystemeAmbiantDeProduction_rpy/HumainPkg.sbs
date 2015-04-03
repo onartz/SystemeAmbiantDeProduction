@@ -1,0 +1,453 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "DesignSynthesisPkg.sbs";
+		- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+		- _class = "";
+		- _name = "AmbientProductionSystemDecompositionPkg";
+		- _id = GUID beb79dac-750c-437a-9ff6-dd254d877262;
+	}
+	- _id = GUID 7025dbd6-cd5c-4ab1-9bb9-a4a0b24ec780;
+	- _myState = 8192;
+	- _name = "HumainPkg";
+	- _modifiedTimeWeak = 4.2.2015::11:44:48;
+	- weakCGTime = 4.2.2015::11:44:48;
+	- strongCGTime = 4.2.2015::11:44:48;
+	- _defaultComposite = GUID 35d8e867-74e0-44e0-88df-fa10d214e2a6;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 35d8e867-74e0-44e0-88df-fa10d214e2a6;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- weakCGTime = 1.1.1970::1:0:0;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID f6d1bb10-c7d7-45dd-9a34-7cc925b66423;
+			- _myState = 8192;
+			- _name = "Humain";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.2.2015::11:44:48;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "DesignSynthesisPkg.sbs";
+				- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementTransporteurTradeStudy";
+				- _class = "";
+				- _name = "BDD_ChargementTransporteurOptions";
+				- _id = GUID 9586adf0-edc5-495d-ae2f-fcbf3ae5ca11;
+			}
+			- weakCGTime = 4.2.2015::11:44:48;
+			- strongCGTime = 4.2.2015::11:44:48;
+			- Attrs = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 299405a2-272a-4b01-9112-fbe8ce6265b9;
+					- _myState = 8192;
+					- _name = "CoutDeveloppement";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "moe";
+							- _id = GUID db3c5f6b-483c-4628-aeeb-f3ff3dec888d;
+						}
+					}
+					- _modifiedTimeWeak = 4.2.2015::8:16:49;
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 08b20bbe-23ee-4397-a217-0bd33e889fd3;
+							- _myState = 8192;
+							- _name = "weight";
+							- _modifiedTimeWeak = 4.2.2015::8:13:45;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID 07b99dff-b544-4d0e-92f6-709372176449;
+									- _modifiedTimeWeak = 4.2.2015::8:13:45;
+									- _value = "50";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpReal";
+								- _id = GUID 34e00222-aae8-4bb2-b23a-cd349dbe0c8e;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+								- _subsystem = "HarmonySE";
+								- _class = "moe";
+								- _name = "weight";
+								- _id = GUID b224ac97-44a3-42b2-9144-516065a6b394;
+							}
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID cb40f3c3-4624-42e3-b7dd-d96499e62f51;
+							- _modifiedTimeWeak = 4.2.2015::8:16:49;
+							- _value = "0";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID e7a376a9-803b-4b35-bffa-73bc068b805b;
+					- _myState = 8192;
+					- _name = "Penibilite";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "moe";
+							- _id = GUID db3c5f6b-483c-4628-aeeb-f3ff3dec888d;
+						}
+					}
+					- _modifiedTimeWeak = 4.2.2015::8:16:57;
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 61df1f85-5fdd-4d4a-a1ab-233d6890e022;
+							- _myState = 8192;
+							- _name = "weight";
+							- _modifiedTimeWeak = 4.2.2015::8:13:46;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID 7087d294-e190-4f1e-85c0-1025a6960e0f;
+									- _modifiedTimeWeak = 4.2.2015::8:13:46;
+									- _value = "20";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpReal";
+								- _id = GUID 34e00222-aae8-4bb2-b23a-cd349dbe0c8e;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+								- _subsystem = "HarmonySE";
+								- _class = "moe";
+								- _name = "weight";
+								- _id = GUID b224ac97-44a3-42b2-9144-516065a6b394;
+							}
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID fa39b81d-0390-43fa-b1fe-bb2a75b218b1;
+							- _modifiedTimeWeak = 4.2.2015::8:16:57;
+							- _value = "10";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID b28712a8-2293-409d-b5f9-8ffe1bc1ace2;
+					- _myState = 8192;
+					- _name = "Rapidite";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "moe";
+							- _id = GUID db3c5f6b-483c-4628-aeeb-f3ff3dec888d;
+						}
+					}
+					- _modifiedTimeWeak = 4.2.2015::8:17:5;
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 8fb93cbd-8095-419f-a916-ac78ad074d6b;
+							- _myState = 8192;
+							- _name = "weight";
+							- _modifiedTimeWeak = 4.2.2015::8:13:46;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID 8947c94d-c50f-4c6c-a505-3c50f59c966e;
+									- _modifiedTimeWeak = 4.2.2015::8:13:46;
+									- _value = "10";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpReal";
+								- _id = GUID 34e00222-aae8-4bb2-b23a-cd349dbe0c8e;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+								- _subsystem = "HarmonySE";
+								- _class = "moe";
+								- _name = "weight";
+								- _id = GUID b224ac97-44a3-42b2-9144-516065a6b394;
+							}
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID d477576f-c3d4-490a-a89a-2ec30bf91f5c;
+							- _modifiedTimeWeak = 4.2.2015::8:17:5;
+							- _value = "5";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID d3400837-f66c-4481-87f9-2af6fa82e44d;
+					- _myState = 8192;
+					- _name = "Securite";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+							- _subsystem = "HarmonySE";
+							- _class = "";
+							- _name = "moe";
+							- _id = GUID db3c5f6b-483c-4628-aeeb-f3ff3dec888d;
+						}
+					}
+					- _modifiedTimeWeak = 4.2.2015::8:17:8;
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 468a0538-6f8a-42df-9615-14af9af5087b;
+							- _myState = 8192;
+							- _name = "weight";
+							- _modifiedTimeWeak = 4.2.2015::8:13:46;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID d9b77593-a2b4-48ce-aaa1-a6e24dd8f36b;
+									- _modifiedTimeWeak = 4.2.2015::8:13:46;
+									- _value = "20";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpReal";
+								- _id = GUID 34e00222-aae8-4bb2-b23a-cd349dbe0c8e;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+								- _subsystem = "HarmonySE";
+								- _class = "moe";
+								- _name = "weight";
+								- _id = GUID b224ac97-44a3-42b2-9144-516065a6b394;
+							}
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 3da6c985-a5df-4559-9404-2a45b32f969d;
+							- _modifiedTimeWeak = 4.2.2015::8:17:8;
+							- _value = "5";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 5;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 3ca55fad-b258-409a-97ba-aab7afdda866;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "DesignSynthesisPkg.sbs";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementTransporteurTradeStudy";
+						- _class = "";
+						- _name = "ChargementTransporteur";
+						- _id = GUID c15dca94-a152-4327-ace2-1b6c4770325e;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+				{ IGeneralization 
+					- _id = GUID 58011e2c-1ce9-44d0-85ef-19f2fe0c33bb;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "DesignSynthesisPkg.sbs";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::PreparationDeCommandeTradeStudy";
+						- _class = "";
+						- _name = "PreparationDeCommande";
+						- _id = GUID 212a8718-d0e4-4513-9114-a7a2b37fe4b6;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+				{ IGeneralization 
+					- _id = GUID a3b62bd6-ff0f-41de-96fb-28b3621d8486;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "DesignSynthesisPkg.sbs";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementDeMachineTradeStudy";
+						- _class = "";
+						- _name = "DechargementMachine";
+						- _id = GUID 4a8b1c72-4e46-4c20-bff5-a5384b007783;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+				{ IGeneralization 
+					- _id = GUID cdf0fddd-fd44-42b9-a9ca-8b7f1e779d16;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "DesignSynthesisPkg.sbs";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementDeMachineTradeStudy";
+						- _class = "";
+						- _name = "ChargementMachine";
+						- _id = GUID 07c06c95-dac4-4da5-a5e6-96a2a98d0597;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+				{ IGeneralization 
+					- _id = GUID 47417975-8f09-4df5-96bb-b9166b4c5c27;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "DesignSynthesisPkg.sbs";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementTransporteurTradeStudy";
+						- _class = "";
+						- _name = "DechargementTransporteur";
+						- _id = GUID b368022d-0579-43fd-a689-0e335749d15f;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

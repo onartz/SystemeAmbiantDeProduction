@@ -1,0 +1,188 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "FunctionalAnalysisPkg.sbs";
+		- _subsystem = "FunctionalAnalysisPkg";
+		- _class = "";
+		- _name = "ReapprovisionementPkg";
+		- _id = GUID 4977279d-4ab6-49a3-8249-46466230fcf9;
+	}
+	- _id = GUID 4b300b07-a7a7-4af6-93ef-630c18b16a08;
+	- _myState = 8192;
+	- _name = "ReapprovisionementExecutionScopePkg";
+	- _modifiedTimeWeak = 4.1.2015::11:38:19;
+	- weakCGTime = 4.1.2015::11:38:19;
+	- strongCGTime = 4.1.2015::11:38:19;
+	- _defaultComposite = GUID c61848a2-3ed8-4a17-beb2-553af29d2636;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID c61848a2-3ed8-4a17-beb2-553af29d2636;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 4.1.2015::11:38:19;
+			- weakCGTime = 4.1.2015::11:38:19;
+			- strongCGTime = 3.26.2015::13:57:23;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IPart 
+					- _id = GUID 3b65c62e-7ded-476e-a925-e4efd782245a;
+					- _myState = 8192;
+					- _name = "itsUc_Reapprovisionement";
+					- _modifiedTimeWeak = 3.26.2015::13:57:23;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "FunctionalAnalysisPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
+						- _class = "";
+						- _name = "Uc_Reapprovisionement";
+						- _id = GUID 47bb8c19-b799-4d42-b959-9b368314c5e1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID f5184a66-d3f4-453c-b54d-2f9a9963bc64;
+					- _myState = 8192;
+					- _name = "itsStockAval";
+					- _modifiedTimeWeak = 3.26.2015::13:57:23;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "StockAval";
+						- _id = GUID 82942cf9-a408-411b-a24b-a1d3b7c7b9f3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID f4c15fb9-d57b-4b98-b630-513042312f67;
+					- _myState = 8192;
+					- _name = "itsPublic";
+					- _modifiedTimeWeak = 3.26.2015::13:57:23;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Public";
+						- _id = GUID 4a523671-3388-4084-824b-bfa35c4c6ea5;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID ec7c0889-47b1-41ea-be53-114d6e071cd8;
+					- _myState = 8192;
+					- _name = "itsStockMP";
+					- _modifiedTimeWeak = 4.1.2015::11:38:19;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "StockMP";
+						- _id = GUID d0df44e9-4132-4a61-9976-d516a4686f12;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- ObjectLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IObjectLink 
+					- _id = GUID 1c3dfd0e-a133-4e7f-b301-7446d7199dec;
+					- _myState = 10240;
+					- _name = "itsUc_Reapprovisionement_itsStockAval";
+					- _modifiedTimeWeak = 3.26.2015::13:57:23;
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID f5184a66-d3f4-453c-b54d-2f9a9963bc64;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 3b65c62e-7ded-476e-a925-e4efd782245a;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "StockAval";
+						- _name = "pUc_Reapprovisionement";
+						- _id = GUID e3dcd8a1-e3c3-40b7-8850-2146be1da4fd;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "FunctionalAnalysisPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
+						- _class = "Uc_Reapprovisionement";
+						- _name = "pStockAval";
+						- _id = GUID 9221def0-1393-45ec-8647-a0980819acd8;
+					}
+				}
+				{ IObjectLink 
+					- _id = GUID ab1e63b6-dc8f-4496-9080-1c377964000f;
+					- _myState = 10240;
+					- _name = "itsUc_Reapprovisionement_itsPublic";
+					- _modifiedTimeWeak = 3.26.2015::13:57:23;
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID f4c15fb9-d57b-4b98-b630-513042312f67;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 3b65c62e-7ded-476e-a925-e4efd782245a;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "Public";
+						- _name = "pUc_Reapprovisionement";
+						- _id = GUID 8ed2a56c-b38c-42c8-9a9a-f350d7ed5e53;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "FunctionalAnalysisPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
+						- _class = "Uc_Reapprovisionement";
+						- _name = "pPublic";
+						- _id = GUID f6b1e9e4-23b5-44ec-b51b-c2257eb9863b;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 3.25.2015::13:48:39;
+}
+

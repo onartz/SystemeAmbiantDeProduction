@@ -1,0 +1,130 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "DesignSynthesisPkg.sbs";
+		- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+		- _class = "";
+		- _name = "AmbientProductionSystemDecompositionPkg";
+		- _id = GUID beb79dac-750c-437a-9ff6-dd254d877262;
+	}
+	- _id = GUID 802046ac-5555-4f4d-968e-b20bdf231629;
+	- _myState = 8192;
+	- _name = "ProductionSystemControllerPkg";
+	- _modifiedTimeWeak = 4.2.2015::12:17:25;
+	- weakCGTime = 4.2.2015::12:17:25;
+	- strongCGTime = 4.2.2015::11:44:48;
+	- _defaultComposite = GUID 8043a24f-40fb-409b-9532-eb897b5ac15d;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 8043a24f-40fb-409b-9532-eb897b5ac15d;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- weakCGTime = 1.1.1970::1:0:0;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 953d9b22-a98d-44ed-9d3a-efd154f0a93d;
+			- _myState = 8192;
+			- _name = "ProductionSystemController";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.2.2015::12:17:25;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "DesignSynthesisPkg.sbs";
+				- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+				- _class = "";
+				- _name = "BDD_AmbientProductionSystem";
+				- _id = GUID 9571a6d8-4dc3-4dca-84b3-b60b090c2fa8;
+			}
+			- weakCGTime = 4.2.2015::12:17:25;
+			- strongCGTime = 4.2.2015::11:44:48;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID b62db61d-a4f0-4187-9abd-3a146df13d4a;
+					- _myState = 8192;
+					- _name = "deplacerTransporteur";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 417eb197-4441-4fa0-9f13-b5842c003c32;
+							- _myState = 2048;
+							- _name = "DeplacerTransporteur";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 4.2.2015::12:16:49;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IPrimitiveOperation";
+								- _filename = "FunctionalAnalysisPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
+								- _class = "Uc_Reapprovisionement";
+								- _name = "DeplacerTransporteur()";
+								- _id = GUID c1214432-2f66-4fed-8af9-1d9993cb5cd4;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 4.2.2015::12:17:13;
+					- _lastID = 1;
+					- _virtual = 1;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

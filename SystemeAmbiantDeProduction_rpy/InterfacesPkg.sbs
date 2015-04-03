@@ -1,0 +1,438 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _id = GUID 37ae5e0b-36fa-4bf8-a727-6bd675d19aee;
+	- _myState = 8192;
+	- _name = "InterfacesPkg";
+	- _modifiedTimeWeak = 4.1.2015::11:44:44;
+	- weakCGTime = 4.1.2015::11:44:44;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID 0d369031-02c6-4414-9701-51742e967ff9;
+	- _eventsBaseID = 24601;
+	- Classes = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ IClass 
+			- _id = GUID 0d369031-02c6-4414-9701-51742e967ff9;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 3.30.2015::8:47:9;
+			- weakCGTime = 3.30.2015::8:47:9;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 2480ef91-9571-4c00-967b-452ea941637e;
+			- _myState = 8192;
+			- _name = "iStockAval_Uc_Reapprovisionement";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.1.2015::9:19:5;
+			- weakCGTime = 4.1.2015::9:19:5;
+			- strongCGTime = 3.25.2015::14:53:41;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IReception 
+					- _id = GUID efed53c0-7965-4a3d-9625-a13bef69a91d;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 05849b1a-abd7-47f8-961e-86e28f47063f;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 98f405c4-2ec8-42f3-b9f9-9725d71133b8;
+			- _myState = 8192;
+			- _name = "iUc_Reapprovisionement_StockAval";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.1.2015::9:19:7;
+			- weakCGTime = 4.1.2015::9:19:7;
+			- strongCGTime = 3.25.2015::14:53:41;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IReception 
+					- _id = GUID 37a38c94-8150-421a-bcb5-3a641a2879ff;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID b6bc6911-af89-4f96-9d58-d3f2fe82c787;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 8c3a0e6c-eb15-433a-aac2-b08baa8a7d37;
+			- _myState = 8192;
+			- _name = "iUc_Reapprovisionement_Public";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.1.2015::9:19:7;
+			- weakCGTime = 4.1.2015::9:19:7;
+			- strongCGTime = 3.26.2015::13:56:0;
+			- Operations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IReception 
+					- _id = GUID 5e6c259f-4ead-483d-9a6b-6f1f1597ecfd;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID fd335d0e-9663-4876-9c20-2ecc30815d25;
+					}
+				}
+				{ IReception 
+					- _id = GUID c8c1d7e6-a0b6-4696-95d6-b41f9fe31b79;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 614fee5c-388a-46b4-9532-16247e159fa3;
+					}
+				}
+				{ IReception 
+					- _id = GUID 5003e3fc-9b78-4ea3-98b8-8bb49cbbf406;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 79c819d2-8cd2-46c8-b4e7-fccc8eb895f9;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 1ecd7e1e-e524-4618-af95-482bb1f1cfec;
+			- _myState = 8192;
+			- _name = "iSI_Uc_Fabrication";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.1.2015::11:44:44;
+			- weakCGTime = 4.1.2015::11:44:44;
+			- strongCGTime = 4.1.2015::11:44:41;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IReception 
+					- _id = GUID 8f776a76-78fa-4736-ac33-9ff2c923826c;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 6fc70b7b-17aa-43cb-82e9-5e34d7600303;
+					}
+				}
+				{ IReception 
+					- _id = GUID 7bf8bc1f-2f4b-46c3-98dd-7e55131e22d5;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 8c427f2d-4daf-4f03-8a61-c9f468fbf1e1;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 7b360ec6-a860-4630-b0cd-e8077b56e2f4;
+			- _myState = 8192;
+			- _name = "iUc_Fabrication_Public";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.1.2015::11:44:44;
+			- weakCGTime = 4.1.2015::11:44:44;
+			- strongCGTime = 4.1.2015::11:44:43;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IReception 
+					- _id = GUID ace78b42-a5e9-4533-8e4d-78f1db4c356c;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 614fee5c-388a-46b4-9532-16247e159fa3;
+					}
+				}
+				{ IReception 
+					- _id = GUID c0f79cae-27bd-425e-b692-f9f86982db18;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 98cbdb35-268f-45d1-b01d-8fb155448555;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 4da707db-dab7-4aff-8319-5277ffe2f36d;
+			- _myState = 8192;
+			- _name = "iUc_Fabrication_SI";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.1.2015::11:44:44;
+			- weakCGTime = 4.1.2015::11:44:44;
+			- strongCGTime = 4.1.2015::11:44:44;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IReception 
+					- _id = GUID e4eda495-7e44-470e-adb0-764d27d42fd0;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID d567c98c-eb58-4cb2-86ae-caa8921bd690;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Events = { IRPYRawContainer 
+		- size = 10;
+		- value = 
+		{ IEvent 
+			- _id = GUID ee076942-e0e1-4acc-8fc3-97a0ea3119f7;
+			- _myState = 8192;
+			- _name = "reqSignalerDemandeReappro";
+			- _modifiedTimeWeak = 3.25.2015::14:53:41;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 05849b1a-abd7-47f8-961e-86e28f47063f;
+			- _myState = 8192;
+			- _name = "reqSignalerDemandeReapprovisionnement";
+			- _modifiedTimeWeak = 4.1.2015::9:19:5;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID fd335d0e-9663-4876-9c20-2ecc30815d25;
+			- _myState = 8192;
+			- _name = "informDemandeReapprovisionnement";
+			- _modifiedTimeWeak = 4.1.2015::9:19:6;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 614fee5c-388a-46b4-9532-16247e159fa3;
+			- _myState = 8192;
+			- _name = "informOperation";
+			- _modifiedTimeWeak = 4.1.2015::9:19:7;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID b6bc6911-af89-4f96-9d58-d3f2fe82c787;
+			- _myState = 8192;
+			- _name = "reqUpdate";
+			- _modifiedTimeWeak = 4.1.2015::9:19:7;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 79c819d2-8cd2-46c8-b4e7-fccc8eb895f9;
+			- _myState = 8192;
+			- _name = "informFinReapprovisionnement";
+			- _modifiedTimeWeak = 4.1.2015::9:19:7;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 6fc70b7b-17aa-43cb-82e9-5e34d7600303;
+			- _myState = 8192;
+			- _name = "reqPreparerUsinage";
+			- _modifiedTimeWeak = 4.1.2015::11:44:43;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID d567c98c-eb58-4cb2-86ae-caa8921bd690;
+			- _myState = 8192;
+			- _name = "retInformationsOF";
+			- _modifiedTimeWeak = 4.1.2015::11:44:44;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 98cbdb35-268f-45d1-b01d-8fb155448555;
+			- _myState = 8192;
+			- _name = "informFinOperation";
+			- _modifiedTimeWeak = 4.1.2015::11:44:44;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 8c427f2d-4daf-4f03-8a61-c9f468fbf1e1;
+			- _myState = 8192;
+			- _name = "reqPreparerAssemblage";
+			- _modifiedTimeWeak = 4.1.2015::11:44:44;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- _configurationRelatedTime = 3.25.2015::14:52:38;
+}
+

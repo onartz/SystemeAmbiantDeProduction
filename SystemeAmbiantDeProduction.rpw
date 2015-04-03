@@ -1,0 +1,237 @@
+I-Logix-RPY-Archive version 8.8.0 * 6107223
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 6;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 250;
+				- m_nTop = 250;
+				- m_nRight = 1035;
+				- m_nBottom = 760;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "DesignSynthesisPkg.sbs";
+				- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformerPublicTradeStudy";
+				- _class = "";
+				- _name = "BDD_InformerPublicArchitecture";
+				- _id = GUID c54c7294-7faf-43d1-bf27-b458d0ccd464;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 748 451 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 200;
+				- m_nTop = 200;
+				- m_nRight = 1028;
+				- m_nBottom = 710;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "DesignSynthesisPkg.sbs";
+				- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformerPublicTradeStudy";
+				- _class = "";
+				- _name = "BDD_InformerPublicOptions";
+				- _id = GUID 36fc58df-d60d-4ef4-ab36-7625d2e0c551;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 791 451 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 25;
+				- m_nTop = 25;
+				- m_nRight = 764;
+				- m_nBottom = 554;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "DesignSynthesisPkg.sbs";
+				- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::AmbientProductionSystemWB_AD";
+				- _class = "ReapprovisionementBWhiteBoxView";
+				- _name = "ActivityDiagram";
+				- _id = GUID dab965a3-3055-40c0-b75c-f8311a3db2f9;
+			}
+			- _UpLeft = 276 37 ;
+			- _DownRight = 1403 836 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 5;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 75;
+				- m_nTop = 75;
+				- m_nRight = 547;
+				- m_nBottom = 585;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "DesignSynthesisPkg.sbs";
+				- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+				- _class = "";
+				- _name = "BDD_AmbientProductionSystem";
+				- _id = GUID 9571a6d8-4dc3-4dca-84b3-b60b090c2fa8;
+			}
+			- _UpLeft = 324 0 ;
+			- _DownRight = 759 451 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 4;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 125;
+				- m_nTop = 125;
+				- m_nRight = 842;
+				- m_nBottom = 635;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "FunctionalAnalysisPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
+				- _class = "Reapprovisionement::ReapprovisionementBlackBoxView";
+				- _name = "ActivityDiagram";
+				- _id = GUID 5f4b3023-4ba7-42f1-94e9-d469755126ba;
+			}
+			- _UpLeft = 0 30 ;
+			- _DownRight = 680 481 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 25;
+				- m_nTop = 25;
+				- m_nRight = 810;
+				- m_nBottom = 535;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IUCDiagram";
+				- _filename = "RequirementsAnalysisPkg.sbs";
+				- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+				- _class = "";
+				- _name = "UCD_SystemeAmbiantDeProduction";
+				- _id = GUID d9383995-0514-4800-b416-25a8acfab429;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 748 451 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+	}
+	- _fullName = "C:\\Rhapsody\\SystemeAmbiantDeProduction\\SystemeAmbiantDeProduction\\SystemeAmbiantDeProduction";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingCustomBrowserView = 0;
+	- bUsingQueries = 0;
+	- bApplyOnDiagrams = 0;
+	- liQueryIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- liElementTypes = { IRPYRawContainer 
+		- size = 1;
+		- value = "Package"; 
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+
+	- tableMatrixColWidth = {
+		count=7;
+		{ - TableMatrixView
+			id=10435a77-4aeb-4580-8c5c-648ddb2cc6e9;
+			colwidth=;126;347;707;;
+		}
+		{ - TableMatrixView
+			id=75fc6866-a7e7-48a4-ae0a-03bf33485986;
+			colwidth=;55;358;488;;
+		}
+		{ - TableMatrixView
+			id=05b00493-6760-4618-8050-54eeb4b31552;
+			colwidth=;101;310;639;;
+		}
+		{ - TableMatrixView
+			id=6ba9fcdb-75da-41c2-87eb-b86443efbca5;
+			colwidth=;76;338;820;;
+		}
+		{ - TableMatrixView
+			id=70d4215c-b335-4c53-8629-1d33bf79f1bd;
+			colwidth=;139;370;820;;
+		}
+		{ - TableMatrixView
+			id=dbefdbff-876d-43cc-8a98-e4c153aefc77;
+			colwidth=;69;388;818;;
+		}
+		{ - TableMatrixView
+			id=6adf814d-213c-4434-93c0-9508743753dd;
+			colwidth=;79;373;760;;
+		}
+	}
+
+}
+

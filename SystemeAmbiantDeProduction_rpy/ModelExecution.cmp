@@ -1,0 +1,339 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ IComponent 
+	- _id = GUID 1e4f4396-2f14-44c6-b9e8-dd90360fbe73;
+	- _myState = 139264;
+	- _name = "ModelExecution";
+	- _modifiedTimeWeak = 10.14.2014::13:56:11;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 754512c6-efb5-46f9-828d-70adb19915ae;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 10.14.2014::13:55:41;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID c6bd8965-c55d-41f3-bf08-5f2e028c2f1d;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID c6bd8965-c55d-41f3-bf08-5f2e028c2f1d;
+			- _myState = 8192;
+			- _name = "Animate";
+			- _modifiedTimeWeak = 10.14.2014::13:56:11;
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 730588a8-a8e3-4323-a760-07be8a06a6b6;
+				- _myState = 8192;
+				- _name = "Animate";
+				- _modifiedTimeWeak = 10.14.2014::13:56:11;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 10.14.2014::13:56:11;
+			- strongCGTime = 10.14.2014::13:56:11;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 31;
+		- value = 
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SysML";
+			- _id = GUID d9689b73-885e-44c4-896b-de43defa0a33;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "HarmonySE";
+			- _id = GUID 29d4fccc-40d9-4cb3-af8a-d7464f198819;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "ActorPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "ActorPkg";
+			- _id = GUID 9657da23-d2f3-4389-9fc5-825bc1d4b4ea;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "FunctionalAnalysisPkg";
+			- _id = GUID 676525c8-9af3-43b8-9bc1-da114111c9d4;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "FunctionalAnalysisPkg";
+			- _class = "";
+			- _name = "ReapprovisionementPkg";
+			- _id = GUID 4977279d-4ab6-49a3-8249-46466230fcf9;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
+			- _class = "";
+			- _name = "ReapprovisionementBBScenariosPkg";
+			- _id = GUID ea06b949-513c-487c-a8b2-c55667ef9413;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
+			- _class = "";
+			- _name = "ReapprovisionementExecutionScopePkg";
+			- _id = GUID 4b300b07-a7a7-4af6-93ef-630c18b16a08;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "FunctionalAnalysisPkg";
+			- _class = "";
+			- _name = "FabricationPkg";
+			- _id = GUID 08c6a3d9-b16e-491b-b103-54b8aee6720b;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "FunctionalAnalysisPkg::FabricationPkg";
+			- _class = "";
+			- _name = "FabricationBBScenariosPkg";
+			- _id = GUID 2a433fc1-0e77-4e2d-8dce-0a8731de1360;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "FunctionalAnalysisPkg::FabricationPkg";
+			- _class = "";
+			- _name = "FabricationExecutionScopePkg";
+			- _id = GUID 0d7d5d1a-64ff-44ca-aaa0-63c2be4a7267;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "DesignSynthesisPkg";
+			- _id = GUID 259374cb-ce8b-4c4a-9c59-707045d81822;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg";
+			- _class = "";
+			- _name = "ArchitecturalDesignPkg";
+			- _id = GUID 5d1d6635-53f8-4e8d-bd4d-470f1c74d3e0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+			- _class = "";
+			- _name = "AmbientProductionSystemDecompositionPkg";
+			- _id = GUID beb79dac-750c-437a-9ff6-dd254d877262;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
+			- _class = "";
+			- _name = "HumainPkg";
+			- _id = GUID 3288da4b-0e98-4ba7-bd8c-de06423fadc9;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
+			- _class = "";
+			- _name = "StockPiecesPkg";
+			- _id = GUID 614cdf1a-057e-4e2f-b84c-0f36af2735e7;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
+			- _class = "";
+			- _name = "ControllerPkg";
+			- _id = GUID fd91531d-18be-4149-beb3-58af117333d5;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
+			- _class = "";
+			- _name = "AmbientProductionSystemWB_AD";
+			- _id = GUID 405a5865-20d1-4c00-9cf6-f8eb0cadc032;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg";
+			- _class = "";
+			- _name = "ArchitecturalAnalysisPkg";
+			- _id = GUID 0b298702-59a5-4895-9031-30b1e66b3844;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg";
+			- _class = "";
+			- _name = "TradeStudyAnalysisPkg";
+			- _id = GUID 66fba4b0-d3ff-4553-9850-27e6bbc0bbb3;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg";
+			- _class = "";
+			- _name = "TransportTradeStudy";
+			- _id = GUID ca631c0d-d811-4420-959b-5131a2a0d8d8;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg";
+			- _class = "";
+			- _name = "ChargementContenantAvecDesPiecesTradeStudy";
+			- _id = GUID 5424e7be-945a-41f7-8c93-bb39a2b85b1e;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg";
+			- _class = "";
+			- _name = "DechargementTradeStudy";
+			- _id = GUID 2552435e-f96f-4644-bace-160595df2166;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg";
+			- _class = "";
+			- _name = "InformerPublic";
+			- _id = GUID 2304aaa0-c315-4bac-bfa6-ba727eb5217c;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "RequirementsAnalysisPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "RequirementsAnalysisPkg";
+			- _id = GUID 573f4453-b292-43fd-8b42-a817bd478377;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "RequirementsAnalysisPkg.sbs";
+			- _subsystem = "RequirementsAnalysisPkg";
+			- _class = "";
+			- _name = "RequirementsPkg";
+			- _id = GUID 4d301512-ca0d-441a-b706-137ca89cd25b;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "RequirementsAnalysisPkg.sbs";
+			- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg";
+			- _class = "";
+			- _name = "StakeholdersRequirements";
+			- _id = GUID 7ae1c98b-eb3d-4dcd-96e8-05c7bc8bae9b;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "RequirementsAnalysisPkg.sbs";
+			- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg::StakeholdersRequirements";
+			- _class = "";
+			- _name = "TempReqs";
+			- _id = GUID 30ea6aff-911f-496d-a830-d945af57271d;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "RequirementsAnalysisPkg.sbs";
+			- _subsystem = "RequirementsAnalysisPkg::RequirementsPkg";
+			- _class = "";
+			- _name = "SystemRequirements";
+			- _id = GUID 463473d7-482f-4dd3-becb-468df20569ab;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "RequirementsAnalysisPkg.sbs";
+			- _subsystem = "RequirementsAnalysisPkg";
+			- _class = "";
+			- _name = "UseCaseDiagramsPkg";
+			- _id = GUID 2b6b9dae-8e68-4a5e-b663-e85bbf5e0ffe;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "TypesPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "TypesPkg";
+			- _id = GUID 8b6e065b-7c1b-4c0b-8bbe-1591b187b6ea;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "InterfacesPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "InterfacesPkg";
+			- _id = GUID 37ae5e0b-36fa-4bf8-a727-6bd675d19aee;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 10.14.2014::13:56:11;
+	- strongCGTime = 10.14.2014::13:56:11;
+}
+
