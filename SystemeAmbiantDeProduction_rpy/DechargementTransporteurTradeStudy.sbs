@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 705b625f-9ffd-41bf-9cbd-0ff5d0809574;
 	- _myState = 8192;
 	- _name = "DechargementTransporteurTradeStudy";
-	- _modifiedTimeWeak = 4.2.2015::11:35:31;
+	- _modifiedTimeWeak = 4.9.2015::7:16:39;
 	- _lastID = 8;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -193,8 +193,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 6c142614-3349-49e9-8c6b-0236be5f6b61;
 				}
 			}
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
-			- _lastModifiedTime = "4.2.2015::9:54:7";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _lastModifiedTime = "4.9.2015::7:19:20";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 3f49a5ef-9035-4fc1-a128-c7537dd84c62;
 				- m_type = 0;
@@ -259,7 +259,28 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
 					- Compartments = { IRPYRawContainer 
-						- size = 0;
+						- size = 2;
+						- value = 
+						{ CGICompartment 
+							- _id = GUID 701ab35d-1b37-4c63-9c35-82153cd0f7c3;
+							- m_name = "Attribute";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+						{ CGICompartment 
+							- _id = GUID 0b4b8382-7941-46bc-b8d6-2d13d9ed6bb0;
+							- m_name = "Operation";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
 					}
 					- Attrs = { IRPYRawContainer 
 						- size = 0;
@@ -358,7 +379,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4200;
-					- m_transform = 0.212465 0 0 0.122994 216.575 63.5348 ;
+					- m_transform = 0.212465 0 0 0.122994 217 64 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -431,7 +452,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.140699 0 0 0.101604 255.719 307.572 ;
+					- m_transform = 0.140699 0 0 0.101604 256 308 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -573,7 +594,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementTransporteurTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::RobotPkg";
 						- _class = "";
 						- _name = "Robot";
 						- _id = GUID 6ff2424a-6103-4191-a9ca-330e0534ce64;
@@ -593,7 +614,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0868744 0 0 0.101604 423.826 307.572 ;
+					- m_transform = 0.0868744 0 0 0.101604 424 308 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -681,7 +702,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IGeneralization";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementTransporteurTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::RobotPkg";
 						- _class = "Robot";
 						- _name = "DechargementTransporteur";
 						- _id = GUID 434160e1-cfb4-441d-9417-7fa41241a3eb;
@@ -735,7 +756,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementDeMachineTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::HumainPkg";
 						- _class = "";
 						- _name = "Humain";
 						- _id = GUID f6d1bb10-c7d7-45dd-9a34-7cc925b66423;
@@ -755,7 +776,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0868744 0 0 0.101604 149.826 304.572 ;
+					- m_transform = 0.0868744 0 0 0.101604 150 305 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -843,7 +864,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IGeneralization";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementDeMachineTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::HumainPkg";
 						- _class = "Humain";
 						- _name = "DechargementTransporteur";
 						- _id = GUID 47417975-8f09-4df5-96bb-b9166b4c5c27;
@@ -1113,7 +1134,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 6c142614-3349-49e9-8c6b-0236be5f6b61;
 				}
 			}
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- _lastModifiedTime = "4.2.2015::11:35:52";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 7f55a85f-448d-4a58-a6b7-235bfe854016;
@@ -1179,7 +1200,28 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
 					- Compartments = { IRPYRawContainer 
-						- size = 0;
+						- size = 2;
+						- value = 
+						{ CGICompartment 
+							- _id = GUID 2447664d-815b-4684-b526-63bcba9aaa53;
+							- m_name = "Attribute";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+						{ CGICompartment 
+							- _id = GUID c0d5a1c8-701a-48f0-91aa-c2fcb6e27b41;
+							- m_name = "Operation";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
 					}
 					- Attrs = { IRPYRawContainer 
 						- size = 0;
@@ -1278,7 +1320,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.27762 0 0 0.101604 154.445 76.5722 ;
+					- m_transform = 0.27762 0 0 0.101604 154 77 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1336,7 +1378,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementDeMachineTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::HumainPkg";
 						- _class = "";
 						- _name = "Humain";
 						- _id = GUID f6d1bb10-c7d7-45dd-9a34-7cc925b66423;
@@ -1356,7 +1398,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0868744 0 0 0.101604 149.826 256.572 ;
+					- m_transform = 0.0868744 0 0 0.101604 150 257 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1596,7 +1638,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.2.2015::11:35:31;
+	- weakCGTime = 4.9.2015::7:16:39;
 	- strongCGTime = 4.2.2015::8:57:21;
 	- _defaultComposite = GUID ef536ecc-846c-49e2-9efe-457c26bb4180;
 	- _eventsBaseID = -1;
@@ -1607,9 +1649,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID ef536ecc-846c-49e2-9efe-457c26bb4180;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
-			- weakCGTime = 1.1.1970::1:0:0;
-			- strongCGTime = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 4.2.2015::11:35:31;
+			- weakCGTime = 4.2.2015::11:35:31;
+			- strongCGTime = 4.2.2015::8:57:21;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -1632,12 +1674,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.2.2015::9:51:35;
+			- _modifiedTimeWeak = 4.9.2015::7:16:39;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID c293a603-d364-4dd5-89da-671979a34dc8;
 			}
-			- weakCGTime = 4.2.2015::9:51:35;
+			- weakCGTime = 4.9.2015::7:16:39;
 			- strongCGTime = 4.2.2015::9:51:35;
 			- Operations = { IRPYRawContainer 
 				- size = 2;
@@ -1647,36 +1689,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "dechargerTransporteur";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 87b5206f-2aed-4d22-a831-8e0c3393ea9f;
-							- _myState = 2048;
-							- _name = "dechargerTransporteur";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.1.2015::9:34:33;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
-								- _class = "Uc_Reapprovisionement";
-								- _name = "dechargerTransporteur()";
-								- _id = GUID c58a801d-ccd4-44c1-bcf4-a873e67ef210;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.2.2015::8:46:51;
+					- _modifiedTimeWeak = 4.9.2015::7:16:39;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1702,36 +1717,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "entrerDesPiecesDansStockPieces";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 0eb5d464-aa42-40d5-b023-8e881dd4b1d4;
-							- _myState = 2048;
-							- _name = "entrerDesPiecesDansStockPieces";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.1.2015::9:34:33;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
-								- _class = "Uc_Reapprovisionement";
-								- _name = "entrerDesPiecesDansStockPieces()";
-								- _id = GUID e4cf9a2a-261d-4775-ae11-5b38fca3a574;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.1.2015::9:34:33;
+					- _modifiedTimeWeak = 4.9.2015::7:16:39;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1793,12 +1781,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 83f7f6be-3a81-4b99-996b-93fd80688ff2;
 					- _myState = 10240;
 					- _name = "itsHumain";
-					- _modifiedTimeWeak = 4.2.2015::11:35:35;
+					- _modifiedTimeWeak = 4.2.2015::11:35:50;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementDeMachineTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::HumainPkg";
 						- _class = "";
 						- _name = "Humain";
 						- _id = GUID f6d1bb10-c7d7-45dd-9a34-7cc925b66423;

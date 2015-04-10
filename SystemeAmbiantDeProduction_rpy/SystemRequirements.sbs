@@ -78,7 +78,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 ";
 				}
 			}
-			- _modifiedTimeWeak = 4.1.2015::8:16:35;
+			- _modifiedTimeWeak = 4.8.2015::12:11:24;
 			- _lastID = 6;
 			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Tahoma;}}
 {\\colortbl ;\\red0\\green0\\blue0;}
@@ -145,10 +145,10 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 776c6d16-c9f3-496c-8f08-1cbcab227ea2;
 				}
 			}
-			- _modifiedTimeWeak = 3.16.2015::14:21:1;
+			- _modifiedTimeWeak = 4.8.2015::12:11:22;
 			- _lastID = 2;
 			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20 Jade est la plateforme suport du syst\\'e8me multi agents.\\par
+\\viewkind4\\uc1\\pard\\fs20 Jade est la plateforme suport du syst\\'e8me multi-agents.\\par
 }
 ";
 		}
@@ -329,7 +329,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 ";
 		}
 	}
-	- _modifiedTimeWeak = 4.1.2015::8:16:35;
+	- _modifiedTimeWeak = 4.8.2015::12:11:24;
 	- _lastID = 11;
 	- Declaratives = { IRPYRawContainer 
 		- size = 6;
@@ -395,7 +395,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.1.2015::8:16:35;
+	- weakCGTime = 4.8.2015::12:11:24;
 	- strongCGTime = 3.16.2015::13:45:6;
 	- _defaultComposite = GUID 273e2d00-9480-4d76-bf78-42ba8525f91e;
 	- _eventsBaseID = -1;
@@ -406,8 +406,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 273e2d00-9480-4d76-bf78-42ba8525f91e;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.25.2015::14:51:26;
-			- weakCGTime = 3.25.2015::14:51:26;
+			- _modifiedTimeWeak = 4.1.2015::8:16:35;
+			- weakCGTime = 4.1.2015::8:16:35;
 			- strongCGTime = 3.16.2015::13:45:6;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

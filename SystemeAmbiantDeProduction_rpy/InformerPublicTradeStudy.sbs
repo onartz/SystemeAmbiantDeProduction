@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 2304aaa0-c315-4bac-bfa6-ba727eb5217c;
 	- _myState = 8192;
 	- _name = "InformerPublicTradeStudy";
-	- _modifiedTimeWeak = 4.2.2015::12:51:19;
+	- _modifiedTimeWeak = 4.9.2015::7:16:39;
 	- _lastID = 14;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -167,7 +167,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.2.2015::12:54:14";
+			- _lastModifiedTime = "4.9.2015::7:19:20";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 0c733891-93d5-43f0-81ab-7e2f37d3883f;
 				- m_type = 0;
@@ -352,7 +352,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4136;
-					- m_transform = 0.241737 0 0 0.152406 156 31.5 ;
+					- m_transform = 0.241737 0 0 0.152406 156 32 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -428,7 +428,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.147309 0 0 0.101604 235.705 322.572 ;
+					- m_transform = 0.147309 0 0 0.101604 236 323 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -615,7 +615,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.108593 0 0 0.101604 101.783 321.572 ;
+					- m_transform = 0.108593 0 0 0.101604 102 322 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -773,7 +773,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0793201 0 0 0.101604 416.841 325.572 ;
+					- m_transform = 0.0793201 0 0 0.101604 417 326 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1127,7 +1127,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 6c142614-3349-49e9-8c6b-0236be5f6b61;
 				}
 			}
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- _lastModifiedTime = "4.2.2015::12:51:19";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID e71dcb9f-d1f6-4f7f-a690-eb019cb092cf;
@@ -1193,7 +1193,28 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
 					- Compartments = { IRPYRawContainer 
-						- size = 0;
+						- size = 2;
+						- value = 
+						{ CGICompartment 
+							- _id = GUID b406e85c-5db2-4b44-90e7-fd6542ffb0b2;
+							- m_name = "Attribute";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+						{ CGICompartment 
+							- _id = GUID b10a06c7-b43c-46fc-857b-b680ce9be8fa;
+							- m_name = "Operation";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
 					}
 					- Attrs = { IRPYRawContainer 
 						- size = 0;
@@ -1267,7 +1288,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.173749 0 0 0.101604 229.652 64.5722 ;
+					- m_transform = 0.173749 0 0 0.101604 230 65 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1370,7 +1391,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.147309 0 0 0.0909091 99.7054 292.091 ;
+					- m_transform = 0.147309 0 0 0.0909091 100 292 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1611,7 +1632,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.2.2015::12:51:19;
+	- weakCGTime = 4.9.2015::7:16:39;
 	- strongCGTime = 4.2.2015::8:57:31;
 	- _defaultComposite = GUID cfb675d9-1344-4a0f-9af1-6844b3e0ce89;
 	- _eventsBaseID = -1;
@@ -1622,9 +1643,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID cfb675d9-1344-4a0f-9af1-6844b3e0ce89;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.1.2015::8:16:34;
-			- weakCGTime = 4.1.2015::8:16:34;
-			- strongCGTime = 3.30.2015::8:51:9;
+			- _modifiedTimeWeak = 4.2.2015::12:51:19;
+			- weakCGTime = 4.2.2015::12:51:19;
+			- strongCGTime = 4.2.2015::8:57:31;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -1647,12 +1668,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.2.2015::9:31:31;
+			- _modifiedTimeWeak = 4.9.2015::7:16:39;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 36fc58df-d60d-4ef4-ab36-7625d2e0c551;
 			}
-			- weakCGTime = 4.2.2015::9:31:31;
+			- weakCGTime = 4.9.2015::7:16:39;
 			- strongCGTime = 3.30.2015::8:52:16;
 			- Operations = { IRPYRawContainer 
 				- size = 3;
@@ -1662,34 +1683,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "informerDeLOperation";
 					- Dependencies = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
-						{ IDependency 
-							- _id = GUID a793f0ea-ceb8-49c5-98ed-b5670cd079ff;
-							- _myState = 2048;
-							- _name = "informerDeLOperation";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.1.2015::9:34:32;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
-								- _class = "Uc_Reapprovisionement";
-								- _name = "informerDeLOperation()";
-								- _id = GUID 00d2a6d9-708c-45a0-8f22-ca9f0dbd0ab3;
-							}
-						}
 						{ IDependency 
 							- _id = GUID b56ab8d5-ab66-406f-af9b-4b37602bd0cc;
 							- _myState = 2048;
@@ -1717,7 +1712,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::8:46:51;
+					- _modifiedTimeWeak = 4.9.2015::7:16:39;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1743,36 +1738,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "informerFinReapprovisionnement";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 6430812a-4c9a-4219-a17b-25e90be004e2;
-							- _myState = 2048;
-							- _name = "informerFinReapprovisionnement";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.1.2015::9:34:34;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
-								- _class = "Uc_Reapprovisionement";
-								- _name = "informerFinReapprovisionnement()";
-								- _id = GUID 52d5dfa8-b2d5-442f-964d-d961a32450b5;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.2.2015::8:46:51;
+					- _modifiedTimeWeak = 4.9.2015::7:16:39;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1798,36 +1766,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "signalerDemandeReapprovisionnement";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 447758ac-0f20-40b1-93c6-eca63f281b4c;
-							- _myState = 2048;
-							- _name = "signalerDemandeReapprovisionnement";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.1.2015::9:34:32;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ReapprovisionementPkg";
-								- _class = "Uc_Reapprovisionement";
-								- _name = "signalerDemandeReapprovisionnement()";
-								- _id = GUID ba376b31-afe3-4684-8774-6e78b77edbb2;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.2.2015::8:46:51;
+					- _modifiedTimeWeak = 4.9.2015::7:16:39;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1889,7 +1830,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 393ed24d-78cc-4e5a-962e-11f5c699fe52;
 					- _myState = 10240;
 					- _name = "itsTabletteDemonstrateur";
-					- _modifiedTimeWeak = 4.2.2015::9:34:19;
+					- _modifiedTimeWeak = 4.2.2015::9:57:21;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -1934,7 +1875,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				- value = 
 				{ IGeneralization 
 					- _id = GUID 6a33a3b6-7774-4838-b679-b00d40937138;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 4.2.2015::12:54:3;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _id = GUID 6d0008aa-92b8-463f-a148-74cbcd1346ce;
