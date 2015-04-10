@@ -1,0 +1,170 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "FunctionalAnalysisPkg.sbs";
+		- _subsystem = "FunctionalAnalysisPkg";
+		- _class = "";
+		- _name = "LogistiqueDeReapprovisionnementPkg";
+		- _id = GUID 4977279d-4ab6-49a3-8249-46466230fcf9;
+	}
+	- _id = GUID 4b300b07-a7a7-4af6-93ef-630c18b16a08;
+	- _myState = 8192;
+	- _name = "LogistiqueDeReapprovisionnementExecutionScopePkg";
+	- _modifiedTimeWeak = 4.10.2015::9:18:21;
+	- weakCGTime = 4.10.2015::9:18:21;
+	- strongCGTime = 4.10.2015::9:1:20;
+	- _defaultComposite = GUID c61848a2-3ed8-4a17-beb2-553af29d2636;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID c61848a2-3ed8-4a17-beb2-553af29d2636;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 4.10.2015::9:18:21;
+			- weakCGTime = 4.10.2015::9:18:21;
+			- strongCGTime = 4.10.2015::6:12:27;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IPart 
+					- _id = GUID 3b65c62e-7ded-476e-a925-e4efd782245a;
+					- _myState = 8192;
+					- _name = "itsUc_LogistiqueDeReapprovisionnement";
+					- _modifiedTimeWeak = 4.10.2015::6:12:27;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "FunctionalAnalysisPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+						- _class = "";
+						- _name = "Uc_LogistiqueDeReapprovisionnement";
+						- _id = GUID 47bb8c19-b799-4d42-b959-9b368314c5e1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID f4c15fb9-d57b-4b98-b630-513042312f67;
+					- _myState = 8192;
+					- _name = "itsPublic";
+					- _modifiedTimeWeak = 4.10.2015::6:12:27;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Public";
+						- _id = GUID 4a523671-3388-4084-824b-bfa35c4c6ea5;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 7e365c97-e410-4819-ab46-fb18f67a458e;
+					- _myState = 8192;
+					- _name = "itsConsommateur";
+					- _modifiedTimeWeak = 4.10.2015::6:12:27;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Consommateur";
+						- _id = GUID 82942cf9-a408-411b-a24b-a1d3b7c7b9f3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- ObjectLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IObjectLink 
+					- _id = GUID abe6fba5-ae97-4ca0-ad89-b9f822061691;
+					- _myState = 10240;
+					- _name = "itsUc_LogistiqueDeReapprovisionnement_itsPublic_0";
+					- _modifiedTimeWeak = 4.10.2015::9:1:20;
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID f4c15fb9-d57b-4b98-b630-513042312f67;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 3b65c62e-7ded-476e-a925-e4efd782245a;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "Public";
+						- _name = "pUc_LogistiqueDeReapprovisionnement";
+						- _id = GUID 4ee04e19-7dc0-4b76-9793-85c4fad6151e;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "FunctionalAnalysisPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+						- _class = "Uc_LogistiqueDeReapprovisionnement";
+						- _name = "pPublic";
+						- _id = GUID f6b1e9e4-23b5-44ec-b51b-c2257eb9863b;
+					}
+				}
+				{ IObjectLink 
+					- _id = GUID 4a3820ec-9e10-4d8e-9977-5ddff2d9a84e;
+					- _myState = 10240;
+					- _name = "itsUc_LogistiqueDeReapprovisionnement_itsConsommateur_0";
+					- _modifiedTimeWeak = 4.10.2015::9:1:20;
+					- _toLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 7e365c97-e410-4819-ab46-fb18f67a458e;
+					}
+					- _fromLink = { IHandle 
+						- _m2Class = "IPart";
+						- _id = GUID 3b65c62e-7ded-476e-a925-e4efd782245a;
+					}
+					- _instantiates = { IMetaLinkHandle 
+						- _m2Class = "";
+					}
+					- _end1Multiplicity = "1";
+					- _end2Multiplicity = "1";
+					- _toPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "Consommateur";
+						- _name = "pUc_LogistiqueDeReapprovisionnement";
+						- _id = GUID da8f829c-cff9-40ab-bb36-90326df62e77;
+					}
+					- _fromPort = { IHandle 
+						- _m2Class = "IPort";
+						- _filename = "FunctionalAnalysisPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+						- _class = "Uc_LogistiqueDeReapprovisionnement";
+						- _name = "pConsommateur";
+						- _id = GUID f5c0ace7-d3aa-4f3d-b9d5-340e9171395f;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 3.25.2015::13:48:39;
+}
+

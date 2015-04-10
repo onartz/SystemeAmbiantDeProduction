@@ -1,0 +1,3346 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "FunctionalAnalysisPkg.sbs";
+		- _subsystem = "FunctionalAnalysisPkg";
+		- _class = "";
+		- _name = "LogistiqueDeReapprovisionnementPkg";
+		- _id = GUID 4977279d-4ab6-49a3-8249-46466230fcf9;
+	}
+	- _id = GUID ea06b949-513c-487c-a8b2-c55667ef9413;
+	- _myState = 8192;
+	- _name = "LogistiqueDeReapprovisionnementBBScenariosPkg";
+	- _modifiedTimeWeak = 4.10.2015::6:12:27;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IMSC 
+			- _id = GUID 19ed1724-e052-4107-97c6-b92dfe4b56fa;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 2;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 3;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "DiagramFrame";
+								- Properties = { IRPYRawContainer 
+									- size = 8;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "20,20,590,500";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "247,247,247";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Fill.Transparent_Fill";
+										- _Value = "0";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Tahoma";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "8";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Weight@Child.NameCompartment@Name";
+										- _Value = "700";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "194,192,192";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "1";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "InstanceLine";
+								- Properties = { IRPYRawContainer 
+									- size = 7;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,0,96,437";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "255,255,255";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Tahoma";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "8";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Weight@Child.NameCompartment@Name";
+										- _Value = "700";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "109,163,217";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "0";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "Message";
+								- Properties = { IRPYRawContainer 
+									- size = 4;
+									- value = 
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Tahoma";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "8";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "128,128,128";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "1";
+										- _Type = Int;
+									}
+								}
+							}
+						}
+					}
+					{ IPropertySubject 
+						- _Name = "SequenceDiagram";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "General";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "RealizeMessages";
+										- _Value = "False";
+										- _Type = Bool;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "SC1";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _lastModifiedTime = "4.10.2015::6:12:27";
+			- _graphicChart = { CGIMscChart 
+				- vLadderMargin = 20;
+				- m_usingActivationBar = 0;
+				- _id = GUID a30a4d1e-2217-4abd-ac05-3925d799631a;
+				- m_type = 0;
+				- m_pModelObject = { IHandle 
+					- _m2Class = "IMSC";
+					- _id = GUID 19ed1724-e052-4107-97c6-b92dfe4b56fa;
+				}
+				- m_pParent = ;
+				- m_name = { CGIText 
+					- m_str = "";
+					- m_style = "Arial" 10 0 0 0 1 ;
+					- m_color = { IColor 
+						- m_fgColor = 0;
+						- m_bgColor = 0;
+						- m_bgFlag = 0;
+					}
+					- m_position = 1 0 0  ;
+					- m_nIdent = 0;
+					- m_bImplicitSetRectPoints = 0;
+					- m_nOrientationCtrlPt = 8;
+				}
+				- m_drawBehavior = 0;
+				- m_bIsPreferencesInitialized = 0;
+				- elementList = 39;
+				{ CGIBox 
+					- _id = GUID de4a90d0-8c90-4c4b-9d86-2630ce4bc772;
+					- m_type = 108;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "ICollaboration";
+						- _id = GUID 6dd44a91-41e7-49a5-bdd6-004c6dcb6e12;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_bIsPreferencesInitialized = 0;
+					- m_polygon = 0 ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIDiagramFrame 
+					- _id = GUID ac5a7790-ec32-4066-bc4a-8b4764ce49d7;
+					- m_type = 203;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = GUID de4a90d0-8c90-4c4b-9d86-2630ce4bc772;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 3.6713 0 0 11.5758 2 20 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 0 0  0 132  216 132  216 0  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIMscColumnCR 
+					- _id = GUID 6c9c10cc-6243-4eae-951c-b99e9186d03b;
+					- m_type = 97;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClassifierRole";
+						- _id = GUID 8f7f556b-143c-49e1-a199-bbd045d037f1;
+					}
+					- m_pParent = GUID de4a90d0-8c90-4c4b-9d86-2630ce4bc772;
+					- m_name = { CGIText 
+						- m_str = ":Public";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_transform = 1 0 0 0.0297605 689 50 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_position = 4 0 0  0 49885  96 49885  96 0  ;
+					- m_pInheritsFrom = { IHandle 
+						- _m2Class = "";
+					}
+					- m_nInheritanceMask = 0;
+					- m_SubType = 0;
+				}
+				{ CGIMscColumnCR 
+					- _id = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_type = 109;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClassifierRole";
+						- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+					}
+					- m_pParent = GUID de4a90d0-8c90-4c4b-9d86-2630ce4bc772;
+					- m_name = { CGIText 
+						- m_str = ":Uc_LogistiqueDeReapprovisionnement";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_transform = 1 0 0 0.0297605 271 50 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_position = 4 0 0  0 49885  96 49885  96 0  ;
+					- m_pInheritsFrom = { IHandle 
+						- _m2Class = "";
+					}
+					- m_nInheritanceMask = 0;
+					- m_SubType = 0;
+				}
+				{ CGIMscColumnCR 
+					- _id = GUID de4038dc-30f9-46d2-8b43-ec1295121fe8;
+					- m_type = 97;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClassifierRole";
+						- _id = GUID ab03f71c-6ab9-4cf0-a39a-7bb456107f23;
+					}
+					- m_pParent = GUID de4a90d0-8c90-4c4b-9d86-2630ce4bc772;
+					- m_name = { CGIText 
+						- m_str = ":Consommateur";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_transform = 1 0 0 0.0297605 12 50 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_position = 4 0 0  0 49885  96 49885  96 0  ;
+					- m_pInheritsFrom = { IHandle 
+						- _m2Class = "";
+					}
+					- m_nInheritanceMask = 0;
+					- m_SubType = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 2c490c24-7dbf-4c6c-8f11-d8e211891923;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Message";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Line.LineWidth";
+												- _Value = "0";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 1fc93fea-abd2-4c63-9f9d-a01e7746683f;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "sortirDuStockConsommateurDesProduits()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID de4038dc-30f9-46d2-8b43-ec1295121fe8;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 48 2352 ;
+					- m_TargetPort = 48 2352 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 468553cf-b26d-4a4f-be30-ab58b3d6177c;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 83172710-5142-48c7-ab4c-1297af27cf01;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "mettreAJourLaQuantiteDuStockConsommateur()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 140  349 160  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 3024 ;
+					- m_TargetPort = 48 3696 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID a5c599bf-36fe-4a15-8fea-abe226fe8737;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 42df966f-cf69-4a70-9321-16588fc9f051;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "informerPublicDurBesoinDeReapprovisionnementEnProduits()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 180  349 200  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 4368 ;
+					- m_TargetPort = 48 5040 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 4938c92d-7081-4a2e-9d23-a34456692f60;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 32d9602c-1647-438d-8e1e-32e038a882a3;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "informBesoinReapprovisionnement()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 6c9c10cc-6243-4eae-951c-b99e9186d03b;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 48 5712 ;
+					- m_TargetPort = 48 5712 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 09f9e8bf-4018-40cc-b6ef-fa80bf8d05f6;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 4c5ded43-e183-414e-9af0-6ce9273810aa;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "interrogerStocksCandidatsAuReapprovisionnement()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 240  349 260  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 6384 ;
+					- m_TargetPort = 48 7056 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 03167036-a422-447b-8423-444a574cd8da;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 664bc86b-6f1f-4cde-8044-4792dc07c463;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "choisirLesStocksCandidatsAuReapprovisionnement()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 280  349 300  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 7728 ;
+					- m_TargetPort = 48 8400 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID a5a30cbf-f1f8-497b-bcea-43eac6d02446;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 7fb03942-0c4b-46a2-a761-cdb7377dffbc;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "interrogerLesTransporteurs()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 320  349 340  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 9072 ;
+					- m_TargetPort = 48 9744 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 91621e16-b9be-4a59-a96e-8494733adb8c;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 248bc90b-5eb7-40c4-b0f2-236d2aa9bef9;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "choisirLesTransporteurs()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 360  349 380  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 10416 ;
+					- m_TargetPort = 48 11089 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID a09f09b0-eca9-4377-8843-cc8ca950e1f8;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 6f5b24c0-e688-423b-9e9b-c222b45351e6;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "interrogerLesRessourcesDeManutention()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 400  349 420  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 11761 ;
+					- m_TargetPort = 48 12433 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 3190234b-e03f-469d-a86d-aeaa374e8a2a;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 9570b2c5-86ba-4f18-b063-b634ab471534;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "choisirLesRessourcesDeManutention()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 440  349 460  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 13105 ;
+					- m_TargetPort = 48 13777 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 47c8e958-e5fc-40f6-8c1b-48e3b166aa6d;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 2e50a158-3976-4055-8fde-af2db50961d2;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "reserverLesRessourcesDeManutention()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 480  349 500  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 14449 ;
+					- m_TargetPort = 48 15121 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 20cb0b32-dbb8-43a9-9a7d-22aee22a4e56;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 9c8e7d26-184e-4a9b-8c84-b6afbfe94314;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "reserverLesQuantitesDeProduitsDansChaqueStock()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 520  349 540  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 15793 ;
+					- m_TargetPort = 48 16465 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 1037b30d-89e4-4d30-be44-59b815ca375a;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 787f9ffa-9458-48b1-86cb-de0a0dae5db0;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "reserverLesTransporteurs()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 560  349 580  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 17137 ;
+					- m_TargetPort = 48 17809 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 58058343-7aab-4f74-81bb-bb84b4170742;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID ac2418ef-79bd-4af6-a0ff-04167bdb1907;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "informerPublicDeLaStrategieDeReappro()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 600  349 620  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 18481 ;
+					- m_TargetPort = 48 19153 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID e8183199-0eac-4cef-9a4d-0fd127be95be;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID b25ce93a-a428-45ea-9387-c0bbda9c339e;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "informStrategieReapprovisionnement()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 6c9c10cc-6243-4eae-951c-b99e9186d03b;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 48 19825 ;
+					- m_TargetPort = 48 19825 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 0a862713-4f3c-42e6-afa0-1237eda0959d;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 2e116315-51f8-418b-b5a6-aabd1233aa02;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "informerPublicDuDebutDeLaCollecte()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 660  349 680  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 20497 ;
+					- m_TargetPort = 48 21169 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID d3435a63-595e-4864-9f15-578ae1feb9f1;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID af84ca7a-49b3-4e81-9992-66f7a75e360d;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "informDebutCollecte()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 6c9c10cc-6243-4eae-951c-b99e9186d03b;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 48 21841 ;
+					- m_TargetPort = 48 21841 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 7de9aac6-2e47-4d2d-8226-4e0854cb512c;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 099cc849-d052-43f6-99be-64d540d6aa02;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "deplacerTranporteurVersStockAPrelever()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 720  349 740  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 22513 ;
+					- m_TargetPort = 48 23185 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 994c19b3-06bb-45f9-9ec6-f527b0f63414;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 7bd9e208-fafa-4b0f-9c18-d17a31a179bb;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "sortirDeStockDesProduitsATransporter()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 760  349 780  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 23857 ;
+					- m_TargetPort = 48 24529 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID e8a8e204-6c7d-43fe-91a2-bde921955499;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 6f002d9d-8622-4105-af51-1102dc0480ec;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "deplacerLesProduitsSurTransporteur()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 850  349 870  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 26881 ;
+					- m_TargetPort = 48 27553 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 4395251d-fc6f-4488-bc09-931fafc875b3;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 5b0d04d1-f8ec-4fcf-89a5-21aa1c74ef7f;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "lierLesProduitsAUnTransporteur()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 890  349 910  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 28225 ;
+					- m_TargetPort = 48 28897 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 65c5964a-4e1a-44c1-a50f-bc9cd4365b2c;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID c6bc86cd-6f22-448f-bf9f-f6968536573b;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "stockerLesProduitsSurLeTransporteur()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 930  349 950  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 29569 ;
+					- m_TargetPort = 48 30241 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID ea3cbca8-ffa5-4ca8-9dab-29ef498b2c35;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 1f888958-7288-4ac9-893c-78ccd5d7dce5;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "informerPublicDeLaFinDeLaCollecte()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 970  349 990  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 30913 ;
+					- m_TargetPort = 48 31585 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 1871aa51-af9e-4c6a-bf8d-2c7ae0ba6775;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 29b83dee-719e-40ab-a9d1-561dec38aaad;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "informFinCollecte()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 6c9c10cc-6243-4eae-951c-b99e9186d03b;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 48 32258 ;
+					- m_TargetPort = 48 32258 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 0da36e44-6b4c-46c8-a6b3-9c38b372760e;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 5a4c99d7-a4d8-4c5b-bd92-89912c9c8b6d;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "transporterLesProduitsVersLeStockConsommateur()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 1030  349 1050  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 32930 ;
+					- m_TargetPort = 48 33602 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 8fce06aa-4532-4fc9-aab0-db78716dc56a;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 460879dc-96d7-455d-af22-ba162ef96372;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "delierLesProduitsDuTransporteur()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 1070  349 1090  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 34274 ;
+					- m_TargetPort = 48 34946 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID ec586fab-c974-4121-8df5-26d64dd39238;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID e3e7874c-14f2-4a12-aaba-2cd3284bb648;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "deplacerLesProduitsVersLeStockConsommateur()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 1110  349 1130  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 35618 ;
+					- m_TargetPort = 48 36290 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 5a118317-c966-444a-ae12-7d98adc69524;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 81cf481b-1e68-460e-bf48-c2ba5737a9ee;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "entrerEnStockLesProduitsDansLeStockConsommateur()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 1150  349 1170  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 36962 ;
+					- m_TargetPort = 48 37634 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 14af4f31-1e8e-4c2c-aaad-baebb893d25b;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 6a2d647e-ceb3-4bc8-a7a8-31ef2ae3c6bd;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "mettreAJourLaQuantiteDuStockConsommateur()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 1190  349 1210  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 38306 ;
+					- m_TargetPort = 48 38978 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 6f7448f5-7df9-4e35-ae4e-c82b3c0e63ae;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 56d26b69-12a9-4fff-8963-3f9ab7fae98c;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "stockerLesProduitsDansLeStockConsommateur()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 1230  349 1250  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 39650 ;
+					- m_TargetPort = 48 40322 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 1d0d1b57-111c-4446-b1a0-4e153d933b23;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 261ede6b-bf27-42f8-aa57-dea29d0537e4;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "cloturerReapprovisionnement()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 1270  349 1290  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 40994 ;
+					- m_TargetPort = 48 41666 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 47c0bdea-67a1-47a2-8ef0-11ef2b0ca880;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 1b915d1b-d833-43e5-9275-bd11a8bdb9a3;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "informerPublicDeLaFinReapprovisionnement()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 349 1310  349 1330  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 42338 ;
+					- m_TargetPort = 48 43010 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 4a3626e7-9fba-4301-8130-26f474c22950;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 46ddcbfd-4b43-4355-b173-125a7215727a;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "informFinReapprovisionnement()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 6c9c10cc-6243-4eae-951c-b99e9186d03b;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 48 43682 ;
+					- m_TargetPort = 48 43682 ;
+					- m_bLeft = 0;
+				}
+				{ CGIMscMessage 
+					- _id = GUID 7181f8e1-0fc0-44dd-baee-d6cd6739ccb0;
+					- m_type = 110;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IMessage";
+						- _id = GUID 53bee23a-1869-41d5-a24e-7bfac702eb42;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "mettreAJourLaQuantiteDuStockPreleves()";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 6;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 45ab1862-46e3-4a86-a238-f7c9a1ef926c;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_arrow = 2 350 804  350 826  ;
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 2;
+					- m_SourcePort = 48 25336 ;
+					- m_TargetPort = 48 26075 ;
+					- m_bLeft = 0;
+				}
+				
+				- m_access = 'Z';
+				- m_modified = 'N';
+				- m_fileVersion = "";
+				- m_nModifyDate = 0;
+				- m_nCreateDate = 0;
+				- m_creator = "";
+				- m_bScaleWithZoom = 1;
+				- m_arrowStyle = 'S';
+				- m_pRoot = GUID de4a90d0-8c90-4c4b-9d86-2630ce4bc772;
+				- m_currentLeftTop = 0 0 ;
+				- m_currentRightBottom = 0 0 ;
+			}
+			- _defaultSubsystem = { IHandle 
+				- _m2Class = "ISubsystem";
+				- _id = GUID ea06b949-513c-487c-a8b2-c55667ef9413;
+			}
+			- m_pICollaboration = { ICollaboration 
+				- _id = GUID 6dd44a91-41e7-49a5-bdd6-004c6dcb6e12;
+				- _modifiedTimeWeak = 1.2.1990::0:0:0;
+				- ClassifierRoles = { IRPYRawContainer 
+					- size = 3;
+					- value = 
+					{ IClassifierRole 
+						- _id = GUID ab03f71c-6ab9-4cf0-a39a-7bb456107f23;
+						- _modifiedTimeWeak = 4.9.2015::9:1:7;
+						- m_eRoleType = ACTOR;
+						- m_pBase = { IHandle 
+							- _m2Class = "IActor";
+							- _filename = "ActorPkg.sbs";
+							- _subsystem = "ActorPkg";
+							- _class = "";
+							- _name = "Consommateur";
+							- _id = GUID 82942cf9-a408-411b-a24b-a1d3b7c7b9f3;
+						}
+						- m_instance = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IClassifierRole 
+						- _id = GUID 8f7f556b-143c-49e1-a199-bbd045d037f1;
+						- _modifiedTimeWeak = 4.9.2015::9:1:7;
+						- m_eRoleType = ACTOR;
+						- m_pBase = { IHandle 
+							- _m2Class = "IActor";
+							- _filename = "ActorPkg.sbs";
+							- _subsystem = "ActorPkg";
+							- _class = "";
+							- _name = "Public";
+							- _id = GUID 4a523671-3388-4084-824b-bfa35c4c6ea5;
+						}
+						- m_instance = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IClassifierRole 
+						- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						- _modifiedTimeWeak = 4.9.2015::9:1:7;
+						- m_eRoleType = CLASS;
+						- m_pBase = { IHandle 
+							- _m2Class = "IClass";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "";
+							- _name = "Uc_LogistiqueDeReapprovisionnement";
+							- _id = GUID 47bb8c19-b799-4d42-b959-9b368314c5e1;
+						}
+						- m_instance = { IHandle 
+							- _m2Class = "";
+						}
+					}
+				}
+				- Messages = { IRPYRawContainer 
+					- size = 34;
+					- value = 
+					{ IMessage 
+						- _id = GUID 1fc93fea-abd2-4c63-9f9d-a01e7746683f;
+						- _name = "sortirDuStockConsommateurDesProduits";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "1.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID ab03f71c-6ab9-4cf0-a39a-7bb456107f23;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IEvent";
+							- _filename = "InterfacesPkg.sbs";
+							- _subsystem = "InterfacesPkg";
+							- _class = "";
+							- _name = "sortirDuStockConsommateurDesProduits()";
+							- _id = GUID fde0c39e-e508-459e-b5fb-9efd9d9734c3;
+						}
+						- m_eType = EVENT;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 83172710-5142-48c7-ab4c-1297af27cf01;
+						- _name = "mettreAJourLaQuantiteDuStockConsommateur";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "2.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "mettreAJourLaQuantiteDuStockConsommateur()";
+							- _id = GUID 6ddc1c89-ebdc-4759-9a04-33fee2477c51;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 42df966f-cf69-4a70-9321-16588fc9f051;
+						- _name = "informerPublicDurBesoinDeReapprovisionnementEnProduits";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "3.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "informerPublicDurBesoinDeReapprovisionnementEnProduits()";
+							- _id = GUID b76986b6-9980-42fb-b5f9-534686b77ff3;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 32d9602c-1647-438d-8e1e-32e038a882a3;
+						- _name = "informBesoinReapprovisionnement";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "4.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 8f7f556b-143c-49e1-a199-bbd045d037f1;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IEvent";
+							- _filename = "InterfacesPkg.sbs";
+							- _subsystem = "InterfacesPkg";
+							- _class = "";
+							- _name = "informBesoinReapprovisionnement()";
+							- _id = GUID 8f5388c4-a426-43cc-99a4-1862f0a94f80;
+						}
+						- m_eType = EVENT;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 4c5ded43-e183-414e-9af0-6ce9273810aa;
+						- _name = "interrogerStocksCandidatsAuReapprovisionnement";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "5.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "interrogerStocksCandidatsAuReapprovisionnement()";
+							- _id = GUID 5c50de44-d587-46fd-a117-509f7a52aa3c;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 664bc86b-6f1f-4cde-8044-4792dc07c463;
+						- _name = "choisirLesStocksCandidatsAuReapprovisionnement";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "6.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "choisirLesStocksCandidatsAuReapprovisionnement()";
+							- _id = GUID f3ff3d09-34c9-47a1-ac34-2458a99e5d2a;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 7fb03942-0c4b-46a2-a761-cdb7377dffbc;
+						- _name = "interrogerLesTransporteurs";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "7.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "interrogerLesTransporteurs()";
+							- _id = GUID 93518aa9-5cc5-406c-89fa-4a0d7a22d607;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 248bc90b-5eb7-40c4-b0f2-236d2aa9bef9;
+						- _name = "choisirLesTransporteurs";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "8.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "choisirLesTransporteurs()";
+							- _id = GUID 4ea92060-563a-48d8-be16-3a95f4f6f831;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 6f5b24c0-e688-423b-9e9b-c222b45351e6;
+						- _name = "interrogerLesRessourcesDeManutention";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "9.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "interrogerLesRessourcesDeManutention()";
+							- _id = GUID 27f5573e-26a7-40bd-93d0-4a2e82892464;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 9570b2c5-86ba-4f18-b063-b634ab471534;
+						- _name = "choisirLesRessourcesDeManutention";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "10.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "choisirLesRessourcesDeManutention()";
+							- _id = GUID d6ceec1d-093c-450f-a992-77a43e98abe5;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 2e50a158-3976-4055-8fde-af2db50961d2;
+						- _name = "reserverLesRessourcesDeManutention";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "11.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "reserverLesRessourcesDeManutention()";
+							- _id = GUID 07aa02e5-8ed0-4700-a0ee-15e56fbee884;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 9c8e7d26-184e-4a9b-8c84-b6afbfe94314;
+						- _name = "reserverLesQuantitesDeProduitsDansChaqueStock";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "12.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "reserverLesQuantitesDeProduitsDansChaqueStock()";
+							- _id = GUID 8467faa1-ece2-4fa5-95b8-9e44f2f0453e;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 787f9ffa-9458-48b1-86cb-de0a0dae5db0;
+						- _name = "reserverLesTransporteurs";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "13.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "reserverLesTransporteurs()";
+							- _id = GUID 03bd6700-1ebc-4303-91aa-96936ce14cfc;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID ac2418ef-79bd-4af6-a0ff-04167bdb1907;
+						- _name = "informerPublicDeLaStrategieDeReappro";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "14.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "informerPublicDeLaStrategieDeReappro()";
+							- _id = GUID 822a65a3-fd07-4379-851d-d4dc5995084b;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID b25ce93a-a428-45ea-9387-c0bbda9c339e;
+						- _name = "informStrategieReapprovisionnement";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "15.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 8f7f556b-143c-49e1-a199-bbd045d037f1;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IEvent";
+							- _filename = "InterfacesPkg.sbs";
+							- _subsystem = "InterfacesPkg";
+							- _class = "";
+							- _name = "informStrategieReapprovisionnement()";
+							- _id = GUID d3b0ca23-bc22-42c6-be04-fb04e6268788;
+						}
+						- m_eType = EVENT;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 2e116315-51f8-418b-b5a6-aabd1233aa02;
+						- _name = "informerPublicDuDebutDeLaCollecte";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "16.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "informerPublicDuDebutDeLaCollecte()";
+							- _id = GUID f6b06126-85c2-4f93-be36-4dcf653c41bc;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID af84ca7a-49b3-4e81-9992-66f7a75e360d;
+						- _name = "informDebutCollecte";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "17.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 8f7f556b-143c-49e1-a199-bbd045d037f1;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IEvent";
+							- _filename = "InterfacesPkg.sbs";
+							- _subsystem = "InterfacesPkg";
+							- _class = "";
+							- _name = "informDebutCollecte()";
+							- _id = GUID 2e25ed4f-4db0-4e28-bac9-79801be59887;
+						}
+						- m_eType = EVENT;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 099cc849-d052-43f6-99be-64d540d6aa02;
+						- _name = "deplacerTranporteurVersStockAPrelever";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "18.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "deplacerTranporteurVersStockAPrelever()";
+							- _id = GUID a400414a-9e1a-4d2e-bdb4-89dbb897e827;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 7bd9e208-fafa-4b0f-9c18-d17a31a179bb;
+						- _name = "sortirDeStockDesProduitsATransporter";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "19.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "sortirDeStockDesProduitsATransporter()";
+							- _id = GUID ecd9aded-c460-4456-b39b-469c1b4fd330;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 6f002d9d-8622-4105-af51-1102dc0480ec;
+						- _name = "deplacerLesProduitsSurTransporteur";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "21.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "deplacerLesProduitsSurTransporteur()";
+							- _id = GUID 7f390dd0-3cb9-46b4-9b43-743af05c2952;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 5b0d04d1-f8ec-4fcf-89a5-21aa1c74ef7f;
+						- _name = "lierLesProduitsAUnTransporteur";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "22.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "lierLesProduitsAUnTransporteur()";
+							- _id = GUID 78ded8fd-bac2-431a-9438-5e3ad0db28c9;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID c6bc86cd-6f22-448f-bf9f-f6968536573b;
+						- _name = "stockerLesProduitsSurLeTransporteur";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "23.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "stockerLesProduitsSurLeTransporteur()";
+							- _id = GUID a13ba716-9234-4710-b076-f30a2651276a;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 1f888958-7288-4ac9-893c-78ccd5d7dce5;
+						- _name = "informerPublicDeLaFinDeLaCollecte";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "24.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "informerPublicDeLaFinDeLaCollecte()";
+							- _id = GUID 9272b96f-8725-4257-8482-9288ef59b106;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 29b83dee-719e-40ab-a9d1-561dec38aaad;
+						- _name = "informFinCollecte";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "25.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 8f7f556b-143c-49e1-a199-bbd045d037f1;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IEvent";
+							- _filename = "InterfacesPkg.sbs";
+							- _subsystem = "InterfacesPkg";
+							- _class = "";
+							- _name = "informFinCollecte()";
+							- _id = GUID 8093b352-a9c9-4df2-b954-2efc9939f672;
+						}
+						- m_eType = EVENT;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 5a4c99d7-a4d8-4c5b-bd92-89912c9c8b6d;
+						- _name = "transporterLesProduitsVersLeStockConsommateur";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "26.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "transporterLesProduitsVersLeStockConsommateur()";
+							- _id = GUID 8c568d1b-2bcc-4081-8aa6-1bf9aaf9724d;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 460879dc-96d7-455d-af22-ba162ef96372;
+						- _name = "delierLesProduitsDuTransporteur";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "27.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "delierLesProduitsDuTransporteur()";
+							- _id = GUID 5a3e9b60-da2e-4cdc-a9c6-78c625d664f7;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID e3e7874c-14f2-4a12-aaba-2cd3284bb648;
+						- _name = "deplacerLesProduitsVersLeStockConsommateur";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "28.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "deplacerLesProduitsVersLeStockConsommateur()";
+							- _id = GUID bf037f68-2d9a-4772-b1dc-d92812bfe14a;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 81cf481b-1e68-460e-bf48-c2ba5737a9ee;
+						- _name = "entrerEnStockLesProduitsDansLeStockConsommateur";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "29.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "entrerEnStockLesProduitsDansLeStockConsommateur()";
+							- _id = GUID d132cd01-7cf1-43b9-972e-222b93dca6b9;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 6a2d647e-ceb3-4bc8-a7a8-31ef2ae3c6bd;
+						- _name = "mettreAJourLaQuantiteDuStockConsommateur";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "30.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "mettreAJourLaQuantiteDuStockConsommateur()";
+							- _id = GUID 6ddc1c89-ebdc-4759-9a04-33fee2477c51;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 56d26b69-12a9-4fff-8963-3f9ab7fae98c;
+						- _name = "stockerLesProduitsDansLeStockConsommateur";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "31.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "stockerLesProduitsDansLeStockConsommateur()";
+							- _id = GUID e0669e3f-bd3c-4b48-bd4d-3ac5ab7f05e2;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 261ede6b-bf27-42f8-aa57-dea29d0537e4;
+						- _name = "cloturerReapprovisionnement";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "32.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "cloturerReapprovisionnement()";
+							- _id = GUID 634948f0-2368-4180-9fe4-524a07244e02;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 1b915d1b-d833-43e5-9275-bd11a8bdb9a3;
+						- _name = "informerPublicDeLaFinReapprovisionnement";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "33.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "informerPublicDeLaFinReapprovisionnement()";
+							- _id = GUID 29979e4b-107a-4a0d-bfdd-57146f1447f4;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 46ddcbfd-4b43-4355-b173-125a7215727a;
+						- _name = "informFinReapprovisionnement";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "34.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 8f7f556b-143c-49e1-a199-bbd045d037f1;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IEvent";
+							- _filename = "InterfacesPkg.sbs";
+							- _subsystem = "InterfacesPkg";
+							- _class = "";
+							- _name = "informFinReapprovisionnement()";
+							- _id = GUID 5afd3dac-0e83-4305-8f52-9a9a217fe99e;
+						}
+						- m_eType = EVENT;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IMessage 
+						- _id = GUID 53bee23a-1869-41d5-a24e-7bfac702eb42;
+						- _name = "mettreAJourLaQuantiteDuStockPreleves";
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- m_szSequence = "20.";
+						- m_szActualArgs = "";
+						- m_szReturnVal = "";
+						- m_pCommunicationConnection = { IHandle 
+							- _m2Class = "";
+						}
+						- m_pReceiver = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pSender = { IHandle 
+							- _m2Class = "IClassifierRole";
+							- _id = GUID 43a6f9b0-6ee9-42a9-82d0-1303292ec85e;
+						}
+						- m_pFormalMessage = { IHandle 
+							- _m2Class = "IPrimitiveOperation";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+							- _class = "Uc_LogistiqueDeReapprovisionnement";
+							- _name = "mettreAJourLaQuantiteDuStockPreleves()";
+							- _id = GUID 81145a9f-c3dd-44ac-81d1-4912680a37b7;
+						}
+						- m_eType = PRIMITIVE;
+						- m_targetExec = { IHandle 
+							- _m2Class = "";
+						}
+						- m_srcExec = { IHandle 
+							- _m2Class = "";
+						}
+					}
+				}
+			}
+		}
+	}
+	- weakCGTime = 4.10.2015::6:12:27;
+	- strongCGTime = 4.10.2015::6:12:27;
+	- _defaultComposite = GUID ec536904-0f7b-4855-848d-59d5b6da2907;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID ec536904-0f7b-4855-848d-59d5b6da2907;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 4.10.2015::6:12:27;
+			- weakCGTime = 4.10.2015::6:12:27;
+			- strongCGTime = 4.10.2015::6:12:27;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+
