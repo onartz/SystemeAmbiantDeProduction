@@ -23,9 +23,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 05d4f62e-fcd7-472a-8481-7dd2bc9052bf;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
-			- weakCGTime = 1.1.1970::1:0:0;
-			- strongCGTime = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 4.2.2015::12:27:42;
+			- weakCGTime = 4.2.2015::12:27:42;
+			- strongCGTime = 4.2.2015::12:27:42;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -64,7 +64,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				- value = 
 				{ IGeneralization 
 					- _id = GUID 669c689a-0473-44df-bfb6-5319ff50604a;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 4.2.2015::12:27:42;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
@@ -84,6 +84,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _classModifier = Unspecified;
 		}
 	}
-	- _configurationRelatedTime = 1.1.1970::1:0:0;
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
 }
 

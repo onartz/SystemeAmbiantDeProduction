@@ -23,9 +23,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 18d2cd7d-f596-430f-a138-754d9d73d5f2;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
-			- weakCGTime = 1.1.1970::1:0:0;
-			- strongCGTime = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 4.2.2015::11:44:48;
+			- weakCGTime = 4.2.2015::11:44:48;
+			- strongCGTime = 4.2.2015::11:44:48;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -78,7 +78,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							- _id = GUID db3c5f6b-483c-4628-aeeb-f3ff3dec888d;
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::8:17:39;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- Tags = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -154,7 +154,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							- _id = GUID db3c5f6b-483c-4628-aeeb-f3ff3dec888d;
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::8:16:21;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- Tags = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -230,7 +230,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							- _id = GUID db3c5f6b-483c-4628-aeeb-f3ff3dec888d;
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::8:16:31;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- Tags = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -306,7 +306,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							- _id = GUID db3c5f6b-483c-4628-aeeb-f3ff3dec888d;
 						}
 					}
-					- _modifiedTimeWeak = 4.2.2015::8:16:42;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- Tags = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -372,7 +372,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				- value = 
 				{ IGeneralization 
 					- _id = GUID 9d23a961-4e60-4f1e-8ddc-a1aded5ee657;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
@@ -386,7 +386,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 				{ IGeneralization 
 					- _id = GUID 434160e1-cfb4-441d-9417-7fa41241a3eb;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
@@ -400,7 +400,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 				{ IGeneralization 
 					- _id = GUID 2977ce7d-4123-46eb-99ae-547b2e5864f8;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
@@ -420,6 +420,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _classModifier = Unspecified;
 		}
 	}
-	- _configurationRelatedTime = 1.1.1970::1:0:0;
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
 }
 

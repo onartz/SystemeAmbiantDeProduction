@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID f0b37221-809a-40fe-8d72-c22c45b9eed5;
 	- _myState = 8192;
 	- _name = "ChargementDeMachineTradeStudy";
-	- _modifiedTimeWeak = 4.2.2015::11:33:54;
+	- _modifiedTimeWeak = 4.10.2015::9:8:57;
 	- _lastID = 16;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -220,8 +220,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 6c142614-3349-49e9-8c6b-0236be5f6b61;
 				}
 			}
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
-			- _lastModifiedTime = "4.2.2015::9:54:7";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _lastModifiedTime = "4.10.2015::9:11:56";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 6befeb41-84e6-4bc5-b081-da638d0872be;
 				- m_type = 0;
@@ -286,7 +286,28 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
 					- Compartments = { IRPYRawContainer 
-						- size = 0;
+						- size = 2;
+						- value = 
+						{ CGICompartment 
+							- _id = GUID af17a2db-d574-4dbb-8e0e-1a0f527c8dda;
+							- m_name = "Attribute";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+						{ CGICompartment 
+							- _id = GUID b60a7159-9c38-407f-ad12-fefa9e817160;
+							- m_name = "Operation";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
 					}
 					- Attrs = { IRPYRawContainer 
 						- size = 0;
@@ -385,7 +406,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4136;
-					- m_transform = 0.1983 0 0 0.145276 201.603 31.2041 ;
+					- m_transform = 0.1983 0 0 0.145276 202 31 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -457,7 +478,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.169027 0 0 0.101604 199.662 284.572 ;
+					- m_transform = 0.169027 0 0 0.101604 200 285 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -611,7 +632,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0793201 0 0 0.101604 460.841 287.572 ;
+					- m_transform = 0.0793201 0 0 0.101604 461 288 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -749,7 +770,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementDeMachineTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::HumainPkg";
 						- _class = "";
 						- _name = "Humain";
 						- _id = GUID f6d1bb10-c7d7-45dd-9a34-7cc925b66423;
@@ -769,7 +790,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0868744 0 0 0.101604 33.8263 283.572 ;
+					- m_transform = 0.0868744 0 0 0.101604 34 284 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -857,7 +878,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IGeneralization";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementDeMachineTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::HumainPkg";
 						- _class = "Humain";
 						- _name = "ChargementMachine";
 						- _id = GUID cdf0fddd-fd44-42b9-a9ca-8b7f1e779d16;
@@ -1127,7 +1148,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 6c142614-3349-49e9-8c6b-0236be5f6b61;
 				}
 			}
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- _lastModifiedTime = "4.2.2015::11:34:5";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 31758852-197c-46a5-a4d5-f165c8ed6ead;
@@ -1193,7 +1214,28 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
 					- Compartments = { IRPYRawContainer 
-						- size = 0;
+						- size = 2;
+						- value = 
+						{ CGICompartment 
+							- _id = GUID 969ba8eb-c3ac-4704-9988-f2063482e42f;
+							- m_name = "Attribute";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+						{ CGICompartment 
+							- _id = GUID 577d755d-a191-41a8-9d63-8dde2c4ae292;
+							- m_name = "Operation";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
 					}
 					- Attrs = { IRPYRawContainer 
 						- size = 0;
@@ -1267,7 +1309,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.203966 0 0 0.101604 168.592 50.5722 ;
+					- m_transform = 0.203966 0 0 0.101604 169 51 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1325,7 +1367,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementDeMachineTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::HumainPkg";
 						- _class = "";
 						- _name = "Humain";
 						- _id = GUID f6d1bb10-c7d7-45dd-9a34-7cc925b66423;
@@ -1345,7 +1387,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0868744 0 0 0.101604 165.826 253.572 ;
+					- m_transform = 0.0868744 0 0 0.101604 166 254 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1585,7 +1627,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.2.2015::11:33:54;
+	- weakCGTime = 4.10.2015::9:8:57;
 	- strongCGTime = 4.2.2015::7:45:50;
 	- _defaultComposite = GUID b451a61c-4779-4e9b-9a9c-782cd31ea0e8;
 	- _eventsBaseID = -1;
@@ -1596,9 +1638,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID b451a61c-4779-4e9b-9a9c-782cd31ea0e8;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
-			- weakCGTime = 1.1.1970::1:0:0;
-			- strongCGTime = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 4.2.2015::11:33:54;
+			- weakCGTime = 4.2.2015::11:33:54;
+			- strongCGTime = 4.2.2015::7:45:50;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -1621,12 +1663,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.2.2015::7:31:27;
+			- _modifiedTimeWeak = 4.10.2015::9:10:54;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 35beba18-aebb-43e4-be7c-b4d222a5ecba;
 			}
-			- weakCGTime = 4.2.2015::7:31:27;
+			- weakCGTime = 4.10.2015::9:10:54;
 			- strongCGTime = 4.2.2015::7:27:53;
 			- Operations = { IRPYRawContainer 
 				- size = 3;
@@ -1636,36 +1678,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "chargerBrutSurMachine";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID de0f60b0-834d-4675-8093-b83e2e24fe13;
-							- _myState = 2048;
-							- _name = "chargerBrutSurMachine";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.1.2015::11:46:17;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::FabricationPkg";
-								- _class = "Uc_Fabrication";
-								- _name = "chargerBrutSurMachine()";
-								- _id = GUID 908bda00-f6e4-43a6-b521-8b1397e40340;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.1.2015::11:46:17;
+					- _modifiedTimeWeak = 4.10.2015::9:8:57;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1691,36 +1706,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "sortirLesBrutsDuStock";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID de9a6c8f-915b-4eb0-a673-8076232993fd;
-							- _myState = 2048;
-							- _name = "sortirLesBrutsDuStock";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.1.2015::11:46:17;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::FabricationPkg";
-								- _class = "Uc_Fabrication";
-								- _name = "sortirLesBrutsDuStock()";
-								- _id = GUID b85ae93b-b2a2-4a76-a227-8d1ec51a7ad5;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.1.2015::11:46:17;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1746,36 +1734,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "sortirResteMatiereDeLaMachine";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID c79cf4c5-2844-4750-a492-cabbcbe3acc9;
-							- _myState = 2048;
-							- _name = "sortirResteMatiereDeLaMachine";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.1.2015::11:46:17;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::FabricationPkg";
-								- _class = "Uc_Fabrication";
-								- _name = "sortirResteMatiereDeLaMachine()";
-								- _id = GUID fb791a7f-c06a-424f-81dc-655fce4b8c55;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.1.2015::11:46:17;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1831,7 +1792,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				- value = 
 				{ IGeneralization 
 					- _id = GUID a4c400f9-1464-4f65-a656-b78da9adc0fa;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 4.2.2015::7:33:44;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _id = GUID 07c06c95-dac4-4da5-a5e6-96a2a98d0597;
@@ -1874,7 +1835,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				- value = 
 				{ IGeneralization 
 					- _id = GUID a3dfd4ee-37e5-4c25-a84e-1cdddb4a7388;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 4.2.2015::9:53:38;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _id = GUID 07c06c95-dac4-4da5-a5e6-96a2a98d0597;
@@ -1886,9 +1847,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
 			}
 			- _classModifier = Unspecified;
 		}
@@ -1931,7 +1889,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementDeMachineTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::HumainPkg";
 						- _class = "";
 						- _name = "Humain";
 						- _id = GUID f6d1bb10-c7d7-45dd-9a34-7cc925b66423;

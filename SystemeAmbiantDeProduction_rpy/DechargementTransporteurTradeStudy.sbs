@@ -1638,7 +1638,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.9.2015::7:16:39;
+	- weakCGTime = 4.10.2015::7:38:34;
 	- strongCGTime = 4.2.2015::8:57:21;
 	- _defaultComposite = GUID ef536ecc-846c-49e2-9efe-457c26bb4180;
 	- _eventsBaseID = -1;
@@ -1649,8 +1649,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID ef536ecc-846c-49e2-9efe-457c26bb4180;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.2.2015::11:35:31;
-			- weakCGTime = 4.2.2015::11:35:31;
+			- _modifiedTimeWeak = 4.9.2015::7:16:39;
+			- weakCGTime = 4.9.2015::7:16:39;
 			- strongCGTime = 4.2.2015::8:57:21;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1688,9 +1688,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID ffff3a1a-47bb-4893-96ba-c5abb0045f40;
 					- _myState = 8192;
 					- _name = "dechargerTransporteur";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 4.9.2015::7:16:39;
 					- _lastID = 1;
 					- _virtual = 1;
@@ -1716,9 +1713,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 87a2b7ab-94cd-4e12-8ee9-6aa5649e5d2c;
 					- _myState = 8192;
 					- _name = "entrerDesPiecesDansStockPieces";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 4.9.2015::7:16:39;
 					- _lastID = 1;
 					- _virtual = 1;

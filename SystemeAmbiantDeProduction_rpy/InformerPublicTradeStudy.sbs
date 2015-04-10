@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 2304aaa0-c315-4bac-bfa6-ba727eb5217c;
 	- _myState = 8192;
 	- _name = "InformerPublicTradeStudy";
-	- _modifiedTimeWeak = 4.9.2015::7:16:39;
+	- _modifiedTimeWeak = 4.10.2015::9:10:54;
 	- _lastID = 14;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -167,7 +167,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.9.2015::7:19:20";
+			- _lastModifiedTime = "4.10.2015::9:11:56";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 0c733891-93d5-43f0-81ab-7e2f37d3883f;
 				- m_type = 0;
@@ -1632,7 +1632,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.9.2015::7:16:39;
+	- weakCGTime = 4.10.2015::9:10:54;
 	- strongCGTime = 4.2.2015::8:57:31;
 	- _defaultComposite = GUID cfb675d9-1344-4a0f-9af1-6844b3e0ce89;
 	- _eventsBaseID = -1;
@@ -1643,8 +1643,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID cfb675d9-1344-4a0f-9af1-6844b3e0ce89;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.2.2015::12:51:19;
-			- weakCGTime = 4.2.2015::12:51:19;
+			- _modifiedTimeWeak = 4.9.2015::7:16:39;
+			- weakCGTime = 4.9.2015::7:16:39;
 			- strongCGTime = 4.2.2015::8:57:31;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1668,12 +1668,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.9.2015::7:16:39;
+			- _modifiedTimeWeak = 4.10.2015::9:10:54;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 36fc58df-d60d-4ef4-ab36-7625d2e0c551;
 			}
-			- weakCGTime = 4.9.2015::7:16:39;
+			- weakCGTime = 4.10.2015::9:10:54;
 			- strongCGTime = 3.30.2015::8:52:16;
 			- Operations = { IRPYRawContainer 
 				- size = 3;
@@ -1683,36 +1683,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "informerDeLOperation";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID b56ab8d5-ab66-406f-af9b-4b37602bd0cc;
-							- _myState = 2048;
-							- _name = "informerDeLOperation";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.1.2015::11:46:17;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::FabricationPkg";
-								- _class = "Uc_Fabrication";
-								- _name = "informerDeLOperation()";
-								- _id = GUID 455f6425-a14b-4541-95e1-f8b01952bb38;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1737,9 +1710,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 86df7a48-2e11-495d-9afe-8ab58faefc27;
 					- _myState = 8192;
 					- _name = "informerFinReapprovisionnement";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 4.9.2015::7:16:39;
 					- _lastID = 1;
 					- _virtual = 1;
@@ -1765,9 +1735,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 9509224d-e51a-411c-8ed9-0a269740b7f9;
 					- _myState = 8192;
 					- _name = "signalerDemandeReapprovisionnement";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 4.9.2015::7:16:39;
 					- _lastID = 1;
 					- _virtual = 1;

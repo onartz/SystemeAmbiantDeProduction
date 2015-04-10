@@ -197,7 +197,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 6c142614-3349-49e9-8c6b-0236be5f6b61;
 				}
 			}
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- _lastModifiedTime = "4.2.2015::10:16:48";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID d584e6bc-fc2f-4c6c-b66e-c1aac8961ccd;
@@ -263,7 +263,28 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
 					- Compartments = { IRPYRawContainer 
-						- size = 0;
+						- size = 2;
+						- value = 
+						{ CGICompartment 
+							- _id = GUID 6a226920-c644-4dbe-9a4b-e43d9b9d1ad6;
+							- m_name = "Attribute";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+						{ CGICompartment 
+							- _id = GUID d7d9c30d-93a4-422a-b17d-b74ddd627d7b;
+							- m_name = "Operation";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
 					}
 					- Attrs = { IRPYRawContainer 
 						- size = 0;
@@ -362,7 +383,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.248347 0 0 0.113191 260.503 7.76025 ;
+					- m_transform = 0.248347 0 0 0.113191 261 8 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -436,7 +457,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0793201 0 0 0.101604 80.8414 511.572 ;
+					- m_transform = 0.0793201 0 0 0.101604 81 512 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -510,7 +531,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0812087 0 0 0.101604 202.838 508.572 ;
+					- m_transform = 0.0812087 0 0 0.101604 203 509 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -609,7 +630,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.194523 0 0 0.101604 483.611 518.572 ;
+					- m_transform = 0.194523 0 0 0.101604 484 519 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -683,7 +704,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.0793201 0 0 0.101604 301.841 508.572 ;
+					- m_transform = 0.0793201 0 0 0.101604 302 509 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -766,7 +787,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
 						- _class = "PosteMachine";
 						- _name = "itsIHM";
 						- _id = GUID 84c9f53c-277b-4f67-9e7f-1d9535b7b047;
@@ -867,7 +888,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 0;
 					}
 					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
+						- m_str = "1";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -939,7 +960,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
 						- _class = "PosteMachine";
 						- _name = "itsStockEntreeBruts";
 						- _id = GUID 79123ce6-b2b4-49df-9622-316993fdef9f;
@@ -1014,7 +1035,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_bImplicitSetRectPoints = 0;
 					}
 					- m_targetRole = { CGIText 
-						- m_str = "";
+						- m_str = "itsStockEntreeBruts";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1042,7 +1063,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 0;
 					}
 					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
+						- m_str = "1";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1114,7 +1135,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
 						- _class = "PosteMachine";
 						- _name = "itsMachine";
 						- _id = GUID 93bd13f1-f06b-41fe-a1a8-56cc02e460f0;
@@ -1215,7 +1236,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 0;
 					}
 					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
+						- m_str = "1";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1287,7 +1308,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
 						- _class = "PosteMachine";
 						- _name = "itsStockSortiePiecesUsinees";
 						- _id = GUID ecb0c0ba-dcb9-49d6-962b-3a5d10144925;
@@ -1362,7 +1383,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_bImplicitSetRectPoints = 0;
 					}
 					- m_targetRole = { CGIText 
-						- m_str = "";
+						- m_str = "itsStockSortiePiecesUsinees";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1392,7 +1413,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 0;
 					}
 					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
+						- m_str = "1";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1464,7 +1485,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
 						- _class = "PosteMachine";
 						- _name = "itsStockSortieMatiere";
 						- _id = GUID 5fff0eab-a1f1-4d22-936a-f5552d07183c;
@@ -1539,7 +1560,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_bImplicitSetRectPoints = 0;
 					}
 					- m_targetRole = { CGIText 
-						- m_str = "";
+						- m_str = "itsStockSortieMatiere";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1569,7 +1590,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 0;
 					}
 					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
+						- m_str = "1";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1641,7 +1662,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
 						- _class = "PosteMachine";
 						- _name = "itsStockSortieRebuts";
 						- _id = GUID ed18a2e1-fbb7-419a-a24c-dcf740ec913f;
@@ -1716,7 +1737,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_bImplicitSetRectPoints = 0;
 					}
 					- m_targetRole = { CGIText 
-						- m_str = "";
+						- m_str = "itsStockSortieRebuts";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1746,7 +1767,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 0;
 					}
 					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
+						- m_str = "1";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1818,7 +1839,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
 						- _class = "PosteMachine";
 						- _name = "itsStockSortieCopeaux";
 						- _id = GUID cd871221-21ca-4fc3-a408-07700a0b0f22;
@@ -1893,7 +1914,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_bImplicitSetRectPoints = 0;
 					}
 					- m_targetRole = { CGIText 
-						- m_str = "";
+						- m_str = "itsStockSortieCopeaux";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1922,7 +1943,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 0;
 					}
 					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
+						- m_str = "1";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1994,7 +2015,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
 						- _class = "";
 						- _name = "PosteMachine";
 						- _id = GUID f4200462-7e81-4de5-bc0b-2602b9608c84;
@@ -2014,7 +2035,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4136;
-					- m_transform = 0.576015 0 0 0.173797 91.8479 155.821 ;
+					- m_transform = 0.576015 0 0 0.173797 92 156 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2263,8 +2284,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID d6538496-0d15-4f4e-ae31-1fa6fcc064aa;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.25.2015::14:59:26;
-			- weakCGTime = 3.25.2015::14:59:26;
+			- _modifiedTimeWeak = 4.2.2015::10:16:18;
+			- weakCGTime = 4.2.2015::10:16:18;
 			- strongCGTime = 3.25.2015::14:59:17;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2306,12 +2327,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID eb104a72-31d8-40e3-bc77-f57a68856453;
 					- _myState = 10240;
 					- _name = "itsPosteMachine";
-					- _modifiedTimeWeak = 4.2.2015::10:15:32;
+					- _modifiedTimeWeak = 4.2.2015::10:16:3;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
 						- _class = "";
 						- _name = "PosteMachine";
 						- _id = GUID f4200462-7e81-4de5-bc0b-2602b9608c84;

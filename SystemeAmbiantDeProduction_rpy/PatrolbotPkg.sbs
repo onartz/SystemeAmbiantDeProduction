@@ -23,9 +23,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 33c86090-c54b-4e1f-9a2d-3695ca5e9444;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
-			- weakCGTime = 1.1.1970::1:0:0;
-			- strongCGTime = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 4.2.2015::11:44:48;
+			- weakCGTime = 4.2.2015::11:44:48;
+			- strongCGTime = 4.2.2015::11:44:48;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -65,7 +65,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				- value = 
 				{ IGeneralization 
 					- _id = GUID 96269315-6656-4743-8521-f0df570cc527;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
@@ -89,7 +89,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID fdfe58ac-ed1f-433f-abe7-0bddcce77dd7;
 					- _myState = 10240;
 					- _name = "itsStationRecharge";
-					- _modifiedTimeWeak = 3.26.2015::15:35:56;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -107,7 +107,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 1ce88c9d-ee16-4d7a-9d8f-a4219f51e2bf;
 					- _myState = 10240;
 					- _name = "itsSupportContainer";
-					- _modifiedTimeWeak = 3.26.2015::15:35:56;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -125,7 +125,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 2550689e-74ab-4580-830c-c8425dbede26;
 					- _myState = 10240;
 					- _name = "itsBaseRobotMobile";
-					- _modifiedTimeWeak = 3.26.2015::15:35:56;
+					- _modifiedTimeWeak = 4.2.2015::11:44:48;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -143,6 +143,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _classModifier = Unspecified;
 		}
 	}
-	- _configurationRelatedTime = 1.1.1970::1:0:0;
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
 }
 
