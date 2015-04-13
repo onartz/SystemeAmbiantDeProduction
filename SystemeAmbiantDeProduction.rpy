@@ -167,9 +167,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- Diagrams = { IRPYRawContainer 
 		- size = 0;
 	}
-	- MSCS = { IRPYRawContainer 
-		- size = 0;
-	}
 	- Components = { IRPYRawContainer 
 		- size = 1;
 		- value = 

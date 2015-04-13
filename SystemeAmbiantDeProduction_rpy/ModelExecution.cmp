@@ -275,7 +275,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _filename = "DesignSynthesisPkg.sbs";
 			- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg";
 			- _class = "";
-			- _name = "InformerPublicTradeStudy";
+			- _name = "InformationPublicTradeStudy";
 			- _id = GUID 2304aaa0-c315-4bac-bfa6-ba727eb5217c;
 		}
 		{ IHandle 

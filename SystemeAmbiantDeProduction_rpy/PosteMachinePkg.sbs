@@ -23,8 +23,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 78f2325e-5422-487a-a39b-f44e3811e626;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.9.2015::7:16:39;
-			- weakCGTime = 4.9.2015::7:16:39;
+			- _modifiedTimeWeak = 4.10.2015::9:9:26;
+			- weakCGTime = 4.10.2015::9:9:26;
 			- strongCGTime = 4.2.2015::11:44:48;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -66,10 +66,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 3f92332a-54a0-4baf-8356-eb75ace7a6d2;
 					- _myState = 8192;
 					- _name = "usiner";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
-					- _modifiedTimeWeak = 4.10.2015::9:10:5;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -94,10 +91,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID bb8d9472-da06-480a-9128-d4ee0a633225;
 					- _myState = 8192;
 					- _name = "stockerPieces";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
-					- _modifiedTimeWeak = 4.10.2015::9:10:53;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -122,7 +116,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 1789a404-f12b-45fd-b079-0398bd8bce5f;
 					- _myState = 8192;
 					- _name = "stockerPiecesPretesATransporter";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -147,7 +141,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID c42699b1-da64-4b9f-82de-d92730d4cb91;
 					- _myState = 8192;
 					- _name = "signalerDemandeReapprovisionnement";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -172,10 +166,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID e511fe3f-bbc7-42b9-8fd5-e7f9ca2529ce;
 					- _myState = 8192;
 					- _name = "preparerUsinage";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
-					- _modifiedTimeWeak = 4.10.2015::9:9:26;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -200,9 +191,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 11d19f2c-349b-42d3-9193-30b131cbdcbb;
 					- _myState = 8192;
 					- _name = "demanderReapprovisionnement";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
@@ -228,9 +216,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID a7c8f290-8460-4d5e-b7ff-fc34c4bee179;
 					- _myState = 8192;
 					- _name = "cloturerUsinage";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
@@ -258,11 +243,11 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				- value = 
 				{ IGeneralization 
 					- _id = GUID 1e477607-558b-4a83-8814-4bf708b9aedd;
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformerPublicTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformationPublicTradeStudy";
 						- _class = "";
 						- _name = "InformerPublic";
 						- _id = GUID 6d0008aa-92b8-463f-a148-74cbcd1346ce;
@@ -282,7 +267,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 84c9f53c-277b-4f67-9e7f-1d9535b7b047;
 					- _myState = 10240;
 					- _name = "itsIHM";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -300,7 +285,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 79123ce6-b2b4-49df-9622-316993fdef9f;
 					- _myState = 8192;
 					- _name = "itsStockEntreeBruts";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -318,7 +303,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 93bd13f1-f06b-41fe-a1a8-56cc02e460f0;
 					- _myState = 10240;
 					- _name = "itsMachine";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -336,7 +321,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID ecb0c0ba-dcb9-49d6-962b-3a5d10144925;
 					- _myState = 8192;
 					- _name = "itsStockSortiePiecesUsinees";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -354,7 +339,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 5fff0eab-a1f1-4d22-936a-f5552d07183c;
 					- _myState = 8192;
 					- _name = "itsStockSortieMatiere";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -372,7 +357,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID ed18a2e1-fbb7-419a-a24c-dcf740ec913f;
 					- _myState = 8192;
 					- _name = "itsStockSortieRebuts";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -390,7 +375,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID cd871221-21ca-4fc3-a408-07700a0b0f22;
 					- _myState = 8192;
 					- _name = "itsStockSortieCopeaux";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";

@@ -12,7 +12,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _myState = 8192;
 	- _name = "SystemRequirements";
 	- Annotations = { IRPYRawContainer 
-		- size = 13;
+		- size = 14;
 		- value = 
 		{ IRequirement 
 			- _id = GUID cb1abc5d-a397-45fe-a59c-b047f3b9af88;
@@ -78,7 +78,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 ";
 				}
 			}
-			- _modifiedTimeWeak = 4.10.2015::7:38:34;
+			- _modifiedTimeWeak = 4.13.2015::7:46:53;
 			- _lastID = 6;
 			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1036{\\fonttbl{\\f0\\fnil\\fcharset0 Tahoma;}}
 {\\colortbl ;\\red0\\green0\\blue0;}
@@ -328,9 +328,28 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 }
 ";
 		}
+		{ IRequirement 
+			- _id = GUID 72146809-cd45-4ca5-b3ef-bec1978f4f54;
+			- _myState = 8192;
+			- _name = "Conditionnement des produits transportes dans des containers";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 518b7972-eac2-4282-bbe1-c06e140ec2e7;
+				}
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID 776c6d16-c9f3-496c-8f08-1cbcab227ea2;
+				}
+			}
+			- _modifiedTimeWeak = 4.13.2015::7:29:8;
+			- _body = "Tous les produits sont conditionnes dans des containers.";
+		}
 	}
-	- _modifiedTimeWeak = 4.10.2015::7:38:34;
-	- _lastID = 11;
+	- _modifiedTimeWeak = 4.13.2015::7:46:53;
+	- _lastID = 12;
 	- Declaratives = { IRPYRawContainer 
 		- size = 6;
 		- value = 
@@ -395,7 +414,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.10.2015::7:38:34;
+	- weakCGTime = 4.13.2015::7:46:53;
 	- strongCGTime = 3.16.2015::13:45:6;
 	- _defaultComposite = GUID 273e2d00-9480-4d76-bf78-42ba8525f91e;
 	- _eventsBaseID = -1;
@@ -406,8 +425,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 273e2d00-9480-4d76-bf78-42ba8525f91e;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.8.2015::12:11:24;
-			- weakCGTime = 4.8.2015::12:11:24;
+			- _modifiedTimeWeak = 4.13.2015::7:0:15;
+			- weakCGTime = 4.13.2015::7:0:15;
 			- strongCGTime = 3.16.2015::13:45:6;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

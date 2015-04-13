@@ -52,9 +52,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "DesignSynthesisPkg.sbs";
-				- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformerPublicTradeStudy";
+				- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformationPublicTradeStudy";
 				- _class = "";
-				- _name = "BDD_InformerPublicArchitecture";
+				- _name = "BDD_InformationPublicArchitecture";
 				- _id = GUID c54c7294-7faf-43d1-bf27-b458d0ccd464;
 			}
 			- weakCGTime = 4.2.2015::12:27:42;
@@ -68,7 +68,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformerPublicTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformationPublicTradeStudy";
 						- _class = "";
 						- _name = "InformerPublic";
 						- _id = GUID 6d0008aa-92b8-463f-a148-74cbcd1346ce;

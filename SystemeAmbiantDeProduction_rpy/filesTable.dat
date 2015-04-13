@@ -15,7 +15,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 	"SystemeAmbiantDeProduction_rpy\\DesignSynthesisPkg.sbs" "DesignSynthesisPkg"
 	"SystemeAmbiantDeProduction_rpy\\FunctionalAnalysisPkg.sbs" "FunctionalAnalysisPkg"
 	"SystemeAmbiantDeProduction_rpy\\HumainPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::HumainPkg"
-	"SystemeAmbiantDeProduction_rpy\\InformerPublicTradeStudy.sbs" "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformerPublicTradeStudy"
+	"SystemeAmbiantDeProduction_rpy\\InformationPublicTradeStudy.sbs" "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::InformationPublicTradeStudy"
 	"SystemeAmbiantDeProduction_rpy\\InterfacesPkg.sbs" "InterfacesPkg"
 	"SystemeAmbiantDeProduction_rpy\\LogistiqueDeReapprovisionnementBBScenariosPkg.sbs" "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg::LogistiqueDeReapprovisionnementBBScenariosPkg"
 	"SystemeAmbiantDeProduction_rpy\\LogistiqueDeReapprovisionnementExecutionScopePkg.sbs" "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg::LogistiqueDeReapprovisionnementExecutionScopePkg"

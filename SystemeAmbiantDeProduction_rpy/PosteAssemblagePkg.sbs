@@ -23,8 +23,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID ea257dcb-8a27-4c5e-8163-4051574dac50;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.2.2015::11:44:48;
-			- weakCGTime = 4.2.2015::11:44:48;
+			- _modifiedTimeWeak = 4.10.2015::9:10:53;
+			- weakCGTime = 4.10.2015::9:10:53;
 			- strongCGTime = 4.2.2015::11:44:48;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -66,9 +66,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 0d9e59a7-3c30-4160-80fd-9cad552ab4a7;
 					- _myState = 8192;
 					- _name = "assemblerLesComposants";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
@@ -94,9 +91,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID de2b54dc-6b96-480e-8101-1b4bfac0cb4d;
 					- _myState = 8192;
 					- _name = "sortirLesComposantsDesStocks";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
@@ -122,10 +116,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID e5a8e9ec-b444-4cf4-903b-4df945a6b07f;
 					- _myState = 8192;
 					- _name = "stockerProduitAssemble";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
-					- _modifiedTimeWeak = 4.10.2015::9:10:53;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 

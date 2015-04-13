@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 5b1cdeb4-06b0-4d81-acdf-bc3fc83a6cf9;
 	- _myState = 8192;
 	- _name = "PreparationDeCommandeTradeStudy";
-	- _modifiedTimeWeak = 4.10.2015::9:10:54;
+	- _modifiedTimeWeak = 4.13.2015::7:0:14;
 	- _lastID = 6;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -1791,7 +1791,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.10.2015::9:10:54;
+	- weakCGTime = 4.13.2015::7:46:53;
 	- strongCGTime = 4.2.2015::8:57:0;
 	- _defaultComposite = GUID afa66915-a62c-4aef-8cce-e18b26218189;
 	- _eventsBaseID = -1;
@@ -1802,8 +1802,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID afa66915-a62c-4aef-8cce-e18b26218189;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.9.2015::7:16:39;
-			- weakCGTime = 4.9.2015::7:16:39;
+			- _modifiedTimeWeak = 4.13.2015::7:0:14;
+			- weakCGTime = 4.13.2015::7:0:14;
 			- strongCGTime = 4.2.2015::8:57:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1841,7 +1841,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID a6748d75-c469-4fb0-8e5b-95328609940c;
 					- _myState = 8192;
 					- _name = "sortirDesPiecesDuStockPieces";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1866,9 +1866,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 56dd1c06-640c-45a1-a00f-3c56d0a1c1d1;
 					- _myState = 8192;
 					- _name = "sortirLesBrutsDuStock";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
@@ -1894,9 +1891,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID f13dfeab-272a-4836-8625-25fdda3dbf32;
 					- _myState = 8192;
 					- _name = "sortirLesComposantsDesStocks";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
@@ -1922,7 +1916,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID c5bc78fe-727e-409e-8f03-baa3551e0121;
 					- _myState = 8192;
 					- _name = "stockerPiecesPretesATransporter";
-					- _modifiedTimeWeak = 4.9.2015::7:16:39;
+					- _modifiedTimeWeak = 4.10.2015::9:10:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
