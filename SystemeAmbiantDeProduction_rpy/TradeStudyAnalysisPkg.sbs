@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 66fba4b0-d3ff-4553-9850-27e6bbc0bbb3;
 	- _myState = 8192;
 	- _name = "TradeStudyAnalysisPkg";
-	- _modifiedTimeWeak = 4.13.2015::6:14:27;
+	- _modifiedTimeWeak = 4.13.2015::8:54:52;
 	- _lastID = 11;
 	- Declaratives = { IRPYRawContainer 
 		- size = 7;
@@ -41,11 +41,11 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 705b625f-9ffd-41bf-9cbd-0ff5d0809574;
 		}
 		{ ISubsystem 
-			- fileName = "PreparationDeCommandeTradeStudy";
+			- fileName = "PreparationDesBrutsTradeStudy";
 			- _id = GUID 5b1cdeb4-06b0-4d81-acdf-bc3fc83a6cf9;
 		}
 	}
-	- weakCGTime = 4.13.2015::6:14:27;
+	- weakCGTime = 4.13.2015::8:54:52;
 	- strongCGTime = 3.25.2015::14:59:43;
 	- _defaultComposite = GUID 32f5c565-8f58-468f-88bc-6eeba3ee2fc3;
 	- _eventsBaseID = -1;

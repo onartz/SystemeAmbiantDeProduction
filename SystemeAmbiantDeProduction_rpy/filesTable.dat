@@ -1,7 +1,7 @@
 I-Logix-RPY-Archive version 8.8.0 * 6107223
 
 - filesTable = { IRPYRawContainer 
-	- size = 38;
+	- size = 41;
 	- value = "SystemeAmbiantDeProduction.rpy" ""
 	"SystemeAmbiantDeProduction_rpy\\ActorPkg.sbs" "ActorPkg"
 	"SystemeAmbiantDeProduction_rpy\\AmbientProductionSystemDecompositionPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg"
@@ -20,11 +20,14 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 	"SystemeAmbiantDeProduction_rpy\\LogistiqueDeReapprovisionnementBBScenariosPkg.sbs" "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg::LogistiqueDeReapprovisionnementBBScenariosPkg"
 	"SystemeAmbiantDeProduction_rpy\\LogistiqueDeReapprovisionnementExecutionScopePkg.sbs" "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg::LogistiqueDeReapprovisionnementExecutionScopePkg"
 	"SystemeAmbiantDeProduction_rpy\\LogistiqueDeReapprovisionnementPkg.sbs" "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg"
+	"SystemeAmbiantDeProduction_rpy\\LogistiqueDesContainersBBScenariosPkg.sbs" "FunctionalAnalysisPkg::LogistiqueDesContainersPkg::LogistiqueDesContainersBBScenariosPkg"
+	"SystemeAmbiantDeProduction_rpy\\LogistiqueDesContainersExecutionScopePkg.sbs" "FunctionalAnalysisPkg::LogistiqueDesContainersPkg::LogistiqueDesContainersExecutionScopePkg"
+	"SystemeAmbiantDeProduction_rpy\\LogistiqueDesContainersPkg.sbs" "FunctionalAnalysisPkg::LogistiqueDesContainersPkg"
 	"SystemeAmbiantDeProduction_rpy\\ModelExecution.cmp" "ModelExecution"
 	"SystemeAmbiantDeProduction_rpy\\PatrolbotPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PatrolbotPkg"
 	"SystemeAmbiantDeProduction_rpy\\PosteAssemblagePkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteAssemblagePkg"
 	"SystemeAmbiantDeProduction_rpy\\PosteMachinePkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg"
-	"SystemeAmbiantDeProduction_rpy\\PreparationDeCommandeTradeStudy.sbs" "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::PreparationDeCommandeTradeStudy"
+	"SystemeAmbiantDeProduction_rpy\\PreparationDesBrutsTradeStudy.sbs" "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::PreparationDesBrutsTradeStudy"
 	"SystemeAmbiantDeProduction_rpy\\ProductionSystemControllerPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::ProductionSystemControllerPkg"
 	"SystemeAmbiantDeProduction_rpy\\ProductiondelotsdeproduitsBBScenariosPkg.sbs" "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg::ProductiondelotsdeproduitsBBScenariosPkg"
 	"SystemeAmbiantDeProduction_rpy\\ProductiondelotsdeproduitsExecutionScopePkg.sbs" "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg::ProductiondelotsdeproduitsExecutionScopePkg"

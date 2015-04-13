@@ -5,7 +5,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 25;
+		- size = 7;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -14,192 +14,52 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 100;
-				- m_nTop = 100;
-				- m_nRight = 726;
-				- m_nBottom = 610;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _filename = "DesignSynthesisPkg.sbs";
-				- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementTransporteurTradeStudy";
-				- _class = "";
-				- _name = "BDD_ChargementTransporteurArchitecture";
-				- _id = GUID 995b9a3a-a817-4ae7-8e70-4c1b891fb27c;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 589 451 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 0;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
 				- m_nLeft = 75;
 				- m_nTop = 75;
-				- m_nRight = 701;
-				- m_nBottom = 585;
+				- m_nRight = 801;
+				- m_nBottom = 604;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _filename = "DesignSynthesisPkg.sbs";
-				- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementTransporteurTradeStudy";
-				- _class = "";
-				- _name = "BDD_ChargementTransporteurOptions";
-				- _id = GUID 9586adf0-edc5-495d-ae2f-fcbf3ae5ca11;
+				- _m2Class = "IActivityDiagram";
+				- _filename = "FunctionalAnalysisPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+				- _class = "LogistiqueDeReapprovisionnement::LogistiqueDeReapprovisionnementBlackBoxView";
+				- _name = "ActivityDiagram";
+				- _id = GUID 24020d6d-183f-4470-822a-92894272dc04;
+			}
+			- _UpLeft = 0 120 ;
+			- _DownRight = 689 590 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 5;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 150;
+				- m_nTop = 150;
+				- m_nRight = 773;
+				- m_nBottom = 660;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "FunctionalAnalysisPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+				- _class = "LogistiqueDeReapprovisionnement::LogistiqueDeReapprovisionnementBlackBoxView";
+				- _name = "ActivityDiagram";
+				- _id = GUID da20fea3-3b03-4f40-b532-5b046ad121cf;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1073 739 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 1;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 25;
-				- m_nTop = 25;
-				- m_nRight = 660;
-				- m_nBottom = 535;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _filename = "DesignSynthesisPkg.sbs";
-				- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg";
-				- _class = "";
-				- _name = "BDD_AmbientProductionSystem";
-				- _id = GUID 9571a6d8-4dc3-4dca-84b3-b60b090c2fa8;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 716 540 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 6;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 0;
-				- m_nTop = 0;
-				- m_nRight = 723;
-				- m_nBottom = 510;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IStructureDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-				- _class = "";
-				- _name = "IBD_LogistiqueDeReapprovisionnement";
-				- _id = GUID 766d44bf-bb6e-4526-90fe-97baeee69d73;
-			}
-			- _UpLeft = -32 0 ;
-			- _DownRight = 654 451 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 23;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 250;
-				- m_nTop = 250;
-				- m_nRight = 901;
-				- m_nBottom = 760;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-				- _class = "LogistiqueDeReapprovisionnement::LogistiqueDeReapprovisionnementBlackBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID 5f4b3023-4ba7-42f1-94e9-d469755126ba;
-			}
-			- _UpLeft = 0 74 ;
-			- _DownRight = 614 525 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 4;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 0;
-				- m_nTop = 0;
-				- m_nRight = 651;
-				- m_nBottom = 510;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-				- _class = "LogistiqueDeReapprovisionnement::LogistiqueDeReapprovisionnementBlackBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID e984e826-f7c0-4404-9611-7feb147269f8;
-			}
-			- _UpLeft = 0 9 ;
-			- _DownRight = 776 579 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 3;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 25;
-				- m_nTop = 25;
-				- m_nRight = 651;
-				- m_nBottom = 535;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-				- _class = "LogistiqueDeReapprovisionnement::LogistiqueDeReapprovisionnementBlackBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID 56efee7b-b462-4610-92e8-15ce3759157e;
-			}
-			- _UpLeft = 0 409 ;
-			- _DownRight = 589 860 ;
+			- _DownRight = 586 451 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 2;
 		}
@@ -212,416 +72,52 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -30;
-				- m_nLeft = 105;
-				- m_nTop = 141;
-				- m_nRight = 824;
-				- m_nBottom = 670;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IStructureDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-				- _class = "";
-				- _name = "IBD_Production de lots de produits";
-				- _id = GUID 03e60327-9680-4488-8175-84b4c0c6c78e;
-			}
-			- _UpLeft = 98 0 ;
-			- _DownRight = 780 470 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 24;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 150;
-				- m_nTop = 150;
-				- m_nRight = 785;
-				- m_nBottom = 660;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-				- _class = "Production de lots de produits::Production de lots de produitsBlackBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID 4ad1dd2e-eec1-4b04-8515-0d2048977de1;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 451 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 21;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
 				- m_nLeft = 175;
 				- m_nTop = 175;
-				- m_nRight = 810;
+				- m_nRight = 798;
 				- m_nBottom = 685;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IActivityDiagram";
 				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-				- _class = "Production de lots de produits::Production de lots de produitsBlackBoxView";
+				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+				- _class = "LogistiqueDeReapprovisionnement::LogistiqueDeReapprovisionnementBlackBoxView";
 				- _name = "ActivityDiagram";
-				- _id = GUID fe7392f1-10c2-4700-b2bb-f65aab8f391b;
+				- _id = GUID 8ff4d848-87f3-4111-aa67-6b23eee30f9e;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 598 451 ;
+			- _DownRight = 586 451 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 20;
+			- m_nDiagramIndex = 1;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 200;
-				- m_nTop = 200;
-				- m_nRight = 835;
-				- m_nBottom = 710;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-				- _class = "Production de lots de produits::Production de lots de produitsBlackBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID 14a68449-17f0-481e-aebb-24c75e4074cf;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 451 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 19;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 225;
-				- m_nTop = 225;
-				- m_nRight = 860;
-				- m_nBottom = 735;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-				- _class = "Production de lots de produits::Production de lots de produitsBlackBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID 86a9e6fc-3705-45ae-b394-65ce4b627dda;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 451 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 18;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 250;
-				- m_nTop = 250;
-				- m_nRight = 885;
-				- m_nBottom = 760;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-				- _class = "Production de lots de produits::Production de lots de produitsBlackBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID ea13712d-3bbb-49c5-b75b-15fc38ef5251;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 451 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 17;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 0;
-				- m_nTop = 0;
-				- m_nRight = 635;
-				- m_nBottom = 510;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-				- _class = "Production de lots de produits::Production de lots de produitsBlackBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID df8bf654-1f31-494f-83cc-84e8058f61af;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 451 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 16;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 25;
-				- m_nTop = 25;
-				- m_nRight = 660;
-				- m_nBottom = 535;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-				- _class = "Production de lots de produits::Production de lots de produitsBlackBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID b1d0ef0c-26f1-4fc5-bf96-b07e0c0f0e6f;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 451 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 15;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 50;
-				- m_nTop = 50;
-				- m_nRight = 685;
-				- m_nBottom = 560;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-				- _class = "Production de lots de produits::Production de lots de produitsBlackBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID 2e12cee5-712c-4bd4-8ab9-b7b0064d300c;
-			}
-			- _UpLeft = 241 0 ;
-			- _DownRight = 839 451 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 14;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -30;
 				- m_nLeft = 100;
 				- m_nTop = 100;
-				- m_nRight = 735;
-				- m_nBottom = 610;
+				- m_nRight = 826;
+				- m_nBottom = 629;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
+				- _m2Class = "IActivityDiagram";
 				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg::ProductiondelotsdeproduitsBBScenariosPkg";
-				- _class = "";
-				- _name = "SC_A1_PreparerProduction";
-				- _id = GUID 699ccf30-5c22-41ac-a587-7383f842cb30;
+				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+				- _class = "LogistiqueDeReapprovisionnement::LogistiqueDeReapprovisionnementBlackBoxView";
+				- _name = "ActivityDiagram";
+				- _id = GUID e984e826-f7c0-4404-9611-7feb147269f8;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 431 ;
+			- _UpLeft = 37 91 ;
+			- _DownRight = 889 830 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 13;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 225;
-				- m_nTop = 225;
-				- m_nRight = 860;
-				- m_nBottom = 735;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg::ProductiondelotsdeproduitsBBScenariosPkg";
-				- _class = "";
-				- _name = "SC_A211_PreparerRealisationOFSurMOCN";
-				- _id = GUID 8e6aed7d-fa5e-4284-bf0a-7f1cb0fd3536;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 431 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 9;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 125;
-				- m_nTop = 125;
-				- m_nRight = 760;
-				- m_nBottom = 635;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg::ProductiondelotsdeproduitsBBScenariosPkg";
-				- _class = "";
-				- _name = "SC_A212_RealiserOFSurMOCN";
-				- _id = GUID c9910d63-fa8f-4099-908a-99ea0e7ae37d;
-			}
-			- _UpLeft = 0 23 ;
-			- _DownRight = 598 454 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 22;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 250;
-				- m_nTop = 250;
-				- m_nRight = 885;
-				- m_nBottom = 760;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg::ProductiondelotsdeproduitsBBScenariosPkg";
-				- _class = "";
-				- _name = "SC_A213_CloturerRealisationOFSurMOCN";
-				- _id = GUID 92b21d19-62a6-49dc-ab80-c5c8bc6eac70;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 431 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 8;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 150;
-				- m_nTop = 150;
-				- m_nRight = 785;
-				- m_nBottom = 660;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg::ProductiondelotsdeproduitsBBScenariosPkg";
-				- _class = "";
-				- _name = "SC_A221_PreparerApprovisionnement";
-				- _id = GUID a48612af-b1cb-42c1-a9f5-6369581b9aa1;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 431 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 12;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 175;
-				- m_nTop = 175;
-				- m_nRight = 810;
-				- m_nBottom = 685;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg::ProductiondelotsdeproduitsBBScenariosPkg";
-				- _class = "";
-				- _name = "SC_A222_RealiserApprovisionnement";
-				- _id = GUID 94627532-6200-4a9b-9c08-8357c8970c69;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 431 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 11;
+			- m_nDiagramIndex = 4;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -634,22 +130,22 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_ptMaxPositionY = -30;
 				- m_nLeft = 200;
 				- m_nTop = 200;
-				- m_nRight = 835;
+				- m_nRight = 823;
 				- m_nBottom = 710;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
+				- _m2Class = "IActivityDiagram";
 				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg::ProductiondelotsdeproduitsBBScenariosPkg";
-				- _class = "";
-				- _name = "SC_A223_CloturerApprovisionnement";
-				- _id = GUID 5e039a5a-6431-4d50-9356-6b0ad9f73c8c;
+				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+				- _class = "LogistiqueDeReapprovisionnement::LogistiqueDeReapprovisionnementBlackBoxView";
+				- _name = "ActivityDiagram";
+				- _id = GUID 67107c85-dbc5-4aeb-9ede-9b25191871df;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 598 431 ;
+			- _DownRight = 586 451 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 10;
+			- m_nDiagramIndex = 0;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -658,54 +154,54 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 0;
-				- m_nTop = 0;
-				- m_nRight = 635;
-				- m_nBottom = 510;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
-				- _filename = "FunctionalAnalysisPkg.sbs";
-				- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg::ProductiondelotsdeproduitsBBScenariosPkg";
-				- _class = "";
-				- _name = "SC_A3_CloturerProduction";
-				- _id = GUID bf4a8666-8869-491f-b9c0-1a6c216d944c;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 598 431 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 7;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
 				- m_nLeft = 50;
 				- m_nTop = 50;
-				- m_nRight = 685;
-				- m_nBottom = 560;
+				- m_nRight = 776;
+				- m_nBottom = 579;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
-				- _m2Class = "IUCDiagram";
-				- _filename = "RequirementsAnalysisPkg.sbs";
-				- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+				- _m2Class = "IMSC";
+				- _filename = "FunctionalAnalysisPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg::LogistiqueDeReapprovisionnementBBScenariosPkg";
 				- _class = "";
-				- _name = "UCD_SystemeAmbiantDeProduction";
-				- _id = GUID d9383995-0514-4800-b416-25a8acfab429;
+				- _name = "SC_A1_PreparerReappro";
+				- _id = GUID b969a239-40de-41b7-8652-0d5fe1414b95;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 598 451 ;
+			- _DownRight = 689 450 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 5;
+			- m_nDiagramIndex = 6;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 102;
+				- m_nTop = 104;
+				- m_nRight = 828;
+				- m_nBottom = 633;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "FunctionalAnalysisPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg::LogistiqueDeReapprovisionnementBBScenariosPkg";
+				- _class = "";
+				- _name = "SC_A2_RealiserReappro";
+				- _id = GUID f96cc625-3b15-4970-8c61-74ae6cfaa95b;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 689 450 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
 		}
 	}
 	- _fullName = "C:\\Rhapsody\\SystemeAmbiantDeProduction\\SystemeAmbiantDeProduction\\SystemeAmbiantDeProduction";
@@ -740,12 +236,12 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 			colwidth=;126;347;707;;
 		}
 		{ - TableMatrixView
-			id=05b00493-6760-4618-8050-54eeb4b31552;
-			colwidth=;101;310;639;;
-		}
-		{ - TableMatrixView
 			id=75fc6866-a7e7-48a4-ae0a-03bf33485986;
 			colwidth=;55;358;488;;
+		}
+		{ - TableMatrixView
+			id=05b00493-6760-4618-8050-54eeb4b31552;
+			colwidth=;101;310;639;;
 		}
 		{ - TableMatrixView
 			id=6ba9fcdb-75da-41c2-87eb-b86443efbca5;
