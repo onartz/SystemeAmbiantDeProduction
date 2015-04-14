@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 2b6b9dae-8e68-4a5e-b663-e85bbf5e0ffe;
 	- _myState = 8192;
 	- _name = "UseCaseDiagramsPkg";
-	- _modifiedTimeWeak = 4.13.2015::12:28:34;
+	- _modifiedTimeWeak = 4.13.2015::14:0:21;
 	- _lastID = 27;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -293,7 +293,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- _name = "UCD_SystemeAmbiantDeProduction";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.13.2015::12:28:34";
+			- _lastModifiedTime = "4.13.2015::14:0:21";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 1b35d41b-1095-457e-a364-fa59a210d133;
 				- m_type = 0;
@@ -317,7 +317,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 16;
+				- elementList = 15;
 				{ CGIClass 
 					- _id = GUID 6d5fc8f6-f53c-4a7b-9e1c-0b79a926ea1f;
 					- m_type = 78;
@@ -1646,50 +1646,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					}
 					- m_specificType = symmetric_type;
 				}
-				{ CGIBasicClass 
-					- _id = GUID 9e6087a8-5a6d-4915-bb51-c8342f9343c3;
-					- m_type = 125;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IUseCase";
-						- _id = GUID 780f1684-e3b3-42ab-bb42-d6392e4c90fe;
-					}
-					- m_pParent = GUID f9557353-5c7b-4ba8-937b-8ec897059872;
-					- m_name = { CGIText 
-						- m_str = "LogistiqueDeReapprovisionnementDesMachines";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 4104;
-					- m_transform = 0.660524 0 0 0.133981 179.94 798.826 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 -2 -1  -2 1070  1127 1070  1127 -1  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
 				{ CGIAssociationEnd 
 					- _id = GUID 6a5fcf36-1c81-4f57-a433-cc7a86790203;
 					- _properties = { IPropertyContainer 
@@ -2287,7 +2243,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.13.2015::12:28:34;
+	- weakCGTime = 4.13.2015::14:0:21;
 	- strongCGTime = 10.14.2014::13:56:11;
 	- _defaultComposite = GUID 531180c0-e729-4025-add3-61031ee79520;
 	- _eventsBaseID = -1;
@@ -2309,27 +2265,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 		}
 	}
 	- UseCases = { IRPYRawContainer 
-		- size = 1;
-		- value = 
-		{ IUseCase 
-			- _id = GUID 780f1684-e3b3-42ab-bb42-d6392e4c90fe;
-			- _myState = 8192;
-			- _name = "LogistiqueDeReapprovisionnementDesMachines";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
-			- weakCGTime = 1.1.1970::1:0:0;
-			- strongCGTime = 1.1.1970::1:0:0;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- _classModifier = Unspecified;
-			- UseCaseStereoTypes = { IRPYRawContainer 
-				- size = 0;
-			}
-			- _EntryPoints = { IRPYRawContainer 
-				- size = 0;
-			}
-		}
+		- size = 0;
 	}
 	- _configurationRelatedTime = 1.2.1990::0:0:0;
 }

@@ -11,8 +11,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 860ad95c-8817-49f2-bb45-a9a2d158df9e;
 	- _myState = 8192;
 	- _name = "PosteMachinePkg";
-	- _modifiedTimeWeak = 4.10.2015::9:9:26;
-	- weakCGTime = 4.10.2015::9:9:26;
+	- _modifiedTimeWeak = 4.13.2015::13:32:39;
+	- weakCGTime = 4.13.2015::13:32:39;
 	- strongCGTime = 4.2.2015::11:44:48;
 	- _defaultComposite = GUID 78f2325e-5422-487a-a39b-f44e3811e626;
 	- _eventsBaseID = -1;
@@ -35,7 +35,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 		{ IClass 
 			- _id = GUID f4200462-7e81-4de5-bc0b-2602b9608c84;
 			- _myState = 8192;
-			- _name = "PosteMachine";
+			- _name = "PosteMachineAmbiant";
 			- Stereotypes = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -48,7 +48,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.10.2015::9:10:54;
+			- _modifiedTimeWeak = 4.13.2015::13:32:39;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "DesignSynthesisPkg.sbs";
@@ -57,8 +57,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				- _name = "BDD_AmbientProductionSystem";
 				- _id = GUID 9571a6d8-4dc3-4dca-84b3-b60b090c2fa8;
 			}
-			- weakCGTime = 4.10.2015::9:10:54;
-			- strongCGTime = 4.2.2015::11:44:48;
+			- weakCGTime = 4.13.2015::13:32:39;
+			- strongCGTime = 4.13.2015::13:32:39;
 			- Operations = { IRPYRawContainer 
 				- size = 7;
 				- value = 

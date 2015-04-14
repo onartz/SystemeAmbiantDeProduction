@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 0b298702-59a5-4895-9031-30b1e66b3844;
 	- _myState = 8192;
 	- _name = "ArchitecturalAnalysisPkg";
-	- _modifiedTimeWeak = 4.2.2015::10:16:18;
+	- _modifiedTimeWeak = 4.14.2015::6:45:11;
 	- _lastID = 12;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -198,7 +198,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.2.2015::10:16:48";
+			- _lastModifiedTime = "4.14.2015::6:45:11";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID d584e6bc-fc2f-4c6c-b66e-c1aac8961ccd;
 				- m_type = 0;
@@ -440,6 +440,10 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_type = 87;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
+						- _filename = "DesignSynthesisPkg.sbs";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg::IHMPkg";
+						- _class = "";
+						- _name = "IHM";
 						- _id = GUID ad99c7b3-dd3f-453e-aea2-045d900a3034;
 					}
 					- m_pParent = GUID c100ac3a-86cb-4242-9954-2a567b07f500;
@@ -514,6 +518,10 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_type = 87;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
+						- _filename = "DesignSynthesisPkg.sbs";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg::StockEntreePkg";
+						- _class = "";
+						- _name = "StockEntree";
 						- _id = GUID c57ae381-8679-465e-bcf9-535ea66c1998;
 					}
 					- m_pParent = GUID c100ac3a-86cb-4242-9954-2a567b07f500;
@@ -613,6 +621,10 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_type = 87;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
+						- _filename = "DesignSynthesisPkg.sbs";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg::StockSortiePkg";
+						- _class = "";
+						- _name = "StockSortie";
 						- _id = GUID e4cfce07-2b7e-4f87-a648-9184be726692;
 					}
 					- m_pParent = GUID c100ac3a-86cb-4242-9954-2a567b07f500;
@@ -687,6 +699,10 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_type = 87;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
+						- _filename = "DesignSynthesisPkg.sbs";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg::MachinePkg";
+						- _class = "";
+						- _name = "Machine";
 						- _id = GUID 3ae78bf6-57ba-4361-a97e-1d2ff577d018;
 					}
 					- m_pParent = GUID c100ac3a-86cb-4242-9954-2a567b07f500;
@@ -787,8 +803,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
-						- _class = "PosteMachine";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg";
+						- _class = "PosteMachineAmbiant";
 						- _name = "itsIHM";
 						- _id = GUID 84c9f53c-277b-4f67-9e7f-1d9535b7b047;
 					}
@@ -960,8 +976,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
-						- _class = "PosteMachine";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg";
+						- _class = "PosteMachineAmbiant";
 						- _name = "itsStockEntreeBruts";
 						- _id = GUID 79123ce6-b2b4-49df-9622-316993fdef9f;
 					}
@@ -1135,8 +1151,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
-						- _class = "PosteMachine";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg";
+						- _class = "PosteMachineAmbiant";
 						- _name = "itsMachine";
 						- _id = GUID 93bd13f1-f06b-41fe-a1a8-56cc02e460f0;
 					}
@@ -1308,8 +1324,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
-						- _class = "PosteMachine";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg";
+						- _class = "PosteMachineAmbiant";
 						- _name = "itsStockSortiePiecesUsinees";
 						- _id = GUID ecb0c0ba-dcb9-49d6-962b-3a5d10144925;
 					}
@@ -1485,8 +1501,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
-						- _class = "PosteMachine";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg";
+						- _class = "PosteMachineAmbiant";
 						- _name = "itsStockSortieMatiere";
 						- _id = GUID 5fff0eab-a1f1-4d22-936a-f5552d07183c;
 					}
@@ -1662,8 +1678,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
-						- _class = "PosteMachine";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg";
+						- _class = "PosteMachineAmbiant";
 						- _name = "itsStockSortieRebuts";
 						- _id = GUID ed18a2e1-fbb7-419a-a24c-dcf740ec913f;
 					}
@@ -1839,8 +1855,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
-						- _class = "PosteMachine";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg";
+						- _class = "PosteMachineAmbiant";
 						- _name = "itsStockSortieCopeaux";
 						- _id = GUID cd871221-21ca-4fc3-a408-07700a0b0f22;
 					}
@@ -2015,14 +2031,14 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg";
 						- _class = "";
-						- _name = "PosteMachine";
+						- _name = "PosteMachineAmbiant";
 						- _id = GUID f4200462-7e81-4de5-bc0b-2602b9608c84;
 					}
 					- m_pParent = GUID c100ac3a-86cb-4242-9954-2a567b07f500;
 					- m_name = { CGIText 
-						- m_str = "PosteMachine";
+						- m_str = "PosteMachineAmbiant";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -2273,12 +2289,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.2.2015::10:16:18;
+	- weakCGTime = 4.14.2015::6:45:11;
 	- strongCGTime = 3.25.2015::14:59:17;
 	- _defaultComposite = GUID d6538496-0d15-4f4e-ae31-1fa6fcc064aa;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
-		- size = 6;
+		- size = 2;
 		- value = 
 		{ IClass 
 			- _id = GUID d6538496-0d15-4f4e-ae31-1fa6fcc064aa;
@@ -2309,12 +2325,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.2.2015::10:16:3;
+			- _modifiedTimeWeak = 4.13.2015::13:32:39;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 237873de-13aa-49df-b39d-5e0001d15ee1;
 			}
-			- weakCGTime = 4.2.2015::10:16:3;
+			- weakCGTime = 4.13.2015::13:32:39;
 			- strongCGTime = 4.2.2015::10:1:40;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2326,15 +2342,15 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				{ IPart 
 					- _id = GUID eb104a72-31d8-40e3-bc77-f57a68856453;
 					- _myState = 10240;
-					- _name = "itsPosteMachine";
-					- _modifiedTimeWeak = 4.2.2015::10:16:3;
+					- _name = "itsPosteMachineAmbiant";
+					- _modifiedTimeWeak = 4.13.2015::13:32:39;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachinePkg";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg";
 						- _class = "";
-						- _name = "PosteMachine";
+						- _name = "PosteMachineAmbiant";
 						- _id = GUID f4200462-7e81-4de5-bc0b-2602b9608c84;
 					}
 					- _inverse = { IHandle 
@@ -2344,123 +2360,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- _classModifier = Unspecified;
 		}
-		{ IClass 
-			- _id = GUID ad99c7b3-dd3f-453e-aea2-045d900a3034;
-			- _myState = 8192;
-			- _name = "IHM";
-			- Stereotypes = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IHandle 
-					- _m2Class = "IStereotype";
-					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-					- _subsystem = "SysML::Blocks";
-					- _class = "";
-					- _name = "Block";
-					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
-				}
-			}
-			- _modifiedTimeWeak = 4.2.2015::10:1:55;
-			- _theMainDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _id = GUID 237873de-13aa-49df-b39d-5e0001d15ee1;
-			}
-			- weakCGTime = 4.2.2015::10:1:55;
-			- strongCGTime = 4.2.2015::10:1:55;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- _classModifier = Unspecified;
-		}
-		{ IClass 
-			- _id = GUID c57ae381-8679-465e-bcf9-535ea66c1998;
-			- _myState = 8192;
-			- _name = "StockEntree";
-			- Stereotypes = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IHandle 
-					- _m2Class = "IStereotype";
-					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-					- _subsystem = "SysML::Blocks";
-					- _class = "";
-					- _name = "Block";
-					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
-				}
-			}
-			- _modifiedTimeWeak = 4.2.2015::10:2:0;
-			- _theMainDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _id = GUID 237873de-13aa-49df-b39d-5e0001d15ee1;
-			}
-			- weakCGTime = 4.2.2015::10:2:0;
-			- strongCGTime = 4.2.2015::10:2:0;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- _classModifier = Unspecified;
-		}
-		{ IClass 
-			- _id = GUID e4cfce07-2b7e-4f87-a648-9184be726692;
-			- _myState = 8192;
-			- _name = "StockSortie";
-			- Stereotypes = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IHandle 
-					- _m2Class = "IStereotype";
-					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-					- _subsystem = "SysML::Blocks";
-					- _class = "";
-					- _name = "Block";
-					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
-				}
-			}
-			- _modifiedTimeWeak = 4.2.2015::10:2:5;
-			- _theMainDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _id = GUID 237873de-13aa-49df-b39d-5e0001d15ee1;
-			}
-			- weakCGTime = 4.2.2015::10:2:5;
-			- strongCGTime = 4.2.2015::10:2:5;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- _classModifier = Unspecified;
-		}
-		{ IClass 
-			- _id = GUID 3ae78bf6-57ba-4361-a97e-1d2ff577d018;
-			- _myState = 8192;
-			- _name = "Machine";
-			- Stereotypes = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IHandle 
-					- _m2Class = "IStereotype";
-					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-					- _subsystem = "SysML::Blocks";
-					- _class = "";
-					- _name = "Block";
-					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
-				}
-			}
-			- _modifiedTimeWeak = 4.2.2015::10:2:22;
-			- _theMainDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _id = GUID 237873de-13aa-49df-b39d-5e0001d15ee1;
-			}
-			- weakCGTime = 4.2.2015::10:2:22;
-			- strongCGTime = 4.2.2015::10:2:22;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- _classModifier = Unspecified;
-		}
 	}
-	- _configurationRelatedTime = 1.2.1990::0:0:0;
+	- _configurationRelatedTime = 4.14.2015::6:45:11;
 }
 

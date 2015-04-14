@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 705b625f-9ffd-41bf-9cbd-0ff5d0809574;
 	- _myState = 8192;
 	- _name = "DechargementTransporteurTradeStudy";
-	- _modifiedTimeWeak = 4.13.2015::8:52:5;
+	- _modifiedTimeWeak = 4.13.2015::14:20:1;
 	- _lastID = 8;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -194,7 +194,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.13.2015::8:51:37";
+			- _lastModifiedTime = "4.13.2015::14:24:4";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 3f49a5ef-9035-4fc1-a128-c7537dd84c62;
 				- m_type = 0;
@@ -432,14 +432,14 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementTransporteurTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementDechargementPatrolbotTradeStudy";
 						- _class = "";
-						- _name = "SystPrisePoseSurPatrolbot";
+						- _name = "SystPrisePoseParPatrolbot";
 						- _id = GUID 0076b395-9eca-4f81-8c2a-c4aaa2f3c5c2;
 					}
 					- m_pParent = GUID 25ff59bb-1698-4450-a3fe-d4abd3ef08d5;
 					- m_name = { CGIText 
-						- m_str = "SystPrisePoseSurPatrolbot";
+						- m_str = "SystPrisePoseParPatrolbot";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -540,8 +540,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IGeneralization";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementTransporteurTradeStudy";
-						- _class = "SystPrisePoseSurPatrolbot";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementDechargementPatrolbotTradeStudy";
+						- _class = "SystPrisePoseParPatrolbot";
 						- _name = "DechargementTransporteur";
 						- _id = GUID 8835bd55-01a8-4664-8f72-4ae3d0e95fcf;
 					}
@@ -1135,7 +1135,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.13.2015::8:52:17";
+			- _lastModifiedTime = "4.13.2015::14:20:1";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 7f55a85f-448d-4a58-a6b7-235bfe854016;
 				- m_type = 0;
@@ -1625,14 +1625,14 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementTransporteurTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementDechargementPatrolbotTradeStudy";
 						- _class = "";
-						- _name = "SystPrisePoseSurPatrolbot";
+						- _name = "SystPrisePoseParPatrolbot";
 						- _id = GUID 0076b395-9eca-4f81-8c2a-c4aaa2f3c5c2;
 					}
 					- m_pParent = GUID ef9a4888-fc7e-41d8-bd80-a671af74dbc6;
 					- m_name = { CGIText 
-						- m_str = "SystPrisePoseSurPatrolbot";
+						- m_str = "SystPrisePoseParPatrolbot";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -1885,7 +1885,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.13.2015::8:52:5;
+	- weakCGTime = 4.13.2015::14:20:1;
 	- strongCGTime = 4.2.2015::8:57:21;
 	- _defaultComposite = GUID ef536ecc-846c-49e2-9efe-457c26bb4180;
 	- _eventsBaseID = -1;
@@ -2004,12 +2004,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.13.2015::8:52:17;
+			- _modifiedTimeWeak = 4.13.2015::14:20:1;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 8a2e5447-d667-4627-ad48-06db84673cdb;
 			}
-			- weakCGTime = 4.13.2015::8:52:17;
+			- weakCGTime = 4.13.2015::14:20:1;
 			- strongCGTime = 4.2.2015::8:49:15;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2039,15 +2039,15 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				{ IPart 
 					- _id = GUID ea14737f-ddcb-40c1-a7bb-b561a8b96546;
 					- _myState = 10240;
-					- _name = "itsSystPrisePoseSurPatrolbot";
-					- _modifiedTimeWeak = 4.13.2015::8:52:17;
+					- _name = "itsSystPrisePoseParPatrolbot";
+					- _modifiedTimeWeak = 4.13.2015::14:20:1;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
-						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementTransporteurTradeStudy";
+						- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementDechargementPatrolbotTradeStudy";
 						- _class = "";
-						- _name = "SystPrisePoseSurPatrolbot";
+						- _name = "SystPrisePoseParPatrolbot";
 						- _id = GUID 0076b395-9eca-4f81-8c2a-c4aaa2f3c5c2;
 					}
 					- _inverse = { IHandle 

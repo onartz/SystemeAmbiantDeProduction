@@ -261,7 +261,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.13.2015::12:28:43";
+			- _lastModifiedTime = "4.13.2015::12:51:59";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 5690db43-e522-4da1-9692-a8eaf8953bd6;
 				- m_type = 0;
@@ -377,7 +377,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 4.45833 0 0 3.63636 20 20 ;
+					- m_transform = 4.45833 0 0 4.39394 20 20 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1127,7 +1127,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 8;
 					}
-					- m_arrow = 1 207 288  ;
+					- m_arrow = 3 301 288  301 569  214 569  ;
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
@@ -1213,7 +1213,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4110;
-					- m_transform = 0.188857 0 0 0.178253 49.6223 -8.64526 ;
+					- m_transform = 0.188857 0 0 0.178253 496.622 331.355 ;
 					- m_bIsPreferencesInitialized = 0;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1360,9 +1360,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4110;
-					- m_transform = 0.188857 0 0 0.178253 50 -9 ;
+					- m_transform = 0.188857 0 0 0.178253 57 254 ;
 					- m_bIsPreferencesInitialized = 0;
-					- m_bIsMisplaced = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
 						- m_style = "Arial" 10 0 0 0 1 ;
@@ -4341,7 +4340,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 									}
 								}
 							}
-							- _version = 4.13.2015::14:37:9;
+							- _version = 4.13.2015::14:49:8;
 							- _baseVersion = 1.2.1990::0:0:0;
 							- _diagram = GUID 5f4b3023-4ba7-42f1-94e9-d469755126ba;
 							- Views = { IRPYRawContainer 
@@ -8732,7 +8731,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 									}
 								}
 							}
-							- _version = 4.13.2015::14:48:5;
+							- _version = 4.13.2015::14:49:8;
 							- _baseVersion = 1.2.1990::0:0:0;
 							- _diagram = GUID e984e826-f7c0-4404-9611-7feb147269f8;
 							- Views = { IRPYRawContainer 
@@ -11742,7 +11741,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 									- _defaultTrans = ;
 								}
 							}
-							- _version = 4.13.2015::14:40:23;
+							- _version = 4.13.2015::14:49:8;
 							- _baseVersion = 1.2.1990::0:0:0;
 							- _diagram = GUID 56efee7b-b462-4610-92e8-15ce3759157e;
 							- Views = { IRPYRawContainer 
@@ -15087,7 +15086,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 									- _defaultTrans = ;
 								}
 							}
-							- _version = 4.13.2015::14:45:51;
+							- _version = 4.13.2015::14:49:8;
 							- _baseVersion = 1.1.1970::1:0:0;
 							- _diagram = GUID 24020d6d-183f-4470-822a-92894272dc04;
 							- Views = { IRPYRawContainer 
@@ -23495,7 +23494,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					}
 					- _classModifier = Unspecified;
 					- Diagrams = { IRPYRawContainer 
-						- size = 5;
+						- size = 6;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IMSC";
@@ -23536,6 +23535,14 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							- _class = "";
 							- _name = "SC_A2_RealiserReappro";
 							- _id = GUID f96cc625-3b15-4970-8c61-74ae6cfaa95b;
+						}
+						{ IHandle 
+							- _m2Class = "IMSC";
+							- _filename = "FunctionalAnalysisPkg.sbs";
+							- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg::LogistiqueDeReapprovisionnementBBScenariosPkg";
+							- _class = "";
+							- _name = "SC1";
+							- _id = GUID 2e6b8058-e815-49a8-b88f-0352b32e582c;
 						}
 					}
 					- _EntryPoints = { IRPYRawContainer 

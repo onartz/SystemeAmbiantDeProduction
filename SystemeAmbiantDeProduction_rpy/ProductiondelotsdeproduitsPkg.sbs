@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 08c6a3d9-b16e-491b-b103-54b8aee6720b;
 	- _myState = 8192;
 	- _name = "ProductiondelotsdeproduitsPkg";
-	- _modifiedTimeWeak = 4.13.2015::9:13:52;
+	- _modifiedTimeWeak = 4.14.2015::6:53:15;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
 		- value = 
@@ -1283,7 +1283,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 0d7d5d1a-64ff-44ca-aaa0-63c2be4a7267;
 		}
 	}
-	- weakCGTime = 4.13.2015::9:13:52;
+	- weakCGTime = 4.14.2015::6:53:15;
 	- strongCGTime = 4.10.2015::6:21:43;
 	- _defaultComposite = GUID 4fd78daf-7eb9-4a86-b4e2-94005159bd9f;
 	- _eventsBaseID = -1;
@@ -2989,7 +2989,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					}
 					- _modifiedTimeWeak = 3.30.2015::9:54:27;
 					- _lastID = 13;
-					- weakCGTime = 4.13.2015::9:13:52;
+					- weakCGTime = 4.14.2015::6:53:29;
 					- strongCGTime = 1.2.1990::0:0:0;
 					- _multiplicity = "";
 					- StateCharts = { IRPYRawContainer 
@@ -26994,9 +26994,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 							- _id = GUID 6111e446-ae13-4b3c-b85c-c733d6586f53;
 							- _myState = 8192;
 							- _name = "level3_A213_CloturerRealisationOFSurMOCN";
-							- _modifiedTimeWeak = 4.10.2015::8:54:28;
+							- _modifiedTimeWeak = 4.14.2015::6:53:29;
 							- _lastID = 3;
-							- weakCGTime = 4.10.2015::8:54:28;
+							- weakCGTime = 4.14.2015::6:53:29;
 							- strongCGTime = 1.2.1990::0:0:0;
 							- _multiplicity = "";
 							- _itsStateChart = { IHandle 
@@ -27137,15 +27137,27 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 								{ IState 
 									- _id = GUID 7edbffaf-7adb-4c62-a7c2-d2cfd6b3d9d9;
 									- _name = "action_68";
-									- _modifiedTimeWeak = 4.10.2015::8:54:28;
+									- Stereotypes = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IHandle 
+											- _m2Class = "IStereotype";
+											- _filename = "$OMROOT\\Profiles\\HarmonySE\\HarmonySE.sbs";
+											- _subsystem = "HarmonySE";
+											- _class = "";
+											- _name = "MessageAction";
+											- _id = GUID 6a6dcb0d-443c-42b2-85e2-db625ba090ba;
+										}
+									}
+									- _modifiedTimeWeak = 4.14.2015::6:53:29;
 									- _parent = GUID a05f9881-1b4a-42e3-8f45-da2745e0b80e;
 									- _stateType = Action;
 									- _defaultTrans = ;
 									- _entryAction = { IAction 
 										- _id = GUID 27135770-9223-4bd6-8cdb-5521ccc556ea;
 										- _myState = 4096;
-										- _modifiedTimeWeak = 4.10.2015::8:54:21;
-										- _body = "enregistrerLaFinDOFPoste";
+										- _modifiedTimeWeak = 4.14.2015::6:53:29;
+										- _body = "signalerLaFinDOFPoste";
 									}
 								}
 								{ IState 
@@ -27169,7 +27181,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 									- _defaultTrans = ;
 								}
 							}
-							- _version = 4.10.2015::10:54:38;
+							- _version = 4.14.2015::8:53:29;
 							- _baseVersion = 1.2.1990::0:0:0;
 							- _diagram = GUID 2f5f1173-4429-4868-a433-bc9caf2d61b2;
 							- Views = { IRPYRawContainer 
@@ -27416,8 +27428,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 										}
 									}
 									- _name = "activitydiagram_0";
-									- _modifiedTimeWeak = 4.10.2015::8:54:28;
-									- _lastModifiedTime = "4.10.2015::8:54:28";
+									- _modifiedTimeWeak = 4.14.2015::6:53:15;
+									- _lastModifiedTime = "4.14.2015::6:53:29";
 									- _graphicChart = { CGIStateChart 
 										- _id = GUID 0687389a-b6c8-4722-b754-139d3332602e;
 										- m_type = 0;
@@ -27815,11 +27827,11 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 												- m_position = 1 0 0  ;
 												- m_nIdent = 0;
 												- m_bImplicitSetRectPoints = 0;
-												- m_nVerticalSpacing = 19;
-												- m_nOrientationCtrlPt = 4;
+												- m_nHorizontalSpacing = 27;
+												- m_nOrientationCtrlPt = 2;
 											}
 											- m_drawBehavior = 4096;
-											- m_transform = -1.97929e-005 -21.6327 5.95107 -7.19488e-005 -71 238 ;
+											- m_transform = -5.95108 7.19489e-005 -1.97929e-005 -21.6327 904.574 1296.46 ;
 											- m_bIsPreferencesInitialized = 0;
 											- m_AdditionalLabel = { CGIText 
 												- m_str = "";
@@ -27832,8 +27844,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 												- m_position = 1 0 0  ;
 												- m_nIdent = 0;
 												- m_bImplicitSetRectPoints = 0;
-												- m_nVerticalSpacing = 17;
-												- m_nOrientationCtrlPt = 4;
+												- m_nHorizontalSpacing = 14;
+												- m_nOrientationCtrlPt = 2;
 											}
 											- m_position = 4 0 0  0 12  12 12  12 0  ;
 											- m_pInheritsFrom = { IHandle 
