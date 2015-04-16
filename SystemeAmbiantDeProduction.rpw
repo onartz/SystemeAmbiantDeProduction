@@ -5,36 +5,8 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 3;
+		- size = 1;
 		- value = 
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 75;
-				- m_nTop = 75;
-				- m_nRight = 834;
-				- m_nBottom = 604;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "DesignSynthesisPkg.sbs";
-				- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::AmbientProductionSystemWB_AD";
-				- _class = "LogistiqueDeReapprovisionnementWhiteBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID 8dcac7ab-8f31-458a-a013-e57e688dcf41;
-			}
-			- _UpLeft = 0 204 ;
-			- _DownRight = 903 767 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 1;
-		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
@@ -44,38 +16,10 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -30;
-				- m_nLeft = 100;
-				- m_nTop = 100;
-				- m_nRight = 759;
-				- m_nBottom = 610;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
-				- _filename = "DesignSynthesisPkg.sbs";
-				- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::AmbientProductionSystemWB_AD";
-				- _class = "LogistiqueDeReapprovisionnementWhiteBoxView";
-				- _name = "ActivityDiagram";
-				- _id = GUID b6a04af1-7881-4f38-ae3a-6f6d6a9e6782;
-			}
-			- _UpLeft = 0 467 ;
-			- _DownRight = 3052 1905 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 0;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -1;
-				- m_ptMaxPositionY = -1;
-				- m_nLeft = 50;
-				- m_nTop = 50;
-				- m_nRight = 946;
-				- m_nBottom = 779;
+				- m_nLeft = 0;
+				- m_nTop = 0;
+				- m_nRight = 703;
+				- m_nBottom = 529;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
@@ -86,10 +30,10 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "ActivityDiagram";
 				- _id = GUID 5f4b3023-4ba7-42f1-94e9-d469755126ba;
 			}
-			- _UpLeft = 0 100 ;
-			- _DownRight = 859 770 ;
+			- _UpLeft = 0 427 ;
+			- _DownRight = 936 1166 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 2;
+			- m_nDiagramIndex = 0;
 		}
 	}
 	- _fullName = "C:\\Rhapsody\\SystemeAmbiantDeProduction\\SystemeAmbiantDeProduction\\SystemeAmbiantDeProduction";
@@ -124,12 +68,12 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 			colwidth=;126;347;707;;
 		}
 		{ - TableMatrixView
-			id=75fc6866-a7e7-48a4-ae0a-03bf33485986;
-			colwidth=;55;358;488;;
-		}
-		{ - TableMatrixView
 			id=05b00493-6760-4618-8050-54eeb4b31552;
 			colwidth=;101;310;639;;
+		}
+		{ - TableMatrixView
+			id=75fc6866-a7e7-48a4-ae0a-03bf33485986;
+			colwidth=;55;358;488;;
 		}
 		{ - TableMatrixView
 			id=6ba9fcdb-75da-41c2-87eb-b86443efbca5;

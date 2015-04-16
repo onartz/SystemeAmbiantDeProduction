@@ -1,7 +1,7 @@
 I-Logix-RPY-Archive version 8.8.0 * 6107223
 
 - filesTable = { IRPYRawContainer 
-	- size = 52;
+	- size = 55;
 	- value = "SystemeAmbiantDeProduction.rpy" ""
 	"SystemeAmbiantDeProduction_rpy\\ActorPkg.sbs" "ActorPkg"
 	"SystemeAmbiantDeProduction_rpy\\AmbientProductionSystemDecompositionPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg"
@@ -12,6 +12,9 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 	"SystemeAmbiantDeProduction_rpy\\ChargementDechargementPatrolbotTradeStudy.sbs" "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::ChargementDechargementPatrolbotTradeStudy"
 	"SystemeAmbiantDeProduction_rpy\\DechargementDeMachineTradeStudy.sbs" "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg::DechargementDeMachineTradeStudy"
 	"SystemeAmbiantDeProduction_rpy\\DesignSynthesisPkg.sbs" "DesignSynthesisPkg"
+	"SystemeAmbiantDeProduction_rpy\\EntreeenstockBBScenariosPkg.sbs" "FunctionalAnalysisPkg::EntreeenstockPkg::EntreeenstockBBScenariosPkg"
+	"SystemeAmbiantDeProduction_rpy\\EntreeenstockExecutionScopePkg.sbs" "FunctionalAnalysisPkg::EntreeenstockPkg::EntreeenstockExecutionScopePkg"
+	"SystemeAmbiantDeProduction_rpy\\EntreeenstockPkg.sbs" "FunctionalAnalysisPkg::EntreeenstockPkg"
 	"SystemeAmbiantDeProduction_rpy\\FunctionalAnalysisPkg.sbs" "FunctionalAnalysisPkg"
 	"SystemeAmbiantDeProduction_rpy\\HumainPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::HumainPkg"
 	"SystemeAmbiantDeProduction_rpy\\IHMPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg::IHMPkg"

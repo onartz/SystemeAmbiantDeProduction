@@ -3,9 +3,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 676525c8-9af3-43b8-9bc1-da114111c9d4;
 	- _myState = 8192;
 	- _name = "FunctionalAnalysisPkg";
-	- _modifiedTimeWeak = 4.13.2015::8:6:51;
+	- _modifiedTimeWeak = 4.16.2015::11:54:52;
 	- Declaratives = { IRPYRawContainer 
-		- size = 3;
+		- size = 4;
 		- value = 
 		{ ISubsystem 
 			- fileName = "LogistiqueDeReapprovisionnementPkg";
@@ -19,8 +19,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- fileName = "LogistiqueDesContainersPkg";
 			- _id = GUID 70740fd6-25fa-4240-b868-b8db5eced49f;
 		}
+		{ ISubsystem 
+			- fileName = "EntreeenstockPkg";
+			- _id = GUID 8d1ec1e1-2c06-42e7-a290-901526bcad84;
+		}
 	}
-	- weakCGTime = 4.13.2015::8:6:51;
+	- weakCGTime = 4.16.2015::11:54:52;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 63c97627-da57-4796-9fc9-d7d0cc65dc5d;
 	- _eventsBaseID = -1;
@@ -31,8 +35,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 63c97627-da57-4796-9fc9-d7d0cc65dc5d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.10.2015::6:6:0;
-			- weakCGTime = 4.10.2015::6:6:0;
+			- _modifiedTimeWeak = 4.13.2015::8:6:51;
+			- weakCGTime = 4.13.2015::8:6:51;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

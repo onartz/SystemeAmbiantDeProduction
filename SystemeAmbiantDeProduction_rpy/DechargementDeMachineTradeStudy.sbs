@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 373b6aad-17b6-418f-86bc-164a3d472a16;
 	- _myState = 8192;
 	- _name = "DechargementDeMachineTradeStudy";
-	- _modifiedTimeWeak = 4.13.2015::7:0:14;
+	- _modifiedTimeWeak = 4.13.2015::7:46:53;
 	- _lastID = 16;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -1743,7 +1743,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.13.2015::7:46:53;
+	- weakCGTime = 4.15.2015::8:14:39;
 	- strongCGTime = 4.2.2015::7:45:44;
 	- _defaultComposite = GUID e9b6c279-5be4-4b7a-b7c4-2102fd7189b3;
 	- _eventsBaseID = -1;
@@ -1754,8 +1754,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID e9b6c279-5be4-4b7a-b7c4-2102fd7189b3;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.13.2015::7:0:14;
-			- weakCGTime = 4.13.2015::7:0:14;
+			- _modifiedTimeWeak = 4.13.2015::7:46:53;
+			- weakCGTime = 4.13.2015::7:46:53;
 			- strongCGTime = 4.2.2015::7:45:44;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

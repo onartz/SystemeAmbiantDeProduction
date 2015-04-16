@@ -25,10 +25,10 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	}
 	- m_configActive = { ICodeGenConfigInfoHandle 
 		- _m2Class = "ICodeGenConfigInfo";
-		- _id = GUID c6bd8965-c55d-41f3-bf08-5f2e028c2f1d;
+		- _id = GUID 2f2f374c-fa05-45d2-8a3a-95c6f4261159;
 	}
 	- Configs = { IRPYRawContainer 
-		- size = 1;
+		- size = 2;
 		- value = 
 		{ ICodeGenConfigInfo 
 			- _id = GUID c6bd8965-c55d-41f3-bf08-5f2e028c2f1d;
@@ -74,9 +74,117 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- m_allInAnimScope = 1;
 			- m_generateUsecases = 0;
 		}
+		{ ICodeGenConfigInfo 
+			- _id = GUID 2f2f374c-fa05-45d2-8a3a-95c6f4261159;
+			- _myState = 8192;
+			- _name = "LogistiqueDeReapprovisionnementBlackBoxView_Simulation";
+			- _modifiedTimeWeak = 10.14.2014::13:56:11;
+			- Tags = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ITag 
+					- _id = GUID 6e0a316c-292e-4362-98aa-9dd52c293333;
+					- _myState = 8192;
+					- _name = "SimulateModelFragment";
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IInstanceValue 
+							- _id = GUID 56e8dbbd-9a94-42ad-9e0a-1da8cacb1972;
+							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _value = { IHandle 
+								- _m2Class = "ICodeGenConfigInfo";
+								- _id = GUID c6bd8965-c55d-41f3-bf08-5f2e028c2f1d;
+							}
+						}
+						{ IInstanceValue 
+							- _id = GUID a8781481-8471-47b4-a68c-845813b2ccea;
+							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _value = { IHandle 
+								- _m2Class = "IActivityGraph";
+								- _filename = "FunctionalAnalysisPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+								- _class = "LogistiqueDeReapprovisionnement::LogistiqueDeReapprovisionnementBlackBoxView";
+								- _name = "activity_0";
+								- _id = GUID 08f2587e-c34f-4605-92da-722850dbdb1b;
+							}
+						}
+						{ IInstanceValue 
+							- _id = GUID 76e58464-982d-4557-a37e-092d26cf454f;
+							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _value = { IHandle 
+								- _m2Class = "IActivityGraph";
+								- _filename = "FunctionalAnalysisPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+								- _class = "LogistiqueDeReapprovisionnement::LogistiqueDeReapprovisionnementBlackBoxView";
+								- _name = "activity_0";
+								- _id = GUID 08f2587e-c34f-4605-92da-722850dbdb1b;
+							}
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+				}
+			}
+			- _scopeType = Derived;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IUseCase";
+					- _filename = "FunctionalAnalysisPkg.sbs";
+					- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+					- _class = "LogistiqueDeReapprovisionnement";
+					- _name = "LogistiqueDeReapprovisionnementBlackBoxView";
+					- _id = GUID 9cfe94a7-4240-4760-80b4-e97348fec1e7;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID 4dbbe613-3cbe-4cda-bd30-50465e0a16e6;
+				- _myState = 8192;
+				- _name = "LogistiqueDeReapprovisionnementBlackBoxView_Simulation";
+				- _modifiedTimeWeak = 10.14.2014::13:56:11;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 10.14.2014::13:56:11;
+			- strongCGTime = 10.14.2014::13:56:11;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 1;
+		}
 	}
 	- HandlesInMe = { IRPYRawContainer 
-		- size = 38;
+		- size = 52;
 		- value = 
 		{ IHandle 
 			- _m2Class = "IProfile";
@@ -160,6 +268,30 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 		}
 		{ IHandle 
 			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "FunctionalAnalysisPkg";
+			- _class = "";
+			- _name = "LogistiqueDesContainersPkg";
+			- _id = GUID 70740fd6-25fa-4240-b868-b8db5eced49f;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "FunctionalAnalysisPkg::LogistiqueDesContainersPkg";
+			- _class = "";
+			- _name = "LogistiqueDesContainersBBScenariosPkg";
+			- _id = GUID 11311f2a-a865-400b-8c9d-316f770597bc;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "FunctionalAnalysisPkg.sbs";
+			- _subsystem = "FunctionalAnalysisPkg::LogistiqueDesContainersPkg";
+			- _class = "";
+			- _name = "LogistiqueDesContainersExecutionScopePkg";
+			- _id = GUID 7b6ad4a6-6c69-4744-a8ff-0b2445b47f82;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
 			- _filename = "DesignSynthesisPkg.sbs";
 			- _subsystem = "";
 			- _class = "";
@@ -189,22 +321,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _class = "";
 			- _name = "AmbientProductionSystemWB_AD";
 			- _id = GUID 405a5865-20d1-4c00-9cf6-f8eb0cadc032;
-		}
-		{ IHandle 
-			- _m2Class = "ISubsystem";
-			- _filename = "DesignSynthesisPkg.sbs";
-			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
-			- _class = "";
-			- _name = "PatrolbotPkg";
-			- _id = GUID 523429a2-c157-49c7-b983-6b1af642475f;
-		}
-		{ IHandle 
-			- _m2Class = "ISubsystem";
-			- _filename = "DesignSynthesisPkg.sbs";
-			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
-			- _class = "";
-			- _name = "PosteMachinePkg";
-			- _id = GUID 860ad95c-8817-49f2-bb45-a9a2d158df9e;
 		}
 		{ IHandle 
 			- _m2Class = "ISubsystem";
@@ -245,6 +361,118 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _class = "";
 			- _name = "TabletteDemonstrateurPkg";
 			- _id = GUID 0e0066a3-ac3f-4c4d-91f9-6964d29bb316;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
+			- _class = "";
+			- _name = "PosteMachineAmbiantPkg";
+			- _id = GUID c5148007-203b-48b2-9488-d9485b9a24dc;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg";
+			- _class = "";
+			- _name = "PosteMachineAmbiantDecompositionPkg";
+			- _id = GUID ee1c2dc4-68b0-482c-bffc-dd2a6ad74990;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg";
+			- _class = "";
+			- _name = "IHMPkg";
+			- _id = GUID c48ee146-a5cb-429b-9786-463704606bae;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg";
+			- _class = "";
+			- _name = "StockEntreePkg";
+			- _id = GUID e93f9c94-2c87-4507-a8a2-939de21ee093;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg";
+			- _class = "";
+			- _name = "MachinePkg";
+			- _id = GUID 64faa3a1-6af6-4efd-a39d-1d4506106045;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg";
+			- _class = "";
+			- _name = "StockSortiePkg";
+			- _id = GUID e8bbbaf2-e87e-481c-a5f3-421e88431d96;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg";
+			- _class = "";
+			- _name = "StockBrutsPkg";
+			- _id = GUID 70846f58-4c4c-4254-8897-62e23bb0d64c;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg";
+			- _class = "";
+			- _name = "StockPiecesUsineesPkg";
+			- _id = GUID 19217910-0a8f-4fef-862c-68456f75de58;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg";
+			- _class = "";
+			- _name = "StockRebutsPkg";
+			- _id = GUID 88196af6-0cf9-4f51-8530-3402929688d1;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg";
+			- _class = "";
+			- _name = "StockContainersPkg";
+			- _id = GUID e4eb3ebf-aea1-493c-b753-64c137e25c6f;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
+			- _class = "";
+			- _name = "StockDeBrutsRobotisePkg";
+			- _id = GUID d376c824-edcb-4f7e-b6b8-7e800198fda3;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
+			- _class = "";
+			- _name = "SystPrisePoseParPatrolbotPkg";
+			- _id = GUID ba49d3e4-bf71-4614-845d-9a0079006593;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
+			- _class = "";
+			- _name = "PatrolbotV2Pkg";
+			- _id = GUID 1ff2a6b2-5d5a-4b28-b4b9-d519c1b5e0bb;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "DesignSynthesisPkg.sbs";
+			- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg";
+			- _class = "";
+			- _name = "StockProduitsfinisPkg";
+			- _id = GUID 3d288110-e587-4da7-af73-bb6ad6ae509f;
 		}
 		{ IHandle 
 			- _m2Class = "ISubsystem";
@@ -299,7 +527,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _filename = "DesignSynthesisPkg.sbs";
 			- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg";
 			- _class = "";
-			- _name = "ChargementTransporteurTradeStudy";
+			- _name = "ChargementDechargementPatrolbotTradeStudy";
 			- _id = GUID 1108e275-70d7-4994-b661-df8f3d44f461;
 		}
 		{ IHandle 
@@ -307,15 +535,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _filename = "DesignSynthesisPkg.sbs";
 			- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg";
 			- _class = "";
-			- _name = "DechargementTransporteurTradeStudy";
-			- _id = GUID 705b625f-9ffd-41bf-9cbd-0ff5d0809574;
-		}
-		{ IHandle 
-			- _m2Class = "ISubsystem";
-			- _filename = "DesignSynthesisPkg.sbs";
-			- _subsystem = "DesignSynthesisPkg::ArchitecturalAnalysisPkg::TradeStudyAnalysisPkg";
-			- _class = "";
-			- _name = "PreparationDeCommandeTradeStudy";
+			- _name = "StockDeBrutsTradeStudy";
 			- _id = GUID 5b1cdeb4-06b0-4d81-acdf-bc3fc83a6cf9;
 		}
 		{ IHandle 

@@ -83,7 +83,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 4.13.2015::12:49:8;
+	- _modifiedTimeWeak = 4.16.2015::12:19:35;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
 		- value = 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 
@@ -109,11 +109,11 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 		- value = 
 		{ IMultiplicityItem 
 			- _name = "1";
-			- _count = 12;
+			- _count = 13;
 		}
 		{ IMultiplicityItem 
 			- _name = "*";
-			- _count = 0;
+			- _count = 1;
 		}
 		{ IMultiplicityItem 
 			- _name = "0,1";

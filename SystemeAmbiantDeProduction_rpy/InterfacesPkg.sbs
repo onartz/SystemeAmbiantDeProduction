@@ -3,13 +3,13 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 37ae5e0b-36fa-4bf8-a727-6bd675d19aee;
 	- _myState = 8192;
 	- _name = "InterfacesPkg";
-	- _modifiedTimeWeak = 4.10.2015::9:1:7;
-	- weakCGTime = 4.10.2015::9:1:7;
+	- _modifiedTimeWeak = 4.16.2015::12:44:4;
+	- weakCGTime = 4.16.2015::12:44:4;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 0d369031-02c6-4414-9701-51742e967ff9;
 	- _eventsBaseID = 24601;
 	- Classes = { IRPYRawContainer 
-		- size = 11;
+		- size = 17;
 		- value = 
 		{ IClass 
 			- _id = GUID 0d369031-02c6-4414-9701-51742e967ff9;
@@ -600,9 +600,287 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 			- _classModifier = Unspecified;
 		}
+		{ IClass 
+			- _id = GUID 36374c1a-7fc4-4854-b9f6-727a69963dd1;
+			- _myState = 8192;
+			- _name = "iUc_LogistiqueDeReapprovisionnement_SI";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.16.2015::12:44:4;
+			- weakCGTime = 4.16.2015::12:44:4;
+			- strongCGTime = 4.16.2015::8:37:1;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IReception 
+					- _id = GUID e9b74c87-e4c7-4e94-abc3-4bf523832d86;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 14b7d7c6-533b-438d-b8f8-3dde7261c82a;
+					}
+				}
+				{ IReception 
+					- _id = GUID 55c7028b-895d-436f-b747-cd84a0e8d6e6;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 5e9e60eb-8906-4403-96b3-f6188b7f8833;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 8cddf649-bba1-44cb-a93d-4e849867b691;
+			- _myState = 8192;
+			- _name = "iSI_Uc_LogistiqueDeReapprovisionnement";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.16.2015::8:37:1;
+			- weakCGTime = 4.16.2015::8:37:1;
+			- strongCGTime = 4.16.2015::8:37:1;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IReception 
+					- _id = GUID d9ef0dea-4443-49de-bb2c-eac9a7cfe01c;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 28d52790-fe21-4c18-9120-fa3c08d92b1e;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 13353d0e-519c-4dcb-8723-b4b7c51f27c0;
+			- _myState = 8192;
+			- _name = "iUc_Entreeenstock_Public";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.16.2015::12:20:31;
+			- weakCGTime = 4.16.2015::12:20:31;
+			- strongCGTime = 4.16.2015::12:20:31;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IReception 
+					- _id = GUID e1096e5a-dcff-41b0-87df-d6b9420b3eb2;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 8f5388c4-a426-43cc-99a4-1862f0a94f80;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 8d372c47-fcaf-45c6-ac71-47ed540056d9;
+			- _myState = 8192;
+			- _name = "iUc_Entreeenstock_magasinier";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.16.2015::12:20:31;
+			- weakCGTime = 4.16.2015::12:20:31;
+			- strongCGTime = 4.16.2015::12:20:31;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IReception 
+					- _id = GUID b8b71393-bc38-4cb6-81c3-71362c6cd278;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 509f5c0d-fb2b-4059-8922-b0f12f7ff9aa;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 76ede9f1-4746-4503-bfa3-99611d2c4bfb;
+			- _myState = 8192;
+			- _name = "imagasinier_Uc_Entreeenstock";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.16.2015::12:20:34;
+			- weakCGTime = 4.16.2015::12:20:34;
+			- strongCGTime = 4.16.2015::12:20:32;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IReception 
+					- _id = GUID 3ad72ad8-4234-453d-ac0c-1c2c3e04fb35;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 25fb6b32-453d-4a6e-a59e-8ca002cf5885;
+					}
+				}
+				{ IReception 
+					- _id = GUID d45ab217-0c9e-41dc-ab45-a9b41183d1c2;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID b690c274-f764-4ca9-86b6-6d8910206415;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 84cf3d7d-ff30-4bd2-b742-c8b8147853ce;
+			- _myState = 8192;
+			- _name = "iUc_Entreeenstock_SI";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Interface";
+					- _id = GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1;
+				}
+			}
+			- _modifiedTimeWeak = 4.16.2015::12:20:34;
+			- weakCGTime = 4.16.2015::12:20:34;
+			- strongCGTime = 4.16.2015::12:20:34;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IReception 
+					- _id = GUID 56cc8798-ec7b-43b8-9a7f-b47c461bda48;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 5e9e60eb-8906-4403-96b3-f6188b7f8833;
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
 	}
 	- Events = { IRPYRawContainer 
-		- size = 17;
+		- size = 22;
 		- value = 
 		{ IEvent 
 			- _id = GUID 614fee5c-388a-46b4-9532-16247e159fa3;
@@ -769,6 +1047,56 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _myState = 8192;
 			- _name = "informFinOFPoste";
 			- _modifiedTimeWeak = 4.10.2015::8:58:40;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 14b7d7c6-533b-438d-b8f8-3dde7261c82a;
+			- _myState = 8192;
+			- _name = "demanderUneProductionDePieces";
+			- _modifiedTimeWeak = 4.16.2015::8:37:1;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 509f5c0d-fb2b-4059-8922-b0f12f7ff9aa;
+			- _myState = 8192;
+			- _name = "reqReapprovisionnerStock";
+			- _modifiedTimeWeak = 4.16.2015::12:20:31;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 25fb6b32-453d-4a6e-a59e-8ca002cf5885;
+			- _myState = 8192;
+			- _name = "reqAutoriserEntreeEnStockManuelle";
+			- _modifiedTimeWeak = 4.16.2015::12:20:34;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID b690c274-f764-4ca9-86b6-6d8910206415;
+			- _myState = 8192;
+			- _name = "reqStockerLesProduitsDansLeStockReceiver";
+			- _modifiedTimeWeak = 4.16.2015::12:20:34;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 5e9e60eb-8906-4403-96b3-f6188b7f8833;
+			- _myState = 8192;
+			- _name = "reqModifierContenuStock";
+			- _modifiedTimeWeak = 4.16.2015::12:20:34;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;

@@ -11,8 +11,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 802046ac-5555-4f4d-968e-b20bdf231629;
 	- _myState = 8192;
 	- _name = "ProductionSystemControllerPkg";
-	- _modifiedTimeWeak = 4.14.2015::7:36:49;
-	- weakCGTime = 4.14.2015::7:36:49;
+	- _modifiedTimeWeak = 4.15.2015::9:50:58;
+	- weakCGTime = 4.15.2015::9:50:58;
 	- strongCGTime = 4.2.2015::11:44:48;
 	- _defaultComposite = GUID 8043a24f-40fb-409b-9532-eb897b5ac15d;
 	- _eventsBaseID = -1;
@@ -23,8 +23,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 8043a24f-40fb-409b-9532-eb897b5ac15d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.10.2015::9:14:43;
-			- weakCGTime = 4.10.2015::9:14:43;
+			- _modifiedTimeWeak = 4.14.2015::7:36:49;
+			- weakCGTime = 4.14.2015::7:36:49;
 			- strongCGTime = 4.2.2015::11:44:48;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -48,7 +48,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.14.2015::7:36:49;
+			- _modifiedTimeWeak = 4.15.2015::10:3:54;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "DesignSynthesisPkg.sbs";
@@ -57,7 +57,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				- _name = "BDD_AmbientProductionSystem";
 				- _id = GUID 9571a6d8-4dc3-4dca-84b3-b60b090c2fa8;
 			}
-			- weakCGTime = 4.14.2015::7:36:49;
+			- weakCGTime = 4.15.2015::10:3:54;
 			- strongCGTime = 4.2.2015::11:44:48;
 			- Operations = { IRPYRawContainer 
 				- size = 19;
@@ -67,36 +67,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "separerOFEnUnOFParPoste";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID bf2a3ca0-f10d-4c34-95d9-f581c31a76f7;
-							- _myState = 2048;
-							- _name = "separerOFEnUnOFParPoste";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:13;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "separerOFEnUnOFParPoste()";
-								- _id = GUID 1354bcee-157f-4cb2-96c6-2dae0efa3130;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.10.2015::9:16:11;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -122,36 +95,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "reserverLeTransporteur";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID ae17ad4b-c53f-4e80-9465-6e554e7417da;
-							- _myState = 2048;
-							- _name = "reserverLeTransporteur";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:14;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "reserverLeTransporteur()";
-								- _id = GUID f7d9d7af-1442-4a10-b2f8-9ba242ab40a0;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.10.2015::9:16:11;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -177,36 +123,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "reserverLesTransporteurs";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID a05ddbb6-0472-4fc6-a320-630776eb7905;
-							- _myState = 2048;
-							- _name = "reserverLesTransporteurs";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:11;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "reserverLesTransporteurs()";
-								- _id = GUID 03bd6700-1ebc-4303-91aa-96936ce14cfc;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.10.2015::9:16:11;
+					- _modifiedTimeWeak = 4.15.2015::9:50:58;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -232,36 +151,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "reserverLesQuantitesDeProduitsDansChaqueStock";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 34c9507d-1a6b-47e5-b56e-49314ac50f1d;
-							- _myState = 2048;
-							- _name = "reserverLesQuantitesDeProduitsDansChaqueStock";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:11;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "reserverLesQuantitesDeProduitsDansChaqueStock()";
-								- _id = GUID 8467faa1-ece2-4fa5-95b8-9e44f2f0453e;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.10.2015::9:16:11;
+					- _modifiedTimeWeak = 4.15.2015::9:50:58;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -287,62 +179,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "reserverLesRessourcesDeManutention";
 					- Dependencies = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IDependency 
-							- _id = GUID 1a4117f3-ab06-46b7-a233-04a215dc802c;
-							- _myState = 2048;
-							- _name = "reserverLesRessourcesDeManutention";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:10;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "reserverLesRessourcesDeManutention()";
-								- _id = GUID 07aa02e5-8ed0-4700-a0ee-15e56fbee884;
-							}
-						}
-						{ IDependency 
-							- _id = GUID e55865f6-2f5c-4cf7-bbd3-ff520ab83879;
-							- _myState = 2048;
-							- _name = "reserverLesRessourcesDeManutention";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:14;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "reserverLesRessourcesDeManutention()";
-								- _id = GUID b5f7bfc1-a4b6-4232-a063-d775f0603be7;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.10.2015::9:16:11;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -368,36 +207,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "recevoirUnOF";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 7c7296e2-c348-42fd-b8fb-f0bd21b9dc6f;
-							- _myState = 2048;
-							- _name = "recevoirUnOF";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:13;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "recevoirUnOF()";
-								- _id = GUID ff4c0516-1879-4d95-999c-ebcf016bc935;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.10.2015::9:16:11;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -423,36 +235,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "choisirLesTransporteurs";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 1fa2b1b0-7a17-4805-9f39-481c656706e8;
-							- _myState = 2048;
-							- _name = "choisirLesTransporteurs";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:10;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "choisirLesTransporteurs()";
-								- _id = GUID 4ea92060-563a-48d8-be16-3a95f4f6f831;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.10.2015::9:16:11;
+					- _modifiedTimeWeak = 4.15.2015::9:50:58;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -478,36 +263,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "choisirUnTransporteur";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 1b0e56b0-31e3-4b90-bcf5-eae9a1387704;
-							- _myState = 2048;
-							- _name = "choisirUnTransporteur";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:14;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "choisirUnTransporteur()";
-								- _id = GUID 707dc9f9-55ed-45c0-9188-04b302a49b9a;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.10.2015::9:16:11;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -533,36 +291,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "associerOFAChaquePoste";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 3dab855f-9aab-4627-a297-2fe5100559ce;
-							- _myState = 2048;
-							- _name = "associerOFAChaquePoste";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:14;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "associerOFAChaquePoste()";
-								- _id = GUID 2c2bb2c6-27b0-42b2-87f9-320f490a711f;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -588,36 +319,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "choisirLesPostesCandidatsPourRealiserLOF";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 9e5ad1c8-4792-4de9-b08c-ec3d322f08ed;
-							- _myState = 2048;
-							- _name = "choisirLesPostesCandidatsPourRealiserLOF";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:13;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "choisirLesPostesCandidatsPourRealiserLOF()";
-								- _id = GUID 403dd387-7db3-4d88-aa51-b474513782f0;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -643,62 +347,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "choisirLesRessourcesDeManutention";
 					- Dependencies = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IDependency 
-							- _id = GUID b06fe94d-49e6-4a25-abf0-277245c5d9ff;
-							- _myState = 2048;
-							- _name = "choisirLesRessourcesDeManutention";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:10;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "choisirLesRessourcesDeManutention()";
-								- _id = GUID d6ceec1d-093c-450f-a992-77a43e98abe5;
-							}
-						}
-						{ IDependency 
-							- _id = GUID 97cb04f2-17c0-4175-8e93-696b1d25bb91;
-							- _myState = 2048;
-							- _name = "choisirLesRessourcesDeManutention";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:14;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "choisirLesRessourcesDeManutention()";
-								- _id = GUID 5a43c04f-6d0e-4a60-a7e7-b04c8f6af366;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -724,36 +375,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "choisirLesStocksCandidatsAuReapprovisionnement";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 4573b340-f4f0-46d5-98c6-bc6eedb56665;
-							- _myState = 2048;
-							- _name = "choisirLesStocksCandidatsAuReapprovisionnement";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:10;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "choisirLesStocksCandidatsAuReapprovisionnement()";
-								- _id = GUID f3ff3d09-34c9-47a1-ac34-2458a99e5d2a;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::9:50:58;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -779,36 +403,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "cloturerReapprovisionnement";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID f146958a-0847-453a-81eb-5945d8e6ba3c;
-							- _myState = 2048;
-							- _name = "cloturerReapprovisionnement";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:13;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "cloturerReapprovisionnement()";
-								- _id = GUID 634948f0-2368-4180-9fe4-524a07244e02;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::9:50:58;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -834,36 +431,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "informerOperateurDeLOF";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 9b83c098-9374-4b0e-bd4b-0c9467e22a82;
-							- _myState = 2048;
-							- _name = "informerOperateurDeLOF";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:14;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "informerOperateurDeLOF()";
-								- _id = GUID 30d887b5-457d-42f7-8df7-2bde0db9d2af;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -889,36 +459,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "interrogerLesPostesCandidatsPourRealiserOF";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 3c12aed4-b673-45f7-bde9-856f2d2ca71c;
-							- _myState = 2048;
-							- _name = "interrogerLesPostesCandidatsPourRealiserOF";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:13;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "interrogerLesPostesCandidatsPourRealiserOF()";
-								- _id = GUID 5a099ba0-300d-48f0-8854-a7e02080b267;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -944,62 +487,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "interrogerLesRessourcesDeManutention";
 					- Dependencies = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IDependency 
-							- _id = GUID 0a2ea53f-e17f-478e-a95e-2d459308c3a2;
-							- _myState = 2048;
-							- _name = "interrogerLesRessourcesDeManutention";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:10;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "interrogerLesRessourcesDeManutention()";
-								- _id = GUID 27f5573e-26a7-40bd-93d0-4a2e82892464;
-							}
-						}
-						{ IDependency 
-							- _id = GUID c211038d-60bc-4bd7-b344-a5c558bd9d42;
-							- _myState = 2048;
-							- _name = "interrogerLesRessourcesDeManutention";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:14;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "interrogerLesRessourcesDeManutention()";
-								- _id = GUID 6e24edcf-2adc-46ad-a9b0-fa38257974f9;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1025,62 +515,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "interrogerLesTransporteurs";
 					- Dependencies = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IDependency 
-							- _id = GUID 3341d764-45ee-4d9b-ab13-2a55e65cc6a2;
-							- _myState = 2048;
-							- _name = "interrogerLesTransporteurs";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:10;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "interrogerLesTransporteurs()";
-								- _id = GUID 93518aa9-5cc5-406c-89fa-4a0d7a22d607;
-							}
-						}
-						{ IDependency 
-							- _id = GUID dff3e798-0d9a-4f0e-89c0-669c2a3655b1;
-							- _myState = 2048;
-							- _name = "interrogerLesTransporteurs";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:14;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "interrogerLesTransporteurs()";
-								- _id = GUID ad39d853-f400-4a93-b686-6cfc9974928c;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1106,36 +543,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "interrogerStocksCandidatsAuReapprovisionnement";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID b2410b71-50fd-4286-a359-09f20f775bd7;
-							- _myState = 2048;
-							- _name = "interrogerStocksCandidatsAuReapprovisionnement";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:10;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "interrogerStocksCandidatsAuReapprovisionnement()";
-								- _id = GUID 5c50de44-d587-46fd-a117-509f7a52aa3c;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::9:50:58;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -1161,36 +571,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _myState = 8192;
 					- _name = "preparerLaMachine";
 					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID d7420693-f147-483b-8dce-ceb3e744956b;
-							- _myState = 2048;
-							- _name = "preparerLaMachine";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.10.2015::9:13:14;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IPrimitiveOperation";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "preparerLaMachine()";
-								- _id = GUID 5316de80-86e3-401a-9b01-cc195659ba1f;
-							}
-						}
+						- size = 0;
 					}
-					- _modifiedTimeWeak = 4.13.2015::13:51:21;
+					- _modifiedTimeWeak = 4.15.2015::10:3:54;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
