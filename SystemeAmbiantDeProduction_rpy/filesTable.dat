@@ -1,7 +1,7 @@
 I-Logix-RPY-Archive version 8.8.0 * 6107223
 
 - filesTable = { IRPYRawContainer 
-	- size = 55;
+	- size = 54;
 	- value = "SystemeAmbiantDeProduction.rpy" ""
 	"SystemeAmbiantDeProduction_rpy\\ActorPkg.sbs" "ActorPkg"
 	"SystemeAmbiantDeProduction_rpy\\AmbientProductionSystemDecompositionPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg"
@@ -49,7 +49,6 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 	"SystemeAmbiantDeProduction_rpy\\StockProduitsfinisPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::StockProduitsfinisPkg"
 	"SystemeAmbiantDeProduction_rpy\\StockRebutsPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg::StockRebutsPkg"
 	"SystemeAmbiantDeProduction_rpy\\StockSortiePkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::PosteMachineAmbiantPkg::PosteMachineAmbiantDecompositionPkg::StockSortiePkg"
-	"SystemeAmbiantDeProduction_rpy\\SystPrisePoseParPatrolbotPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::SystPrisePoseParPatrolbotPkg"
 	"SystemeAmbiantDeProduction_rpy\\SystemRequirements.sbs" "RequirementsAnalysisPkg::RequirementsPkg::SystemRequirements"
 	"SystemeAmbiantDeProduction_rpy\\TabletteDemonstrateurPkg.sbs" "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::TabletteDemonstrateurPkg"
 	"SystemeAmbiantDeProduction_rpy\\TempReqs_1.sbs" "RequirementsAnalysisPkg::RequirementsPkg::StakeholdersRequirements::TempReqs"

@@ -11,10 +11,10 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID beb79dac-750c-437a-9ff6-dd254d877262;
 	- _myState = 8192;
 	- _name = "AmbientProductionSystemDecompositionPkg";
-	- _modifiedTimeWeak = 4.14.2015::6:40:1;
+	- _modifiedTimeWeak = 4.16.2015::13:40:48;
 	- _lastID = 1;
 	- Declaratives = { IRPYRawContainer 
-		- size = 11;
+		- size = 10;
 		- value = 
 		{ ISubsystem 
 			- fileName = "AmbientProductionSystemWB_AD";
@@ -49,10 +49,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID d376c824-edcb-4f7e-b6b8-7e800198fda3;
 		}
 		{ ISubsystem 
-			- fileName = "SystPrisePoseParPatrolbotPkg";
-			- _id = GUID ba49d3e4-bf71-4614-845d-9a0079006593;
-		}
-		{ ISubsystem 
 			- fileName = "PatrolbotV2Pkg";
 			- _id = GUID 1ff2a6b2-5d5a-4b28-b4b9-d519c1b5e0bb;
 		}
@@ -61,7 +57,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 3d288110-e587-4da7-af73-bb6ad6ae509f;
 		}
 	}
-	- weakCGTime = 4.14.2015::6:40:1;
+	- weakCGTime = 4.16.2015::13:40:48;
 	- strongCGTime = 3.26.2015::14:35:50;
 	- _defaultComposite = GUID 7cd365ed-5e47-40f7-96ef-fae27125142b;
 	- _eventsBaseID = -1;
@@ -72,8 +68,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID 7cd365ed-5e47-40f7-96ef-fae27125142b;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.2.2015::12:27:42;
-			- weakCGTime = 4.2.2015::12:27:42;
+			- _modifiedTimeWeak = 4.14.2015::6:40:1;
+			- weakCGTime = 4.14.2015::6:40:1;
 			- strongCGTime = 3.26.2015::14:35:50;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -82,6 +78,6 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _classModifier = Unspecified;
 		}
 	}
-	- _configurationRelatedTime = 4.14.2015::6:40:1;
+	- _configurationRelatedTime = 4.16.2015::13:40:48;
 }
 

@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 	- _id = GUID 5d1d6635-53f8-4e8d-bd4d-470f1c74d3e0;
 	- _myState = 8192;
 	- _name = "ArchitecturalDesignPkg";
-	- _modifiedTimeWeak = 4.16.2015::12:28:29;
+	- _modifiedTimeWeak = 4.17.2015::6:52:40;
 	- _lastID = 24;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
@@ -337,7 +337,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.15.2015::6:18:26";
+			- _lastModifiedTime = "4.17.2015::9:55:11";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID b886ccba-4713-41f9-b8b0-b8468596de08;
 				- m_type = 0;
@@ -453,7 +453,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 6.10185 0 0 5.24242 7 20 ;
+					- m_transform = 6.10185 0 0 6.06061 7 20 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -872,7 +872,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.189802 0 0 0.101604 8 408 ;
+					- m_transform = 0.189802 0 0 0.101604 27 407 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -975,7 +975,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.184136 0 0 0.0944741 294 435 ;
+					- m_transform = 0.184136 0 0 0.0944741 298 427 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1098,7 +1098,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
 					- m_SourcePort = 239 1348 ;
-					- m_TargetPort = 348 392 ;
+					- m_TargetPort = 326 392 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "";
 					}
@@ -1269,7 +1269,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
 					- m_SourcePort = 282 1388 ;
-					- m_TargetPort = 581 360 ;
+					- m_TargetPort = 559 360 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "";
 					}
@@ -1939,7 +1939,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
 					- m_SourcePort = 32 1339 ;
-					- m_TargetPort = 748 404 ;
+					- m_TargetPort = 648 404 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "";
 					}
@@ -2941,18 +2941,43 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 				}
 				{ CGIClass 
 					- _id = GUID 2f36eae7-4423-4f1c-947a-86c823cccbd3;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 87;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
 						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::StockDeBrutsRobotisePkg";
 						- _class = "";
-						- _name = "StockDeBrutsRobotise";
+						- _name = "StockRobotise";
 						- _id = GUID 5a364168-fc20-4d27-a5f4-5bae8d7e2392;
 					}
 					- m_pParent = GUID 9b8b8173-0d15-4bd5-a465-aea3c8ed508b;
 					- m_name = { CGIText 
-						- m_str = "StockDeBrutsRobotise";
+						- m_str = "StockRobotise";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -2964,8 +2989,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 5;
 					}
-					- m_drawBehavior = 4104;
-					- m_transform = 0.139754 0 0 0.101604 690 315 ;
+					- m_drawBehavior = 266280;
+					- m_transform = 0.139754 0 0 0.280748 698 276.623 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2980,10 +3005,11 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 1;
 					}
+					- m_bFramesetModified = 1;
 					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
-					- frameset = "<frameset rows=50%,50%>
+					- frameset = "<frameset rows=12%,88%>
 <frame name=AttributeListCompartment>
 <frame name=OperationListCompartment>";
 					- Compartments = { IRPYRawContainer 
@@ -3002,12 +3028,9 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						{ CGICompartment 
 							- _id = GUID 6ddd983e-53fe-44c6-b171-6b93131fb7c2;
 							- m_name = "Operation";
-							- m_displayOption = Explicit;
-							- m_bShowInherited = 0;
+							- m_displayOption = All;
+							- m_bShowInherited = 1;
 							- m_bOrdered = 0;
-							- Items = { IRPYRawContainer 
-								- size = 0;
-							}
 						}
 					}
 					- Attrs = { IRPYRawContainer 
@@ -3083,11 +3106,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_bImplicitSetRectPoints = 0;
 						- m_nOrientationCtrlPt = 7;
 					}
+					- m_arrow = 2 762 277  770 277  ;
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
 					- m_SourcePort = 642 1358 ;
-					- m_TargetPort = 517 388 ;
+					- m_TargetPort = 515 390 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "";
 					}
@@ -3194,12 +3218,12 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- _filename = "DesignSynthesisPkg.sbs";
 						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::StockProduitsfinisPkg";
 						- _class = "";
-						- _name = "StockProduitsfinis";
+						- _name = "PosteDechargement";
 						- _id = GUID c88fb08a-56f5-4f0b-b8f9-6a8995bdb423;
 					}
 					- m_pParent = GUID 9b8b8173-0d15-4bd5-a465-aea3c8ed508b;
 					- m_name = { CGIText 
-						- m_str = "StockProduitsfinis";
+						- m_str = "PosteDechargement";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -3212,7 +3236,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.116147 0 0 0.101604 801 555 ;
+					- m_transform = 0.127478 0 0 0.101604 808 663 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -3334,7 +3358,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 2;
 					- m_SourcePort = 737 1407 ;
-					- m_TargetPort = 493 398 ;
+					- m_TargetPort = 392 394 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "";
 					}
@@ -3392,7 +3416,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 						- m_nOrientationCtrlPt = 0;
 					}
 					- m_targetMultiplicity = { CGIText 
-						- m_str = "*";
+						- m_str = "1";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -4240,7 +4264,7 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			}
 		}
 	}
-	- weakCGTime = 4.16.2015::12:28:29;
+	- weakCGTime = 4.17.2015::6:52:40;
 	- strongCGTime = 3.18.2015::16:14:52;
 	- _defaultComposite = GUID c335dd91-394a-44de-9997-9587e1240214;
 	- _eventsBaseID = -1;
@@ -4251,8 +4275,8 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 			- _id = GUID c335dd91-394a-44de-9997-9587e1240214;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.15.2015::6:17:33;
-			- weakCGTime = 4.15.2015::6:17:33;
+			- _modifiedTimeWeak = 4.16.2015::12:52:23;
+			- weakCGTime = 4.16.2015::12:52:23;
 			- strongCGTime = 3.18.2015::16:14:52;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4283,11 +4307,16 @@ I-Logix-RPY-Archive version 8.8.0 C++ 6107223
 					- _id = GUID 1898ab37-098d-465a-9878-7ea720b10773;
 					- _myState = 8192;
 					- _name = "DuplicateOperationsFound";
-					- _modifiedTimeWeak = 4.16.2015::12:28:35;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _description = { IDescription 
 						- _text = "The Following Operational Contracts could not be copied because a duplicate already exists in the destination:
 
+Unable to Copy informerPublicduBesoinDeReapprovisionnement from Block Uc_Entreeenstock
+Unable to Copy alerterMagasinier from Block Uc_Entreeenstock
+Unable to Copy autoriserEntreeEnStockManuelle from Block Uc_Entreeenstock
 Unable to Copy stockerLesProduitsDansLeStockReceiver from Block Uc_Entreeenstock
+Unable to Copy modifierLeContenuduStock from Block Uc_Entreeenstock
+Unable to Copy modifierLeContenuDuStock from Block Uc_Entreeenstock
 ";
 					}
 					- _body = "";
@@ -4296,7 +4325,7 @@ Unable to Copy stockerLesProduitsDansLeStockReceiver from Block Uc_Entreeenstock
 					- _id = GUID fc63065f-79c6-4bf7-98a2-1a329bd5c677;
 					- _myState = 8192;
 					- _name = "DuplicateAttributesFound";
-					- _modifiedTimeWeak = 4.16.2015::12:28:31;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _description = { IDescription 
 						- _text = "The Following Attributes could not be copied because a duplicate already exists in the destination:
 
@@ -4307,13 +4336,13 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 4.16.2015::12:28:35;
+			- _modifiedTimeWeak = 4.17.2015::6:58:21;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 9571a6d8-4dc3-4dca-84b3-b60b090c2fa8;
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.16.2015::12:28:35;
+			- weakCGTime = 4.17.2015::6:58:21;
 			- strongCGTime = 3.18.2015::16:15:30;
 			- Operations = { IRPYRawContainer 
 				- size = 85;
@@ -4352,7 +4381,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:25;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4407,7 +4436,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4488,7 +4517,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 4;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4543,7 +4572,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4598,7 +4627,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4679,7 +4708,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 3;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4760,7 +4789,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 3;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4841,7 +4870,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 3;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4896,7 +4925,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -4977,7 +5006,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 3;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5032,7 +5061,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5087,7 +5116,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5142,7 +5171,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5197,7 +5226,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5278,7 +5307,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 3;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5333,7 +5362,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5388,7 +5417,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5443,7 +5472,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5498,7 +5527,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5553,7 +5582,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5608,7 +5637,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5663,7 +5692,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5718,7 +5747,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5773,7 +5802,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5828,7 +5857,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5883,7 +5912,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5938,7 +5967,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -5993,7 +6022,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6048,7 +6077,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6103,7 +6132,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6158,7 +6187,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6213,7 +6242,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6268,7 +6297,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:44:49;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6323,7 +6352,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6378,7 +6407,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6433,7 +6462,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6488,7 +6517,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6543,7 +6572,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6598,7 +6627,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6653,7 +6682,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6708,7 +6737,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6763,7 +6792,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6818,7 +6847,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6873,7 +6902,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6928,7 +6957,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -6983,7 +7012,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7038,7 +7067,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7093,7 +7122,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7148,7 +7177,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7203,7 +7232,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7258,7 +7287,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7313,7 +7342,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7368,7 +7397,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7423,7 +7452,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7504,7 +7533,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::12:28:32;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7559,7 +7588,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7614,7 +7643,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7669,7 +7698,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7724,7 +7753,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7779,7 +7808,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7834,7 +7863,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7889,7 +7918,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7944,7 +7973,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -7999,7 +8028,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8054,7 +8083,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8109,7 +8138,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8190,7 +8219,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::11:19:2;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8271,7 +8300,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::11:19:3;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8326,7 +8355,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8407,7 +8436,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::11:19:3;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 2;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8462,7 +8491,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8517,7 +8546,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8572,7 +8601,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8627,7 +8656,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8682,7 +8711,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8737,7 +8766,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::11:19:3;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8757,126 +8786,6 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _protection = iPublic;
 					- _static = 0;
 					- _constant = 0;
-				}
-				{ IReception 
-					- _id = GUID db6442c1-3c63-496c-bbfb-3b7cfd3d0960;
-					- _myState = 8192;
-					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID b7791d65-9f04-4efb-8370-6aa49f117d79;
-							- _myState = 2048;
-							- _name = "sortirDuStockConsommateurDesProduits";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.16.2015::12:28:29;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IReception";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "sortirDuStockConsommateurDesProduits()";
-								- _id = GUID 027e6e25-ce3b-4811-856a-b40eedb28be8;
-							}
-						}
-					}
-					- _modifiedTimeWeak = 4.16.2015::12:28:29;
-					- _virtual = 0;
-					- Args = { IRPYRawContainer 
-						- size = 0;
-					}
-					- _event = { IHandle 
-						- _m2Class = "IEvent";
-						- _filename = "InterfacesPkg.sbs";
-						- _subsystem = "InterfacesPkg";
-						- _class = "";
-						- _name = "sortirDuStockConsommateurDesProduits()";
-						- _id = GUID fde0c39e-e508-459e-b5fb-9efd9d9734c3;
-					}
-				}
-				{ IReception 
-					- _id = GUID 34e13c45-ddae-4bc3-8ba8-6e5de9f02f80;
-					- _myState = 8192;
-					- Dependencies = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IDependency 
-							- _id = GUID b272c43d-82bb-486a-993a-d73a331abd33;
-							- _myState = 2048;
-							- _name = "reqRecevoirUnOF";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.16.2015::12:28:30;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IReception";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
-								- _class = "Uc_LogistiqueDeReapprovisionnement";
-								- _name = "reqRecevoirUnOF()";
-								- _id = GUID 40800d15-16c1-49a2-9b09-556fc32a2e72;
-							}
-						}
-						{ IDependency 
-							- _id = GUID 84608515-b4d0-4b7f-b0e6-796cad7de1c2;
-							- _myState = 2048;
-							- _name = "reqRecevoirUnOF";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.16.2015::12:28:30;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IReception";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
-								- _class = "Uc_Productiondelotsdeproduits";
-								- _name = "reqRecevoirUnOF()";
-								- _id = GUID 19386d5f-cb02-4aaa-8574-2ed0a8411d8a;
-							}
-						}
-					}
-					- _modifiedTimeWeak = 4.16.2015::12:28:30;
-					- _virtual = 0;
-					- Args = { IRPYRawContainer 
-						- size = 0;
-					}
-					- _event = { IHandle 
-						- _m2Class = "IEvent";
-						- _filename = "InterfacesPkg.sbs";
-						- _subsystem = "InterfacesPkg";
-						- _class = "";
-						- _name = "reqRecevoirUnOF()";
-						- _id = GUID 28d52790-fe21-4c18-9120-fa3c08d92b1e;
-					}
 				}
 				{ IPrimitiveOperation 
 					- _id = GUID 9d39b3c5-b923-4fae-aaf4-5f077e47905b;
@@ -8912,7 +8821,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::12:28:31;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -8967,7 +8876,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::12:28:31;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -9022,7 +8931,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::12:28:31;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -9077,7 +8986,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::12:28:32;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -9097,102 +9006,6 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _protection = iPublic;
 					- _static = 0;
 					- _constant = 0;
-				}
-				{ IReception 
-					- _id = GUID 47c1b438-66f1-493b-8367-264f6db6f76a;
-					- _myState = 8192;
-					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 65c21f31-fbac-4aa8-962c-65e46db0b4f5;
-							- _myState = 2048;
-							- _name = "reqAutoriserEntreeEnStockManuelle";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.16.2015::12:28:33;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IReception";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::EntreeenstockPkg";
-								- _class = "Uc_Entreeenstock";
-								- _name = "reqAutoriserEntreeEnStockManuelle()";
-								- _id = GUID 53674e99-3db0-4c1b-adb5-e907a65a1161;
-							}
-						}
-					}
-					- _modifiedTimeWeak = 4.16.2015::12:28:33;
-					- _lastID = 1;
-					- _virtual = 0;
-					- Args = { IRPYRawContainer 
-						- size = 0;
-					}
-					- _event = { IHandle 
-						- _m2Class = "IEvent";
-						- _filename = "InterfacesPkg.sbs";
-						- _subsystem = "InterfacesPkg";
-						- _class = "";
-						- _name = "reqAutoriserEntreeEnStockManuelle()";
-						- _id = GUID 25fb6b32-453d-4a6e-a59e-8ca002cf5885;
-					}
-				}
-				{ IReception 
-					- _id = GUID cc09421d-2375-4ef1-a8b7-4a9b0f75d8ba;
-					- _myState = 8192;
-					- Dependencies = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IDependency 
-							- _id = GUID 7eb5cb20-af96-4b2d-a59e-b31f8ab0c141;
-							- _myState = 2048;
-							- _name = "reqStockerLesProduitsDansLeStockReceiver";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "trace";
-									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
-								}
-							}
-							- _modifiedTimeWeak = 4.16.2015::12:28:33;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IReception";
-								- _filename = "FunctionalAnalysisPkg.sbs";
-								- _subsystem = "FunctionalAnalysisPkg::EntreeenstockPkg";
-								- _class = "Uc_Entreeenstock";
-								- _name = "reqStockerLesProduitsDansLeStockReceiver()";
-								- _id = GUID 6a43c236-fc30-4b5b-b31f-a59cf252fa62;
-							}
-						}
-					}
-					- _modifiedTimeWeak = 4.16.2015::12:28:33;
-					- _lastID = 1;
-					- _virtual = 0;
-					- Args = { IRPYRawContainer 
-						- size = 0;
-					}
-					- _event = { IHandle 
-						- _m2Class = "IEvent";
-						- _filename = "InterfacesPkg.sbs";
-						- _subsystem = "InterfacesPkg";
-						- _class = "";
-						- _name = "reqStockerLesProduitsDansLeStockReceiver()";
-						- _id = GUID b690c274-f764-4ca9-86b6-6d8910206415;
-					}
 				}
 				{ IPrimitiveOperation 
 					- _id = GUID 8ff09940-9df1-421c-9c32-f41f4b2b4523;
@@ -9228,7 +9041,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::12:28:34;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _virtual = 1;
 					- Args = { IRPYRawContainer 
@@ -9248,6 +9061,220 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _protection = iPublic;
 					- _static = 0;
 					- _constant = 0;
+				}
+				{ IReception 
+					- _id = GUID ce34c9fc-833b-4368-9ff5-11136c1a8300;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID b7791d65-9f04-4efb-8370-6aa49f117d79;
+							- _myState = 2048;
+							- _name = "sortirDuStockConsommateurDesProduits";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 4.16.2015::12:52:23;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "FunctionalAnalysisPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+								- _class = "Uc_LogistiqueDeReapprovisionnement";
+								- _name = "sortirDuStockConsommateurDesProduits()";
+								- _id = GUID 027e6e25-ce3b-4811-856a-b40eedb28be8;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "sortirDuStockConsommateurDesProduits()";
+						- _id = GUID fde0c39e-e508-459e-b5fb-9efd9d9734c3;
+					}
+				}
+				{ IReception 
+					- _id = GUID a4e76733-7bbf-4428-a9aa-2ff500bdccbc;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDependency 
+							- _id = GUID b272c43d-82bb-486a-993a-d73a331abd33;
+							- _myState = 2048;
+							- _name = "reqRecevoirUnOF";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 4.16.2015::12:52:23;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "FunctionalAnalysisPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::LogistiqueDeReapprovisionnementPkg";
+								- _class = "Uc_LogistiqueDeReapprovisionnement";
+								- _name = "reqRecevoirUnOF()";
+								- _id = GUID 40800d15-16c1-49a2-9b09-556fc32a2e72;
+							}
+						}
+						{ IDependency 
+							- _id = GUID 84608515-b4d0-4b7f-b0e6-796cad7de1c2;
+							- _myState = 2048;
+							- _name = "reqRecevoirUnOF";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 4.16.2015::12:52:23;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "FunctionalAnalysisPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::ProductiondelotsdeproduitsPkg";
+								- _class = "Uc_Productiondelotsdeproduits";
+								- _name = "reqRecevoirUnOF()";
+								- _id = GUID 19386d5f-cb02-4aaa-8574-2ed0a8411d8a;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqRecevoirUnOF()";
+						- _id = GUID 28d52790-fe21-4c18-9120-fa3c08d92b1e;
+					}
+				}
+				{ IReception 
+					- _id = GUID 0bde41a1-016b-42d4-9b91-ed5a12559e5d;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 65c21f31-fbac-4aa8-962c-65e46db0b4f5;
+							- _myState = 2048;
+							- _name = "reqAutoriserEntreeEnStockManuelle";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 4.16.2015::12:52:24;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "FunctionalAnalysisPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EntreeenstockPkg";
+								- _class = "Uc_Entreeenstock";
+								- _name = "reqAutoriserEntreeEnStockManuelle()";
+								- _id = GUID 53674e99-3db0-4c1b-adb5-e907a65a1161;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqAutoriserEntreeEnStockManuelle()";
+						- _id = GUID 25fb6b32-453d-4a6e-a59e-8ca002cf5885;
+					}
+				}
+				{ IReception 
+					- _id = GUID 6d12d545-4bf1-4832-9bfd-275280b5f912;
+					- _myState = 8192;
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 7eb5cb20-af96-4b2d-a59e-b31f8ab0c141;
+							- _myState = 2048;
+							- _name = "reqStockerLesProduitsDansLeStockReceiver";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "trace";
+									- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+								}
+							}
+							- _modifiedTimeWeak = 4.16.2015::12:52:24;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IReception";
+								- _filename = "FunctionalAnalysisPkg.sbs";
+								- _subsystem = "FunctionalAnalysisPkg::EntreeenstockPkg";
+								- _class = "Uc_Entreeenstock";
+								- _name = "reqStockerLesProduitsDansLeStockReceiver()";
+								- _id = GUID 6a43c236-fc30-4b5b-b31f-a59cf252fa62;
+							}
+						}
+					}
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _filename = "InterfacesPkg.sbs";
+						- _subsystem = "InterfacesPkg";
+						- _class = "";
+						- _name = "reqStockerLesProduitsDansLeStockReceiver()";
+						- _id = GUID b690c274-f764-4ca9-86b6-6d8910206415;
+					}
 				}
 			}
 			- Attrs = { IRPYRawContainer 
@@ -9287,7 +9314,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -9337,7 +9364,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -9387,7 +9414,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -9437,7 +9464,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -9487,7 +9514,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -9537,7 +9564,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -9587,7 +9614,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -9637,7 +9664,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -9687,7 +9714,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -9737,7 +9764,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 							}
 						}
 					}
-					- _modifiedTimeWeak = 4.16.2015::8:41:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _lastID = 1;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
@@ -9765,7 +9792,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _id = GUID 80e29d37-bddf-4e94-b0fb-d52f963f30c7;
 					- _myState = 8192;
 					- _name = "itsPatrolbotV2";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -9783,7 +9810,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _id = GUID dc4b785a-2582-49b6-8239-d68707bf6dbb;
 					- _myState = 8192;
 					- _name = "itsPosteMachineTBI540";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -9801,7 +9828,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _id = GUID a7f52714-2c92-40d5-a947-b8e69edb9de1;
 					- _myState = 8192;
 					- _name = "itsPosteMachineDMU50";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -9819,7 +9846,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _id = GUID 10b5b16b-cb3b-4cc2-9a64-312ea68f0672;
 					- _myState = 10240;
 					- _name = "itsPosteAssemblage";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -9837,7 +9864,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _id = GUID fa692f76-e792-4366-a26a-4d91d8c85c97;
 					- _myState = 10240;
 					- _name = "itsHumain";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -9855,7 +9882,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _id = GUID 08fb1efa-e97c-4b80-b426-9d690ef25175;
 					- _myState = 10240;
 					- _name = "itsProductionSystemController";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -9873,7 +9900,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _id = GUID 85070c9a-3724-4b8c-819b-d6eb690ce9b3;
 					- _myState = 10240;
 					- _name = "itsPublic";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
@@ -9894,7 +9921,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _id = GUID 3e02ad6d-3164-4ffb-b81e-893b9babe06d;
 					- _myState = 10240;
 					- _name = "itsConsommateur";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
@@ -9915,7 +9942,7 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 					- _id = GUID 6e23ef7b-e27a-4327-9858-4b2867f97a33;
 					- _myState = 10240;
 					- _name = "itsTabletteDemonstrateur";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _modifiedTimeWeak = 4.16.2015::12:52:24;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -9932,15 +9959,15 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 				{ IPart 
 					- _id = GUID 0ed7eb31-2fb2-4fe7-b97c-e3b01b0a0cdc;
 					- _myState = 10240;
-					- _name = "itsStockDeBrutsRobotise";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
+					- _name = "itsStockRobotise";
+					- _modifiedTimeWeak = 4.17.2015::6:54:38;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
 						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::StockDeBrutsRobotisePkg";
 						- _class = "";
-						- _name = "StockDeBrutsRobotise";
+						- _name = "StockRobotise";
 						- _id = GUID 5a364168-fc20-4d27-a5f4-5bae8d7e2392;
 					}
 					- _inverse = { IHandle 
@@ -9950,15 +9977,15 @@ Unable to Copy OF from Block Uc_Productiondelotsdeproduits
 				{ IPart 
 					- _id = GUID 2ae319ec-30e7-4b7a-b1a2-0c5a861f82d1;
 					- _myState = 10240;
-					- _name = "itsStockProduitsfinis";
-					- _modifiedTimeWeak = 4.15.2015::6:18:26;
-					- _multiplicity = "*";
+					- _name = "itsPosteDechargement";
+					- _modifiedTimeWeak = 4.17.2015::6:58:21;
+					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
 						- _filename = "DesignSynthesisPkg.sbs";
 						- _subsystem = "DesignSynthesisPkg::ArchitecturalDesignPkg::AmbientProductionSystemDecompositionPkg::StockProduitsfinisPkg";
 						- _class = "";
-						- _name = "StockProduitsfinis";
+						- _name = "PosteDechargement";
 						- _id = GUID c88fb08a-56f5-4f0b-b8f9-6a8995bdb423;
 					}
 					- _inverse = { IHandle 
